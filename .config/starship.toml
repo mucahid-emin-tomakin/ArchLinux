@@ -1,0 +1,251 @@
+#
+#
+#
+#   .--.--.        ___                                            ,---,
+#  /  /    '.    ,--.'|_                                        ,--.' |       ,--,    ,-.----.
+# |  :  /`. /    |  | :,'                  __  ,-.              |  |  :     ,--.'|    \    /  \
+# ;  |  |--`     :  : ' :                ,' ,'/ /|   .--.--.    :  :  :     |  |,     |   :    |
+# |  :  ;_     .;__,'  /      ,--.--.    '  | |' |  /  /    '   :  |  |,--. `--'_     |   | .\ :
+#  \  \    `.  |  |   |      /       \   |  |   ,' |  :  /`./   |  :  '   | ,' ,'|    .   : |: |
+#   `----.   \ :__,'| :     .--.  .-. |  '  :  /   |  :  ;_     |  |   /' : '  | |    |   |  \ :
+#   __ \  \  |   '  : |__    \__\/: . .  |  | '     \  \    `.  '  :  | | | |  | :    |   : .  |
+#  /  /`--'  /   |  | '.'|   ," .--.; |  ;  : |      `----.   \ |  |  ' | : '  : |__  :     |`-'
+# '--'.     /    ;  :    ;  /  /  ,.  |  |  , ;     /  /`--'  / |  :  :_:,' |  | '.'| :   : :
+#   `--'---'     |  ,   /  ;  :   .'   \  ---'     '--'.     /  |  | ,'     ;  :    ; |   | :
+#                 ---`-'   |  ,     .-./             `--'---'   `--''       |  ,   /  `---'.|
+#                           `--`---'                                         ---`-'     `---`
+#
+# Get editor completions based on the config schema
+#
+"$schema" = "https://starship.rs/config-schema.json"
+#
+right_format = "$all"
+#
+# Don't print a new line at the start of the prompt
+#
+# add_newline = false
+# Use custom format
+#format = """$username@$hostname in $directory [$git_branch]($style) """
+#   format = """\
+#     $crystal$golang$java$nodejs$php$python$rust\
+#     $directory\
+#     $git_branch$git_commit$git_state$git_status\
+#     $character\
+#   """
+#format = """
+#[╭─](white)$username$hostname in $directory$package$java$python$git_branch$battery$cmd_duration
+format = """
+        [╭─](bold red)$hostname$username in $directory$package$java$python$git_branch$battery$cmd_duration
+        [╰─](bold red)$character """
+#
+# Wait 10 milliseconds for starship to check files under the current directory.
+#
+scan_timeout = 10
+palette = "catppuccin_latte"
+add_newline = false
+#
+# Username settings
+#
+[username]
+show_always = true
+style_root = "bold red"
+style_user = "bold green"
+format = "on [$user](bold green)"
+disabled = false
+#
+# Hostname settings
+#
+[hostname]
+ssh_only = false
+format = "[$hostname](bold red) "
+trim_at = ".companyname.com"
+disabled = false
+#
+# Directory indicator
+#
+#[directory]
+#disabled = false
+#format = "[ $path](bold fg:#ff79c6)"
+#truncate_to_repo = false
+[directory]
+read_only = "🔒"
+style = "blue blue"
+#style = "bold cyan"
+read_only_style = "red"
+truncation_length = 8
+truncation_symbol = "…/"
+#format = "[$read_only]($read_only_style)[$path]($style) "
+format = "[\uf07b](blue) [$path]($style)[$read_only]($read_only_style) "
+disabled = false
+#
+# Package Version Config
+#
+[package]
+format = "via [🎁 $version](208 bold) "
+#
+# Crystal settings
+#
+[crystal]
+format = "🔮 "
+#
+# Grlang settings
+#
+[golang]
+format = "🐭 "
+#
+# NodeJS settings
+#
+[nodejs]
+format = "🍏 "
+detect_folders = [""]
+#
+# PHP settings
+#
+[php]
+format = "🐘 "
+#
+# Rust settings
+#
+[rust]
+format = "🦀 "
+#
+# Java settings
+#
+#[java]
+#format = "🍵 "
+[java]
+symbol = "☕ "
+style = "red dimmed"
+format = "via [${symbol}${version}]($style) "
+#
+# Python settings
+#
+#[python]
+#format = '🐍 [${pyenv_prefix}(${version})(\($virtualenv\))](bold fg:yellow)'
+[python]
+symbol = "🐍 "
+style = "yellow bold"
+python_binary = "python3"
+pyenv_version_name = true
+#
+# git settings
+#
+#[git_branch]
+#format = " [ $branch](bold fg:#7be9fd)"
+#§git_branch\
+#$git_commit\
+#$git_state\
+#$git_metrics\
+#$git_status\
+#$character"""
+[git_branch]
+symbol = "🌱 "
+truncation_length = 4
+truncation_symbol = ""
+style = "bold red"
+#
+[git_status]
+format = " ([$all_status$ahead_behind](bold fg:#8be9fd))"
+staged = "• "
+modified = "~ "
+untracked = "+ "
+deleted = "x "
+#
+# Battery information
+#
+[battery]
+full_symbol = "🔋"
+charging_symbol = "⚡️"
+discharging_symbol = "💀"
+#
+[[battery.display]]
+threshold = 10
+style = "bold red"
+#
+# cmd_duration config
+#
+[cmd_duration]
+show_milliseconds = true
+style = "bold yellow"
+format = "took [$duration]($style)"
+#
+# Charakter config
+#
+#[character]
+#success_symbol = "[ ➤]($bold fg:#f8f8f2)"
+#error_symbol = "[ ➤]($bold fg:#fb4934)"
+[character]
+format = "$symbol"
+success_symbol = "[\uf178](red)"
+error_symbol = "[\uf178](red)"
+#success_symbol = "[❯](bold green)"
+#error_symbol = "[✗](bold red) "
+#vicmd_symbol = "[❮](bold green)"
+vimcmd_symbol = "[\ue7c5](green)"
+vimcmd_replace_one_symbol = "[\ue7c5](purple)"
+vimcmd_replace_symbol = "[\ue7c5](purple)"
+vimcmd_visual_symbol = "[\ue7c5](yellow)"
+disabled = false
+#
+#   catppuccin mocha
+#
+[palettes.catppuccin_mocha]
+rosewater = "#f5e0dc"
+flamingo = "#f2cdcd"
+pink = "#f5c2e7"
+mauve = "#cba6f7"
+red = "#f38ba8"
+maroon = "#eba0ac"
+peach = "#fab387"
+yellow = "#f9e2af"
+reen = "#a6e3a1"
+teal = "#94e2d5"
+sky = "#89dceb"
+sapphire = "#74c7ec"
+blue = "#89b4fa"
+lavender = "#b4befe"
+text = "#cdd6f4"
+subtext1 = "#bac2de"
+subtext0 = "#a6adc8"
+overlay2 = "#9399b2"
+overlay1 = "#7f849c"
+overlay0 = "#6c7086"
+surface2 = "#585b70"
+surface1 = "#45475a"
+surface0 = "#313244"
+base = "#1e1e2e"
+mantle = "#181825"
+crust = "#11111b"
+#
+#   catppuccin latte
+#
+[palettes.catppuccin_latte]
+rosewater = "#dc8a78"
+flamingo = "#dd7878"
+pink = "#fe00f6"
+mauve = "#8839ef"
+red = "#fe0000"
+maroon = "#e64553"
+peach = "#fe640b"
+yellow = "#fdfe02"
+green = "#0bff01"
+teal = "#179299"
+sky = "#04a5e5"
+sapphire = "#209fb5"
+blue = "#001eff"
+lavender = "#7287fd"
+text = "#4c4f69"
+subtext1 = "#5c5f77"
+subtext0 = "#6c6f85"
+overlay2 = "#7c7f93"
+overlay1 = "#8c8fa1"
+overlay0 = "#9ca0b0"
+surface2 = "#acb0be"
+surface1 = "#bcc0cc"
+surface0 = "#ccd0da"
+base = "#eff1f5"
+mantle = "#e6e9ef"
+crust = "#dce0e8"
+#
+#
+#

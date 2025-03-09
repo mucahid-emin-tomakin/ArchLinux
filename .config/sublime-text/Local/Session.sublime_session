@@ -1,0 +1,999 @@
+{
+	"file_history":
+	[
+		"/home/tomaking/README",
+		"/home/tomaking/.config/fastfetch/ottoman.txt",
+		"/home/tomaking/.gitignore",
+		"/home/tomaking/.gitconfig",
+		"/home/tomaking/.config/.gitignore",
+		"/home/tomaking/.config/pavucontrol.ini",
+		"/home/tomaking/.vim-bookmarks",
+		"/home/tomaking/.cargo/.g",
+		"/home/tomaking/.cargo/.global-cache",
+		"/home/tomaking/.cargo/.package-cache",
+		"/home/tomaking/.cargo/.package-cache-mutate",
+		"/home/tomaking/archiso/airootfs/etc/hostname",
+		"/home/tomaking/archiso/bootstrap_packages.x86_64",
+		"/home/tomaking/.bashrc",
+		"/home/tomaking/.config/waybar/scripts/KeyHints.sh",
+		"/home/tomaking/Readme",
+		"/home/tomaking/.config/waybar/scripts/WaybarCava.sh",
+		"/home/tomaking/.config/waybar/modules",
+		"/home/tomaking/.config/waybar/style.css",
+		"/home/tomaking/.config/waybar/config",
+		"/home/tomaking/.config/waybar/scripts/Clean.sh",
+		"/home/tomaking/.config/waybar/scripts/KeyBinds.sh",
+		"/home/tomaking/.config/gtk-3.0/gtk.css",
+		"/home/tomaking/.config/fastfetch/ottoman.sh",
+		"/home/tomaking/.config/fastfetch/animationIII.sh",
+		"/home/tomaking/.config/fastfetch/animationII.sh",
+		"/home/tomaking/.config/fastfetch/animation.sh",
+		"/home/tomaking/ArchBackup/aur-packages.txt",
+		"/home/tomaking/ArchBackup/package-list.txt",
+		"/home/tomaking/.config/hypr/keybindings.conf",
+		"/home/tomaking/.config/kitty/.gitignore",
+		"/home/tomaking/.config/kitty/emoji.sh",
+		"/home/tomaking/.config/kitty/kitty.conf",
+		"/home/tomaking/.config/kitty/theme.conf",
+		"/home/tomaking/.config/fastfetch/config.jsonc",
+		"/home/tomaking/.config/fastfetch/configII.jsonc",
+		"/home/tomaking/.config/fastfetch/configIII.jsonc",
+		"/home/tomaking/.config/fastfetch/ottomanII.txt",
+		"/home/tomaking/.config/fastfetch/Readme.txt",
+		"/home/tomaking/.config/ranger/rc.conf",
+		"/home/tomaking/.config/ranger/rifle.conf",
+		"/home/tomaking/.config/ranger/scope.sh",
+		"/home/tomaking/.config/ranger/commands.py",
+		"/home/tomaking/.config/rofi/keybinds.rasi",
+		"/home/tomaking/.config/rofi/colors.rasi",
+		"/home/tomaking/.config/rofi/config.rasi",
+		"/home/tomaking/.config/rofi/master.rasi",
+		"/home/tomaking/.bash_history",
+		"/home/tomaking/.bash_logout",
+		"/home/tomaking/.bash_profile",
+		"/home/tomaking/.histfile",
+		"/home/tomaking/.nvidia-settings-rc",
+		"/home/tomaking/.Xauthority",
+		"/home/tomaking/.xinitrc",
+		"/home/tomaking/package.json",
+		"/home/tomaking/package-lock.json",
+		"/home/tomaking/.config/hypr/hyprland.conf",
+		"/home/tomaking/.config/waybar/colors.css",
+		"/home/tomaking/.config/waybar/scripts/Brightness.sh",
+		"/home/tomaking/.config/waybar/scripts/LockScreen.sh",
+		"/home/tomaking/.config/waybar/scripts/PlayerctlVisualizer.sh",
+		"/home/tomaking/.config/waybar/scripts/RainbowBorders.sh",
+		"/home/tomaking/.config/waybar/scripts/Volume.sh",
+		"/home/tomaking/.config/waybar/scripts/WallpaperEffects.sh",
+		"/home/tomaking/.config/waybar/scripts/Weather.py",
+		"/home/tomaking/.config/waybar/scripts/Weather.sh",
+		"/home/tomaking/.config/waybar/scripts/Wlogout.sh",
+		"/home/tomaking/.config/waybar/scripts/KillActiveProcess.sh",
+		"/home/tomaking/.config/waybar/scripts/ChangeBlur.sh",
+		"/home/tomaking/.config/rofi/config-keybinds.rasi",
+		"/home/tomaking/.config/waybar/scripts/playerctl_visualizer.sh",
+		"/home/tomaking/.config/waybar/scripts/QuickEdit.sh",
+		"/home/tomaking/.config/waybar/scripts/RofiBeats.sh",
+		"/home/tomaking/.config/waybar/scripts/RofiCalc.sh",
+		"/home/tomaking/.config/waybar/scripts/WallpaperAutoChange.sh",
+		"/home/tomaking/.config/waybar/scripts/WallpaperSelect.sh",
+		"/home/tomaking/.config/waybar/scripts/WallpaperRandom.sh",
+		"/home/tomaking/.config/waybar/scripts/ZshChangeTheme.sh",
+		"/home/tomaking/.config/waybar/wlogout/layout",
+		"/home/tomaking/.config/waybar/wlogout/LockScreen.sh",
+		"/home/tomaking/.config/waybar/wlogout/style.css",
+		"/home/tomaking/.config/waybar/wlogout/wlogout.sh",
+		"/home/tomaking/.config/waybar/scripts/xxx",
+		"/home/tomaking/.config/waybar/UserScripts/Weather.sh",
+		"/home/tomaking/.config/cava/shaders/bar_spectrum.frag",
+		"/home/tomaking/.config/cava/shaders/normalized_bars.frag",
+		"/home/tomaking/.config/cava/shaders/pass_through.vert",
+		"/home/tomaking/.config/cava/shaders/northern_lights.frag",
+		"/home/tomaking/.config/cava/config",
+		"/home/tomaking/.config/waybar/scripts/SwitchKeyboardLayout.sh",
+		"/home/tomaking/.config/waybar/UserScripts/Weather.",
+		"/home/tomaking/.config/waybar/scripts/WaybarStyles.sh",
+		"/home/tomaking/.config/waybar/scripts/WallustSwww.sh",
+		"/home/tomaking/.config/waybar/Modules",
+		"/home/tomaking/.config/waybar/ModulesCustom",
+		"/home/tomaking/.config/waybar/ModulesWorkspaces",
+		"/home/tomaking/.config/waybar/ModulesGroups",
+		"/home/tomaking/.config/rofi/master-config.rasi",
+		"/home/tomaking/.config/rofi/Readme",
+		"/home/tomaking/.config/rofi/config-emoji.rasi",
+		"/home/tomaking/.config/rofi/config-clipboard.rasi",
+		"/home/tomaking/.config/rofi/config-calc.rasi",
+		"/home/tomaking/.config/rofi/config-search.rasi",
+		"/home/tomaking/.config/rofi/config-rofi-Beats-menu.rasi",
+		"/home/tomaking/.config/rofi/config-rofi-Beats.rasi",
+		"/home/tomaking/.config/rofi/config-wallpaper-effect.rasi",
+		"/home/tomaking/.config/rofi/config-wallpaper.rasi",
+		"/home/tomaking/.config/rofi/config-waybar-layout.rasi",
+		"/home/tomaking/.config/rofi/config-waybar-style.rasi",
+		"/home/tomaking/.config/rofi/config-zsh-theme.rasi",
+		"/home/tomaking/Downloads/rofi/font.rasi",
+		"/home/tomaking/Downloads/rofi/colors.rasi",
+		"/home/tomaking/.config/rofi/resolution/1440p/master-config.rasi",
+		"/home/tomaking/.config/rofi/resolution/1440p/config.rasi",
+		"/home/tomaking/.config/rofi/resolution/1080p/config.rasi",
+		"/home/tomaking/.config/rofi/resolution/1080p/master-config.rasi",
+		"/home/tomaking/Downloads/rofi/config.rasi",
+		"/home/tomaking/Downloads/dotfiles-main/.config/kitty/kitty-colors.conf",
+		"/home/tomaking/Downloads/dotfiles-main/.config/kitty/kitty.conf",
+		"/home/tomaking/Downloads/dotfiles-main/.config/kitty/kitty",
+		"/home/tomaking/.config/rofi/wallust/colors-rofi.rasi",
+		"/home/tomaking/Downloads/ranger/rc.conf",
+		"/home/tomaking/.config/hypr/wlogout.sh",
+		"/home/tomaking/.config/hypr/hyprlock.conf",
+		"/home/tomaking/.config/hypr/wallust.conf",
+		"/home/tomaking/.config/hypr/environments.conf",
+		"/home/tomaking/.config/hypr/hypridle.conf",
+		"/home/tomaking/.config/hypr/keyboard.conf"
+	],
+	"folder_history":
+	[
+		"/home/tomaking/Downloads"
+	],
+	"last_version": 4192,
+	"last_window_id": 2,
+	"log_indexing": false,
+	"next_update_check": 1741522181,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 1035.0,
+		"new_window_maximized": true,
+		"new_window_position":
+		[
+			0.0,
+			0.0
+		],
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 161.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/tomaking/README",
+				"/home/tomaking/.config/fastfetch/ottoman.txt",
+				"/home/tomaking/.gitignore",
+				"/home/tomaking/.gitconfig",
+				"/home/tomaking/.config/.gitignore",
+				"/home/tomaking/.config/pavucontrol.ini",
+				"/home/tomaking/.vim-bookmarks",
+				"/home/tomaking/.cargo/.g",
+				"/home/tomaking/.cargo/.global-cache",
+				"/home/tomaking/.cargo/.package-cache",
+				"/home/tomaking/.cargo/.package-cache-mutate",
+				"/home/tomaking/archiso/airootfs/etc/hostname",
+				"/home/tomaking/archiso/bootstrap_packages.x86_64",
+				"/home/tomaking/.bashrc",
+				"/home/tomaking/.config/waybar/scripts/KeyHints.sh",
+				"/home/tomaking/Readme",
+				"/home/tomaking/.config/waybar/scripts/WaybarCava.sh",
+				"/home/tomaking/.config/waybar/modules",
+				"/home/tomaking/.config/waybar/style.css",
+				"/home/tomaking/.config/waybar/config",
+				"/home/tomaking/.config/waybar/scripts/Clean.sh",
+				"/home/tomaking/.config/waybar/scripts/KeyBinds.sh",
+				"/home/tomaking/.config/gtk-3.0/gtk.css",
+				"/home/tomaking/.config/fastfetch/ottoman.sh",
+				"/home/tomaking/.config/fastfetch/animationIII.sh",
+				"/home/tomaking/.config/fastfetch/animationII.sh",
+				"/home/tomaking/.config/fastfetch/animation.sh",
+				"/home/tomaking/ArchBackup/aur-packages.txt",
+				"/home/tomaking/ArchBackup/package-list.txt",
+				"/home/tomaking/.config/hypr/keybindings.conf",
+				"/home/tomaking/.config/kitty/.gitignore",
+				"/home/tomaking/.config/kitty/emoji.sh",
+				"/home/tomaking/.config/kitty/kitty.conf",
+				"/home/tomaking/.config/kitty/theme.conf",
+				"/home/tomaking/.config/fastfetch/config.jsonc",
+				"/home/tomaking/.config/fastfetch/configII.jsonc",
+				"/home/tomaking/.config/fastfetch/configIII.jsonc",
+				"/home/tomaking/.config/fastfetch/ottomanII.txt",
+				"/home/tomaking/.config/fastfetch/Readme.txt",
+				"/home/tomaking/.config/ranger/rc.conf",
+				"/home/tomaking/.config/ranger/rifle.conf",
+				"/home/tomaking/.config/ranger/scope.sh",
+				"/home/tomaking/.config/ranger/commands.py",
+				"/home/tomaking/.config/rofi/keybinds.rasi",
+				"/home/tomaking/.config/rofi/colors.rasi",
+				"/home/tomaking/.config/rofi/config.rasi",
+				"/home/tomaking/.config/rofi/master.rasi",
+				"/home/tomaking/.bash_history",
+				"/home/tomaking/.bash_logout",
+				"/home/tomaking/.bash_profile",
+				"/home/tomaking/.histfile",
+				"/home/tomaking/.nvidia-settings-rc",
+				"/home/tomaking/.Xauthority",
+				"/home/tomaking/.xinitrc",
+				"/home/tomaking/package.json",
+				"/home/tomaking/package-lock.json",
+				"/home/tomaking/.config/hypr/hyprland.conf",
+				"/home/tomaking/.config/waybar/colors.css",
+				"/home/tomaking/.config/waybar/scripts/Brightness.sh",
+				"/home/tomaking/.config/waybar/scripts/LockScreen.sh",
+				"/home/tomaking/.config/waybar/scripts/PlayerctlVisualizer.sh",
+				"/home/tomaking/.config/waybar/scripts/RainbowBorders.sh",
+				"/home/tomaking/.config/waybar/scripts/Volume.sh",
+				"/home/tomaking/.config/waybar/scripts/WallpaperEffects.sh",
+				"/home/tomaking/.config/waybar/scripts/Weather.py",
+				"/home/tomaking/.config/waybar/scripts/Weather.sh",
+				"/home/tomaking/.config/waybar/scripts/Wlogout.sh",
+				"/home/tomaking/.config/waybar/scripts/KillActiveProcess.sh",
+				"/home/tomaking/.config/waybar/scripts/ChangeBlur.sh",
+				"/home/tomaking/.config/rofi/config-keybinds.rasi",
+				"/home/tomaking/.config/waybar/scripts/playerctl_visualizer.sh",
+				"/home/tomaking/.config/waybar/scripts/QuickEdit.sh",
+				"/home/tomaking/.config/waybar/scripts/RofiBeats.sh",
+				"/home/tomaking/.config/waybar/scripts/RofiCalc.sh",
+				"/home/tomaking/.config/waybar/scripts/WallpaperAutoChange.sh",
+				"/home/tomaking/.config/waybar/scripts/WallpaperSelect.sh",
+				"/home/tomaking/.config/waybar/scripts/WallpaperRandom.sh",
+				"/home/tomaking/.config/waybar/scripts/ZshChangeTheme.sh",
+				"/home/tomaking/.config/waybar/wlogout/layout",
+				"/home/tomaking/.config/waybar/wlogout/LockScreen.sh",
+				"/home/tomaking/.config/waybar/wlogout/style.css",
+				"/home/tomaking/.config/waybar/wlogout/wlogout.sh",
+				"/home/tomaking/.config/waybar/scripts/xxx",
+				"/home/tomaking/.config/waybar/UserScripts/Weather.sh",
+				"/home/tomaking/.config/cava/shaders/bar_spectrum.frag",
+				"/home/tomaking/.config/cava/shaders/normalized_bars.frag",
+				"/home/tomaking/.config/cava/shaders/pass_through.vert",
+				"/home/tomaking/.config/cava/shaders/northern_lights.frag",
+				"/home/tomaking/.config/cava/config",
+				"/home/tomaking/.config/waybar/scripts/SwitchKeyboardLayout.sh",
+				"/home/tomaking/.config/waybar/UserScripts/Weather.",
+				"/home/tomaking/.config/waybar/scripts/WaybarStyles.sh",
+				"/home/tomaking/.config/waybar/scripts/WallustSwww.sh",
+				"/home/tomaking/.config/waybar/Modules",
+				"/home/tomaking/.config/waybar/ModulesCustom",
+				"/home/tomaking/.config/waybar/ModulesWorkspaces",
+				"/home/tomaking/.config/waybar/ModulesGroups",
+				"/home/tomaking/.config/rofi/master-config.rasi",
+				"/home/tomaking/.config/rofi/Readme",
+				"/home/tomaking/.config/rofi/config-emoji.rasi",
+				"/home/tomaking/.config/rofi/config-clipboard.rasi",
+				"/home/tomaking/.config/rofi/config-calc.rasi",
+				"/home/tomaking/.config/rofi/config-search.rasi",
+				"/home/tomaking/.config/rofi/config-rofi-Beats-menu.rasi",
+				"/home/tomaking/.config/rofi/config-rofi-Beats.rasi",
+				"/home/tomaking/.config/rofi/config-wallpaper-effect.rasi",
+				"/home/tomaking/.config/rofi/config-wallpaper.rasi",
+				"/home/tomaking/.config/rofi/config-waybar-layout.rasi",
+				"/home/tomaking/.config/rofi/config-waybar-style.rasi",
+				"/home/tomaking/.config/rofi/config-zsh-theme.rasi",
+				"/home/tomaking/Downloads/rofi/font.rasi",
+				"/home/tomaking/Downloads/rofi/colors.rasi",
+				"/home/tomaking/.config/rofi/resolution/1440p/master-config.rasi",
+				"/home/tomaking/.config/rofi/resolution/1440p/config.rasi",
+				"/home/tomaking/.config/rofi/resolution/1080p/config.rasi",
+				"/home/tomaking/.config/rofi/resolution/1080p/master-config.rasi",
+				"/home/tomaking/Downloads/rofi/config.rasi",
+				"/home/tomaking/Downloads/dotfiles-main/.config/kitty/kitty-colors.conf",
+				"/home/tomaking/Downloads/dotfiles-main/.config/kitty/kitty.conf",
+				"/home/tomaking/Downloads/dotfiles-main/.config/kitty/kitty",
+				"/home/tomaking/.config/rofi/wallust/colors-rofi.rasi",
+				"/home/tomaking/Downloads/ranger/rc.conf",
+				"/home/tomaking/.config/hypr/wlogout.sh",
+				"/home/tomaking/.config/hypr/hyprlock.conf",
+				"/home/tomaking/.config/hypr/wallust.conf",
+				"/home/tomaking/.config/hypr/environments.conf",
+				"/home/tomaking/.config/hypr/hypridle.conf",
+				"/home/tomaking/.config/hypr/keyboard.conf"
+			],
+			"find":
+			{
+				"height": 34.0
+			},
+			"find_in_files":
+			{
+				"height": 150.0,
+				"where_history":
+				[
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"[",
+					"cleanup",
+					"0 0 11px",
+					"focuswindow",
+					"gradient_f",
+					"slide",
+					"keyframes",
+					"glitch",
+					"noise",
+					"NeonOrange",
+					"borderAnimation",
+					"custom-playerctl",
+					"slider",
+					"borderAnimation",
+					"rainbowGlow",
+					"borderAnimation",
+					"custom",
+					"Magenta",
+					"cava_mviz",
+					"Weather",
+					"borderAnimation",
+					"rainbowGlow",
+					"rainbow-gradient",
+					"custom-weather",
+					"color: ",
+					"custom-weather",
+					"borderAnimation",
+					"$g",
+					"play",
+					"cava",
+					"\n        ",
+					"taskbar",
+					"-webkit-animation",
+					"mpris",
+					"pulseaudio-slider",
+					"mode",
+					"backlight",
+					"battery",
+					"bluetooth",
+					"pulseaudio-slider",
+					"pulseaudio",
+					"wireplumber",
+					"network",
+					"disk",
+					"cpu",
+					"temperature",
+					"mpris",
+					"taskbar",
+					"custom-power_profile",
+					"custom-media",
+					"custom-lock",
+					"custom-power",
+					"custom-menu",
+					"custom-updater",
+					"custom-cava_mviz",
+					"#custom",
+					"#custom-weather",
+					"#workspaces",
+					"#window",
+					"}#",
+					"language",
+					"playerctl",
+					"mviz",
+					"hint",
+					"separator",
+					"pulseaudio",
+					"tray",
+					"mpris",
+					"WallpaperEffects",
+					"WallpaperEff",
+					"Wallpaper",
+					"KeyHints",
+					"RainbowBorders",
+					"RainbowBorders.sh",
+					"RainbowBoarders.sh",
+					"config/waybar/scripts/ChangeBlur.sh",
+					"custom/cava_mviz",
+					"master-config",
+					"/UserScripts/",
+					".sh",
+					"custom/playerctl",
+					"/hypr/",
+					"hypr/",
+					"cubic-bezier",
+					"power",
+					"background-color",
+					"pulseaudio",
+					"custom-weather",
+					"clock",
+					"calendar",
+					"custom/weather",
+					"weather",
+					"pulseaudio/slider",
+					"cava_mviz",
+					"playerctl",
+					"play",
+					"wttr",
+					"city",
+					"waether",
+					"//\n//-------------------------------------------------------------------------------------------\n//",
+					"*/",
+					"/*",
+					";\n}\n",
+					"\n",
+					"//-------------------------------------------------------------------------------------------\n",
+					"clock",
+					"mpris",
+					"wlr/taskbar",
+					"hyprland",
+					"hyprland/",
+					"hyprland/language",
+					"hyprland/",
+					"\",\n",
+					"lock",
+					"menu",
+					"custom/menu",
+					"tray",
+					"taskbar",
+					"wlr",
+					"wlr/taskbar",
+					"pulseaudio#microphone",
+					"update",
+					"power",
+					"modules-center",
+					"hyprland/language\"",
+					"taskbar",
+					"wlr/taskbar",
+					"powe"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 34.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": false,
+			"output.exec":
+			{
+				"height": 169.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 272.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 960.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 161.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/tomaking/Downloads"
+			],
+			"file_history":
+			[
+				"/home/tomaking/README",
+				"/home/tomaking/.config/fastfetch/ottoman.txt",
+				"/home/tomaking/.gitignore",
+				"/home/tomaking/.gitconfig",
+				"/home/tomaking/.config/.gitignore",
+				"/home/tomaking/.config/pavucontrol.ini",
+				"/home/tomaking/.vim-bookmarks",
+				"/home/tomaking/.cargo/.g",
+				"/home/tomaking/.cargo/.global-cache",
+				"/home/tomaking/.cargo/.package-cache",
+				"/home/tomaking/.cargo/.package-cache-mutate",
+				"/home/tomaking/archiso/airootfs/etc/hostname",
+				"/home/tomaking/archiso/bootstrap_packages.x86_64",
+				"/home/tomaking/.bashrc",
+				"/home/tomaking/.config/waybar/scripts/KeyHints.sh",
+				"/home/tomaking/Readme",
+				"/home/tomaking/.config/waybar/scripts/WaybarCava.sh",
+				"/home/tomaking/.config/waybar/modules",
+				"/home/tomaking/.config/waybar/style.css",
+				"/home/tomaking/.config/waybar/config",
+				"/home/tomaking/.config/waybar/scripts/Clean.sh",
+				"/home/tomaking/.config/waybar/scripts/KeyBinds.sh",
+				"/home/tomaking/.config/gtk-3.0/gtk.css",
+				"/home/tomaking/.config/fastfetch/ottoman.sh",
+				"/home/tomaking/.config/fastfetch/animationIII.sh",
+				"/home/tomaking/.config/fastfetch/animationII.sh",
+				"/home/tomaking/.config/fastfetch/animation.sh",
+				"/home/tomaking/ArchBackup/aur-packages.txt",
+				"/home/tomaking/ArchBackup/package-list.txt",
+				"/home/tomaking/.config/hypr/keybindings.conf",
+				"/home/tomaking/.config/kitty/.gitignore",
+				"/home/tomaking/.config/kitty/emoji.sh",
+				"/home/tomaking/.config/kitty/kitty.conf",
+				"/home/tomaking/.config/kitty/theme.conf",
+				"/home/tomaking/.config/fastfetch/config.jsonc",
+				"/home/tomaking/.config/fastfetch/configII.jsonc",
+				"/home/tomaking/.config/fastfetch/configIII.jsonc",
+				"/home/tomaking/.config/fastfetch/ottomanII.txt",
+				"/home/tomaking/.config/fastfetch/Readme.txt",
+				"/home/tomaking/.config/ranger/rc.conf",
+				"/home/tomaking/.config/ranger/rifle.conf",
+				"/home/tomaking/.config/ranger/scope.sh",
+				"/home/tomaking/.config/ranger/commands.py",
+				"/home/tomaking/.config/rofi/keybinds.rasi",
+				"/home/tomaking/.config/rofi/colors.rasi",
+				"/home/tomaking/.config/rofi/config.rasi",
+				"/home/tomaking/.config/rofi/master.rasi",
+				"/home/tomaking/.bash_history",
+				"/home/tomaking/.bash_logout",
+				"/home/tomaking/.bash_profile",
+				"/home/tomaking/.histfile",
+				"/home/tomaking/.nvidia-settings-rc",
+				"/home/tomaking/.Xauthority",
+				"/home/tomaking/.xinitrc",
+				"/home/tomaking/package.json",
+				"/home/tomaking/package-lock.json",
+				"/home/tomaking/.config/hypr/hyprland.conf",
+				"/home/tomaking/.config/waybar/colors.css",
+				"/home/tomaking/.config/waybar/scripts/Brightness.sh",
+				"/home/tomaking/.config/waybar/scripts/LockScreen.sh",
+				"/home/tomaking/.config/waybar/scripts/PlayerctlVisualizer.sh",
+				"/home/tomaking/.config/waybar/scripts/RainbowBorders.sh",
+				"/home/tomaking/.config/waybar/scripts/Volume.sh",
+				"/home/tomaking/.config/waybar/scripts/WallpaperEffects.sh",
+				"/home/tomaking/.config/waybar/scripts/Weather.py",
+				"/home/tomaking/.config/waybar/scripts/Weather.sh",
+				"/home/tomaking/.config/waybar/scripts/Wlogout.sh",
+				"/home/tomaking/.config/waybar/scripts/KillActiveProcess.sh",
+				"/home/tomaking/.config/waybar/scripts/ChangeBlur.sh",
+				"/home/tomaking/.config/rofi/config-keybinds.rasi",
+				"/home/tomaking/.config/waybar/scripts/playerctl_visualizer.sh",
+				"/home/tomaking/.config/waybar/scripts/QuickEdit.sh",
+				"/home/tomaking/.config/waybar/scripts/RofiBeats.sh",
+				"/home/tomaking/.config/waybar/scripts/RofiCalc.sh",
+				"/home/tomaking/.config/waybar/scripts/WallpaperAutoChange.sh",
+				"/home/tomaking/.config/waybar/scripts/WallpaperSelect.sh",
+				"/home/tomaking/.config/waybar/scripts/WallpaperRandom.sh",
+				"/home/tomaking/.config/waybar/scripts/ZshChangeTheme.sh",
+				"/home/tomaking/.config/waybar/wlogout/layout",
+				"/home/tomaking/.config/waybar/wlogout/LockScreen.sh",
+				"/home/tomaking/.config/waybar/wlogout/style.css",
+				"/home/tomaking/.config/waybar/wlogout/wlogout.sh",
+				"/home/tomaking/.config/waybar/scripts/xxx",
+				"/home/tomaking/.config/waybar/UserScripts/Weather.sh",
+				"/home/tomaking/.config/cava/shaders/bar_spectrum.frag",
+				"/home/tomaking/.config/cava/shaders/normalized_bars.frag",
+				"/home/tomaking/.config/cava/shaders/pass_through.vert",
+				"/home/tomaking/.config/cava/shaders/northern_lights.frag",
+				"/home/tomaking/.config/cava/config",
+				"/home/tomaking/.config/waybar/scripts/SwitchKeyboardLayout.sh",
+				"/home/tomaking/.config/waybar/UserScripts/Weather.",
+				"/home/tomaking/.config/waybar/scripts/WaybarStyles.sh",
+				"/home/tomaking/.config/waybar/scripts/WallustSwww.sh",
+				"/home/tomaking/.config/waybar/Modules",
+				"/home/tomaking/.config/waybar/ModulesCustom",
+				"/home/tomaking/.config/waybar/ModulesWorkspaces",
+				"/home/tomaking/.config/waybar/ModulesGroups",
+				"/home/tomaking/.config/rofi/master-config.rasi",
+				"/home/tomaking/.config/rofi/Readme",
+				"/home/tomaking/.config/rofi/config-emoji.rasi",
+				"/home/tomaking/.config/rofi/config-clipboard.rasi",
+				"/home/tomaking/.config/rofi/config-calc.rasi",
+				"/home/tomaking/.config/rofi/config-search.rasi",
+				"/home/tomaking/.config/rofi/config-rofi-Beats-menu.rasi",
+				"/home/tomaking/.config/rofi/config-rofi-Beats.rasi",
+				"/home/tomaking/.config/rofi/config-wallpaper-effect.rasi",
+				"/home/tomaking/.config/rofi/config-wallpaper.rasi",
+				"/home/tomaking/.config/rofi/config-waybar-layout.rasi",
+				"/home/tomaking/.config/rofi/config-waybar-style.rasi",
+				"/home/tomaking/.config/rofi/config-zsh-theme.rasi",
+				"/home/tomaking/Downloads/rofi/font.rasi",
+				"/home/tomaking/Downloads/rofi/colors.rasi",
+				"/home/tomaking/.config/rofi/resolution/1440p/master-config.rasi",
+				"/home/tomaking/.config/rofi/resolution/1440p/config.rasi",
+				"/home/tomaking/.config/rofi/resolution/1080p/config.rasi",
+				"/home/tomaking/.config/rofi/resolution/1080p/master-config.rasi",
+				"/home/tomaking/Downloads/rofi/config.rasi",
+				"/home/tomaking/Downloads/dotfiles-main/.config/kitty/kitty-colors.conf",
+				"/home/tomaking/Downloads/dotfiles-main/.config/kitty/kitty.conf",
+				"/home/tomaking/Downloads/dotfiles-main/.config/kitty/kitty",
+				"/home/tomaking/.config/rofi/wallust/colors-rofi.rasi",
+				"/home/tomaking/Downloads/ranger/rc.conf",
+				"/home/tomaking/.config/hypr/wlogout.sh",
+				"/home/tomaking/.config/hypr/hyprlock.conf",
+				"/home/tomaking/.config/hypr/wallust.conf",
+				"/home/tomaking/.config/hypr/environments.conf",
+				"/home/tomaking/.config/hypr/hypridle.conf",
+				"/home/tomaking/.config/hypr/keyboard.conf"
+			],
+			"find":
+			{
+				"height": 34.0
+			},
+			"find_in_files":
+			{
+				"height": 150.0,
+				"where_history":
+				[
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"[",
+					"cleanup",
+					"0 0 11px",
+					"focuswindow",
+					"gradient_f",
+					"slide",
+					"keyframes",
+					"glitch",
+					"noise",
+					"NeonOrange",
+					"borderAnimation",
+					"custom-playerctl",
+					"slider",
+					"borderAnimation",
+					"rainbowGlow",
+					"borderAnimation",
+					"custom",
+					"Magenta",
+					"cava_mviz",
+					"Weather",
+					"borderAnimation",
+					"rainbowGlow",
+					"rainbow-gradient",
+					"custom-weather",
+					"color: ",
+					"custom-weather",
+					"borderAnimation",
+					"$g",
+					"play",
+					"cava",
+					"\n        ",
+					"taskbar",
+					"-webkit-animation",
+					"mpris",
+					"pulseaudio-slider",
+					"mode",
+					"backlight",
+					"battery",
+					"bluetooth",
+					"pulseaudio-slider",
+					"pulseaudio",
+					"wireplumber",
+					"network",
+					"disk",
+					"cpu",
+					"temperature",
+					"mpris",
+					"taskbar",
+					"custom-power_profile",
+					"custom-media",
+					"custom-lock",
+					"custom-power",
+					"custom-menu",
+					"custom-updater",
+					"custom-cava_mviz",
+					"#custom",
+					"#custom-weather",
+					"#workspaces",
+					"#window",
+					"}#",
+					"language",
+					"playerctl",
+					"mviz",
+					"hint",
+					"separator",
+					"pulseaudio",
+					"tray",
+					"mpris",
+					"WallpaperEffects",
+					"WallpaperEff",
+					"Wallpaper",
+					"KeyHints",
+					"RainbowBorders",
+					"RainbowBorders.sh",
+					"RainbowBoarders.sh",
+					"config/waybar/scripts/ChangeBlur.sh",
+					"custom/cava_mviz",
+					"master-config",
+					"/UserScripts/",
+					".sh",
+					"custom/playerctl",
+					"/hypr/",
+					"hypr/",
+					"cubic-bezier",
+					"power",
+					"background-color",
+					"pulseaudio",
+					"custom-weather",
+					"clock",
+					"calendar",
+					"custom/weather",
+					"weather",
+					"pulseaudio/slider",
+					"cava_mviz",
+					"playerctl",
+					"play",
+					"wttr",
+					"city",
+					"waether",
+					"//\n//-------------------------------------------------------------------------------------------\n//",
+					"*/",
+					"/*",
+					";\n}\n",
+					"\n",
+					"//-------------------------------------------------------------------------------------------\n",
+					"clock",
+					"mpris",
+					"wlr/taskbar",
+					"hyprland",
+					"hyprland/",
+					"hyprland/language",
+					"hyprland/",
+					"\",\n",
+					"lock",
+					"menu",
+					"custom/menu",
+					"tray",
+					"taskbar",
+					"wlr",
+					"wlr/taskbar",
+					"pulseaudio#microphone",
+					"update",
+					"power",
+					"modules-center",
+					"hyprland/language\"",
+					"taskbar",
+					"wlr/taskbar",
+					"powe"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/tomaking/Downloads"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 34.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": false,
+			"output.exec":
+			{
+				"height": 169.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,0,0,952,1027,1920,1080,0",
+			"project": "",
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 272.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

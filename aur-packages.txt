@@ -1,0 +1,5 @@
+ascii-image-converter-git
+ascii-image-converter-git-debug
+google-chrome
+yay
+yay-debug

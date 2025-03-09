@@ -1,0 +1,8 @@
+   115.1ms (setup:1108): 2025-02-16 21:22:30
+   115.2ms (setup:1109): /usr/bin/pipx uninstall shell-gpt
+   115.2ms (setup:1110): pipx version is 1.7.1
+   115.2ms (setup:1111): Default python interpreter is '/usr/bin/python3.13'
+   115.6ms (run_pipx_command:233): Virtual Environment location is /home/tomaking/.local/share/pipx/venvs/shell-gpt
+   116.2ms (uninstall:150): removed file /home/tomaking/.local/bin/sgpt
+   116.3ms (rmdir:56): removing directory /home/tomaking/.local/share/pipx/venvs/shell-gpt
+   178.9ms (cli:1187): pipx finished.

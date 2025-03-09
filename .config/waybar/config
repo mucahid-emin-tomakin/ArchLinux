@@ -1,0 +1,2061 @@
+/*
+//
+//
+//                                  .--.,   ,--,
+//             ,---.        ,---, ,--.'  \,--.'|
+//            '   ,'\   ,-+-. /  ||  | /\/|  |,     ,----._,.
+//    ,---.  /   /   | ,--.'|'   |:  : :  `--'_    /   /  ' /
+//   /     \.   ; ,. :|   |  ,"' |:  | |-,,' ,'|  |   :     |
+//  /    / ''   | |: :|   | /  | ||  : :/|'  | |  |   | .\  .
+// .    ' / '   | .; :|   | |  | ||  |  .'|  | :  .   ; ';  |
+// '   ; :__|   :    ||   | |  |/ '  : '  '  : |__'   .   . |
+// '   | '.'|\   \  / |   | |--'  |  | |  |  | '.'|`---`-'| |
+// |   :    : `----'  |   |/      |  : \  ;  :    ;.'__/\_: |
+//  \   \  /          '---'       |  |,'  |  ,   / |   :    :
+//   `----'                       `--'     ---`-'   \   \  /
+//                                                   `--`-'
+*/
+[
+	{
+		"include": "~/.config/waybar/modules",
+		"layer": "top",
+		"exclusive": true,
+		"passthrough": false,
+		"position": "top",
+		"spacing": 3,
+		"fixed-center": true,
+		"ipc": true,
+		"margin-top": 1,
+		"margin-left": 6,
+		"margin-right": 6,
+		"modules-left": [
+			"custom/separator#blank",
+			"custom/menu",
+			"custom/separator#line",
+			"wlr/taskbar",
+			"custom/separator#blank",
+			 ],
+		"modules-center": [
+			"custom/separator#blank",
+			"clock",
+			"custom/weather",
+			"custom/separator#blank",
+			],
+		"modules-right": [
+			"custom/separator#blank",
+			"hyprland/window",
+			"custom/separator#line",
+			"custom/power",
+			"custom/separator#blank",
+			]
+	},
+	{
+		"include": "~/.config/waybar/modules",
+		"layer": "top",
+		"exclusive": true,
+		"passthrough": false,
+		"position": "bottom",
+		"spacing": 5,
+		"fixed-center": true,
+		"ipc": true,
+		"height": 0,
+		"margin-left": 8,
+		"margin-right": 8,
+		"modules-left": [
+				"custom/separator#blank",
+				"custom/lock",
+				"custom/separator#line",
+				"custom/updater",
+				"custom/separator#line",
+				"custom/hint",
+				"custom/separator#line",
+				"backlight",
+				"battery",
+				"bluetooth",
+				"custom/separator#line",
+				"temperature", 
+				"cpu", 
+				"memory",
+				"disk",
+				"network",
+				"custom/separator#blank",
+			],
+		"modules-center": [
+				"custom/separator#blank",
+				"hyprland/workspaces",
+				"custom/separator#blank",
+			], 
+		"modules-right": [
+				"custom/separator#blank",
+				//"custom/player_visualizer",
+				"custom/separator#blank",
+				"custom/cava_mviz",
+				"mpris",
+				"custom/playerctl",
+				"custom/separator#line",
+				"pulseaudio/slider",
+				"wireplumber", 
+				"pulseaudio",
+				"pulseaudio#microphone",
+				"custom/separator#blank",
+			]
+	}
+]
+/*
+//-------------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------
+//
+	// ### BOTTOM and LEFT PANEL
+	[{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	//"mode": "dock",
+	"exclusive": true,
+	"passthrough": false,
+	"position": "bottom",
+	"spacing": 2,
+	"fixed-center": true,
+	"ipc": true,
+	"margin-left": 6,
+	"margin-right": 6,
+	"margin-bottom": 2,
+	"modules-left": [
+	    "custom/menu",
+	    "cpu",
+	    "temperature", 
+	    "memory",
+	    "disk",
+	    ],
+	"modules-center": [
+	    //"hyprland/window",
+	    "hyprland/workspaces#roman",
+		],
+	"modules-right": [
+	    //"network",
+	    //"bluetooth",
+		"custom/weather",
+	    "battery", 
+	    "backlight",
+	    "pulseaudio",
+	    //"wireplumber", 
+	    "pulseaudio#microphone",
+	    "keyboard-state",
+	    "custom/power",
+	    ],
+	},
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	"position": "left",
+	"height": 650,
+	"margin-top": 8,
+	"margin-bottom": 8,
+	"margin-left": 3,
+	//"margin-right": 3,
+	"spacing": 3,
+	"fixed-center": true,
+	"ipc": true,
+	//"gtk-layer-shell": true,
+	"modules-left": [
+	    "custom/lock",
+	    "idle_inhibitor",   
+	    ],
+	"modules-center": [
+	    "clock#vertical",
+	    ],
+	"modules-right": [
+			"mpris",
+			"custom/swaync",
+	    "tray",
+	    "custom/light_dark",
+	    ],
+	}]
+//
+//-------------------------------------------------------------------------------------------
+//
+	// ### BOTTOM and RIGHT PANEL
+	[{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	//"mode": "dock",
+	"exclusive": true,
+	"passthrough": false,
+	"position": "bottom",
+	"spacing": 2,
+	"fixed-center": true,
+	"ipc": true,
+	"margin-left": 6,
+	"margin-right": 6,
+	"margin-bottom": 2,
+	"modules-left": [
+	    "custom/menu",
+	    "cpu",
+	    "temperature", 
+	    "memory",
+	    "disk",
+	    ],
+	"modules-center": [
+	    //"hyprland/window",
+	    "hyprland/workspaces#roman",
+		],
+	"modules-right": [
+	    //"network",
+	    //"bluetooth",
+		"custom/weather",
+	    "battery", 
+	    "backlight",
+	    "pulseaudio",
+	    //"wireplumber", 
+	    "pulseaudio#microphone",
+	    "keyboard-state",
+	    "custom/power",
+	    ],
+	},
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	"position": "right",
+	"height": 650,
+	"margin-top": 8,
+	"margin-bottom": 8,
+	//"margin-left": 3,
+	"margin-right": 3,
+	"spacing": 3,
+	"fixed-center": true,
+	"ipc": true,
+	//"gtk-layer-shell": true,
+	"modules-left": [
+	    "custom/lock",
+	    "idle_inhibitor",   
+	    ],
+	"modules-center": [
+	    "clock#vertical",
+	    ],
+	"modules-right": [
+			"mpris",
+			"custom/swaync",
+	    "tray",
+	    "custom/light_dark",
+	    ],  
+	}]
+//
+//-------------------------------------------------------------------------------------------
+//
+	// .............CAMELLIA.......................
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	//"mode": "dock",
+	"exclusive": true,
+	"passthrough": false,
+	"position": "bottom",
+	"spacing": 4,
+	"fixed-center": true,
+	"ipc": true,
+	//"margin-top": 0,
+	//"margin-bottom": 0,
+	//"margin-left": 0,
+	//"margin-right": 0,
+	"modules-left": [
+		"hyprland/workspaces#cam",
+		"custom/separator#line",
+		"mpris",
+		"custom/swaync",
+		"tray#cam", 
+		"wlr/taskbar"],
+	"modules-center": ["hyprland/window#cam"], 
+	"modules-right": [
+		"custom/backlight",
+		"backlight/slider",
+		"custom/speaker",
+		"pulseaudio/slider",
+		"battery#cam",
+		"clock#cam", 
+		"network#cam"],
+	// Additional modules //
+	"hyprland/workspaces#cam": {
+		"active-only":false,
+		"all-outputs": true,
+		"format": "{icon}",
+		"show-special": false,
+		"on-click": "activate",
+		"on-scroll-up": "hyprctl dispatch workspace e+1",
+		"on-scroll-down": "hyprctl dispatch workspace e-1",
+		"persistent-workspaces":{
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+			"format-icons": {
+			"1": "Uno",
+			"2": "Due",
+			"3": "Tre",
+			"4": "Quattro",
+			"5": "Cinque",
+			"6":"Sei",
+			"7":"Sette",
+			"8":"Otto",
+			"9":"Nove",
+			"10":"Dieci"
+		}	
+	},
+	"hyprland/window#cam": {
+		"format": " {title}",
+		"max-length": 50,
+		"rewrite": {
+			"(.*) — Mozilla Firefox": " $1",
+			"(.*) - zsh": "> [$1]"
+	},
+			"separate-outputs": true
+	},
+	"clock#cam": {
+		"interval": 60,
+		//"format": "{:%A, %I:%M %P}",
+		"format": "{:%A, %H:%M}",
+		"max-length": 25,
+	},
+	"battery#cam": {
+		"interval": 60,
+		"align": 0,
+		"rotate": 0,
+		//"bat": "BAT1",
+		//"adapter": "ACAD",
+		"full-at": 100,
+		"design-capacity": false,
+		"states": {
+		  "critical": 15
+				 },
+		"format": "{capacity}% {icon}",
+		"format-charging": " {capacity}%",
+		"format-plugged": "󱘖 {capacity}%",
+		"format-full": "{icon} Full",
+		"format-alt": "{icon} {time}",
+		"format-icons": ["", "", "", "", ""],
+		"format-time": "{H}h {M}min",
+		"tooltip": true,
+		"tooltip-format": "{timeTo} {power}w"
+	},
+	"pulseaudio/slider": {
+		"min": 0,
+		"max": 100,
+		"orientation": "horizontal"
+	},
+	"custom/speaker": {
+		"exec": "echo '🔊'",  
+		"interval": 1,
+		"format": "{}"
+	},
+	"backlight/slider": {
+		"min": 0,
+		"max": 100,
+		"orientation": "horizontal",
+		"device": "intel_backlight"
+	},
+	"custom/backlight": {
+		"exec": "echo '✨'",  
+		"interval": 1,
+		"format": "{}"
+	},
+	"tray#cam": {
+		//"icon-size": 16,
+		"spacing": 10
+	},
+	"network#cam": {
+		"format": "{ifname}",
+		"format-wifi": "{icon}",
+		"format-ethernet": "󰌘",
+		"format-disconnected": "󰌙", 
+		"tooltip-format": "{ipaddr}  {bandwidthUpBytes}  {bandwidthDownBytes}",
+		"format-linked": "󰈁 {ifname} (No IP)",
+		"tooltip-format-wifi": "{essid} {icon} {signalStrength}%",
+		"tooltip-format-ethernet": "{ifname} 󰌘",
+		"tooltip-format-disconnected": "󰌙 Disconnected",
+		"max-length": 50,
+		"format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"]
+	},
+	"wlr/taskbar": {
+		"format": "{icon}",
+		//"icon-size": 14,
+		//"icon-theme": "Numix-Circle",
+		"tooltip-format": "{title}",
+		"on-click": "activate",
+		"on-click-middle": "close",
+		"ignore-list": [
+		    "kitty"
+			],
+			"app_ids-mapping": {
+			  "firefoxdeveloperedition": "firefox-developer-edition"
+			},
+			"rewrite": {
+				"Firefox Web Browser": "Firefox",
+				"Foot Server": "Terminal"
+			}
+		}
+	}
+//
+//-------------------------------------------------------------------------------------------
+//
+	// .............CHRYSANTHEMUM.......................
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	//"mode": "dock",
+	"exclusive": true,
+	"passthrough": false,
+	"position": "bottom",
+	"spacing": 5,
+	"fixed-center": true,
+	"ipc": true,
+	"margin-left": 5,
+	"margin-right": 5,
+	"modules-left": ["clock#gar", "mpris", "custom/swaync", "tray"],
+	"modules-center": ["hyprland/workspaces"], 
+	"modules-right": ["pulseaudio#gar","backlight#gar", "battery#gar"],
+	// M O D U L E S //
+	"clock#gar": {
+	  //"format": "{:%A, %I:%M %P}",
+		"format": "{:%a %d | %H:%M}",
+		"format-alt": "{:%A, %d %B, %Y (%R)}"
+	},
+	"hyprland/window#gar": {
+	  "format": "{}",
+	  "max-length": 60
+	},
+	"tray#gar": {
+	  "icon-size": 15,
+	  "spacing": 10
+	},
+	"pulseaudio#gar": {
+	  "format": "{icon} {volume}%",
+	  "format-bluetooth": "{icon} {volume}%",
+	  "format-bluetooth-muted": " {icon}",
+	  "format-muted": "󰸈",
+	  "format-icons": {
+	    "headphone": "",
+	    "hands-free": "",
+	    "headset": "",
+	    "phone": "",
+	    "portable": "",
+	    "car": "",
+	    "default": ["", "", ""]
+	  },
+	  "on-click": "pamixer --toggle-mute",
+	  "on-click-right": "pavucontrol",
+	  "tooltip": false
+	},
+	"backlight#gar": {
+	  //"device": "intel_backlight",
+	  "format": "{icon} {percent}%",
+	  "format-icons": ["", ""]
+	},
+	"battery#gar": {
+	  "interval": 60,
+	  "align": 0,
+	  "rotate": 0,
+	  //"bat": "BAT1",
+	  //"adapter": "ACAD",
+	  "full-at": 100,
+	  "design-capacity": false,
+	  "states": {
+	    "good": 95,
+	    "warning": 30,
+	    "critical": 15
+	       },
+	  "format": "{icon}  {capacity}%",
+	  "format-charging": " {capacity}%",
+	  "format-plugged": "󱘖 {capacity}%",
+	  "format-full": "{icon} Full",
+	  "format-alt": "{icon} {time}",
+	  "format-icons": ["", "", "", "", ""],
+	  "format-time": "{H}h {M}min",
+	  "tooltip": true,
+	  "tooltip-format": "{timeTo} {power}w",
+	  "on-click-middle": "~/.config/hypr/scripts/ChangeBlur.sh",
+	  "on-click-right": "~/.config/hypr/scripts/Wlogout.sh",
+	},    
+	}
+//
+//-------------------------------------------------------------------------------------------
+//
+	// ### DEFAULT Bottom - Laptop### //
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	//"mode": "dock",
+	"exclusive": true,
+	"passthrough": false,
+	"position": "bottom",
+	"spacing": 3,
+	"fixed-center": true,
+	"ipc": true,
+	//"margin-top": 6,
+	"margin-left": 8,
+	"margin-right": 8,
+	"modules-left": [
+		"hyprland/workspaces#4",
+		"custom/separator#dot-line",
+		"cpu",
+		"custom/separator#dot-line", 
+		"temperature",
+		"custom/separator#dot-line", 
+		"memory",
+		"custom/separator#dot-line",
+		"custom/weather",
+		"custom/separator#blank_3",
+		"custom/cava_mviz",
+		],
+	"modules-center": [
+		"custom/menu",
+		"custom/separator#dot-line",
+		"idle_inhibitor", 
+		"custom/separator#dot-line",
+		"clock",
+		"custom/separator#dot-line",
+		"custom/light_dark",
+		"custom/separator#dot-line",	
+		"custom/lock",
+		//],
+		"custom/separator#dot-line",
+		"custom/keybinds",	
+		], 
+	"modules-right": [
+		"network#speed",
+		"custom/separator#dot-line",
+		"tray",
+		"mpris", 
+		"custom/separator#dot-line",
+		"bluetooth",
+		"custom/separator#dot-line", 
+		"battery",
+		"custom/separator#dot-line", 
+		"backlight",
+		"custom/separator#dot-line",
+		"pulseaudio",
+		"custom/separator#dot-line",
+		"pulseaudio#microphone",
+		"custom/separator#dot-line",
+		"keyboard-state",
+		"custom/separator#dot-line",
+		"custom/keyboard",
+		"custom/separator#dot-line",
+		"custom/power",
+		],
+	}
+//
+//-------------------------------------------------------------------------------------------
+//
+	// .............GARDENIA.......................
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	//"mode": "dock",
+	"exclusive": true,
+	"passthrough": false,
+	"position": "bottom",
+	"spacing": 5,
+	"fixed-center": false,
+	"ipc": true,
+	//"margin-top": 5,
+	"margin-bottom": 5,
+	"width": 768,
+	"modules-left": ["clock#gar", "mpris", "custom/swaync", "tray"],
+	"modules-center": ["hyprland/workspaces#kanji"], 
+	"modules-right": ["pulseaudio#gar","backlight#gar", "battery#gar"],
+	// M O D U L E S //
+	"clock#gar": {
+	  //"format": "{:%A, %I:%M %P}",
+		"format": "{:%a %d | %H:%M}",
+		"format-alt": "{:%A, %d %B, %Y (%R)}"
+	},
+	"hyprland/window#gar": {
+	  "format": "{}",
+	  "max-length": 60
+	},
+	"tray#gar": {
+	  "icon-size": 15,
+	  "spacing": 10
+	},
+	"pulseaudio#gar": {
+	  "format": "{icon} {volume}%",
+	  "format-bluetooth": "{icon} {volume}%",
+	  "format-bluetooth-muted": " {icon}",
+	  "format-muted": "󰸈",
+	  "format-icons": {
+	      "headphone": "",
+	      "hands-free": "",
+	      "headset": "",
+	      "phone": "",
+	      "portable": "",
+	      "car": "",
+	      "default": ["", "", ""]
+	    },
+	  "on-click": "pamixer --toggle-mute",
+	  "on-click-right": "pavucontrol",
+	  "tooltip": false
+	},
+	"backlight#gar": {
+	  "device": "intel_backlight",
+	  "format": "{icon} {percent}%",
+	  "format-icons": ["", ""]
+	},
+	"battery#gar": {
+	  "interval": 60,
+	  "align": 0,
+	  "rotate": 0,
+	  //"bat": "BAT1",
+	  //"adapter": "ACAD",
+	  "full-at": 100,
+	  "design-capacity": false,
+	  "states": {
+	    "good": 95,
+	    "warning": 30,
+	    "critical": 15
+	       },
+	  "format": "{icon}  {capacity}%",
+	  "format-charging": " {capacity}%",
+	  "format-plugged": "󱘖 {capacity}%",
+	  "format-full": "{icon} Full",
+	  "format-alt": "{icon} {time}",
+	  "format-icons": ["", "", "", "", ""],
+	  "format-time": "{H}h {M}min",
+	  "tooltip": true,
+	  "tooltip-format": "{timeTo} {power}w",
+	  "on-click-middle": "~/.config/hypr/scripts/ChangeBlur.sh",
+	  "on-click-right": "~/.config/hypr/scripts/Wlogout.sh",
+	},
+	}
+//
+//-------------------------------------------------------------------------------------------
+//
+	//* ................PEONY.......................*/
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	//"mode": "dock",
+	"exclusive": true,
+	"passthrough": false,
+	"position": "bottom",
+	"spacing": 4,
+	"fixed-center": true,
+	"ipc": true,
+	//"margin-top": 5,
+	"margin-bottom": 5,
+	"width": 1444,
+	"modules-left": ["hyprland/workspaces#roman", "mpris", "tray#peony"],
+	"modules-center": ["clock#peony"], 
+	"modules-right": [
+		"battery#peony",
+		"custom/separator#blank",
+		"backlight#peony",
+		"custom/separator#blank",
+		"pulseaudio",
+		"custom/separator#blank",
+		"temperature",
+		"custom/separator#blank",	
+		"network#peony",
+		"custom/swaync"],
+	//M O D U L E S //
+	"clock#peony": {
+		"interval": 60,
+		"tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
+		//"format": "{:%B | %a %d, %Y | %I:%M %p}",
+		"format": "{:%B | %a %d, %Y | %H:%M}",
+		"format-alt": "{:%a %b %d, %G}",
+	},
+	"wireplumber#peony": {
+		"format": "{icon} {volume}",
+		"format-muted": " Mute",
+		"on-click": "~/.config/hypr/scripts/Volume.sh --toggle",
+		"on-click-right": "pavucontrol -t 3",
+		"on-scroll-up": "~/.config/hypr/scripts/Volume.sh --inc",
+		"on-scroll-down": "~/.config/hypr/scripts/Volume.sh --dec",
+		"format-icons": ["", "", "󰕾", ""], 
+	},
+	"backlight#peony": {
+		"device": "intel_backlight",
+		"format": "{percent}% {icon}",
+		"format-icons": ["󰛩", "󱩎", "󱩏", "󱩑", "󱩒", "󱩓", "󱩔", "󱩕", "󰛨"],
+	},
+	"network#peony": {
+		"format": "{ifname}",
+		"format-wifi": "{icon}",
+		"format-ethernet": "󰌘",
+		"format-disconnected": "󰌙", 
+		"tooltip-format": "{ipaddr}  {bandwidthUpBytes}  {bandwidthDownBytes}",
+		"format-linked": "󰈁 {ifname} (No IP)",
+		"tooltip-format-wifi": "{essid} {icon} {signalStrength}%",
+		"tooltip-format-ethernet": "{ifname} 󰌘",
+		"tooltip-format-disconnected": "󰌙 Disconnected",
+		"max-length": 50,
+		"format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"]
+	},
+	"battery#peony": {
+		"interval": 60,
+		"align": 0,
+		"rotate": 0,
+		//"bat": "BAT1",
+		//"adapter": "ACAD",
+		"full-at": 100,
+		"design-capacity": false,
+		"states": {
+	    "good": 95,
+	    "warning": 30,
+	    "critical": 15
+		},
+		"format": "{icon}  {capacity}%",
+		"format-charging": " {capacity}%",
+		"format-plugged": "󱘖 {capacity}%",
+		"format-full": "{icon} Full",
+		"format-alt": "{icon} {time}",
+		"format-icons": ["", "", "", "", ""],
+		"format-time": "{H}h {M}min",
+		"tooltip": true,
+		"tooltip-format": "{timeTo} {power}w",
+		"on-click-middle": "~/.config/hypr/scripts/ChangeBlur.sh",
+		"on-click-right": "~/.config/hypr/scripts/Wlogout.sh",
+	},
+	"tray#peony": {
+		"icon-size": 17,
+		"spacing": 8,
+	}
+	}	
+//
+//-------------------------------------------------------------------------------------------
+//
+	// ### TOP Simple ## //
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top", 
+	"position": "bottom", 
+	//"mode": "dock",
+	"exclusive": true,
+	"passthrough": false,
+	"gtk-layer-shell": true,
+	"margin-left": 6,
+	"margin-right": 6,
+	"margin-top": 2,
+	"modules-left": [	
+		"idle_inhibitor",
+		"group/mobo_drawer",
+		"hyprland/workspaces#rw",
+		"tray",
+		"mpris", 
+		],
+	"modules-center": [
+		"clock#2",
+		"custom/swaync",
+		],
+	"modules-right": [
+		"hyprland/window",  
+		"battery",
+	 	"group/audio", 
+		"custom/power",
+		],
+	}
+//
+//-------------------------------------------------------------------------------------------
+//
+	// Sleek 
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	"position": "bottom",
+	"height": 14,
+	"margin-left": 10,
+	"margin-right": 10,
+	"margin-bottom": 2,
+	"modules-left": [
+		"custom/menu",
+		"custom/separator#blank_2",
+		"mpris", 
+		"hyprland/window"
+	],
+	"modules-center": [		
+		"hyprland/workspaces"	
+	],	
+	"modules-right": [
+		"tray",
+		"custom/swaync",
+		"pulseaudio",
+		"clock",
+		"custom/power"				
+		],
+	// Additional format / customize modules
+	"custom/power": {
+		"format": " ",
+		"icon-size": 20,
+		"tooltip": false,
+	},
+	"clock": {
+		//"format": "{:%I:%M %p - %d/%b}", //for AM/PM
+	    "format": "{:%H:%M - %d/%b}", // 24H
+		"tooltip": false
+	},
+	}
+//
+//-------------------------------------------------------------------------------------------
+//
+	// ### LEFT PANEL ### //
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	"position": "left",
+	"margin-top": 8,
+	"margin-bottom": 8,
+	"margin-left": 3,
+	//"margin-right": 3,
+	"spacing": 3,
+	"fixed-center": true,
+	"ipc": true,
+	//"gtk-layer-shell": true,
+	"modules-left": [
+		"clock#vertical",
+		"custom/light_dark",
+	],
+	"modules-center": [
+		"hyprland/workspaces",
+	],
+	"modules-right": [
+		"mpris",
+		"tray",
+		"custom/swaync",
+		"backlight#vertical",
+		"pulseaudio#microphone_vertical",
+		"pulseaudio#vertical",
+		"custom/power_vertical",
+		"custom/menu",
+	],
+	}
+//
+//-------------------------------------------------------------------------------------------
+//
+	// ### RIGHT PANEL ### //
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	"position": "right",
+	"margin-top": 8,
+	"margin-bottom": 8,
+	//"margin-left": 3,
+	"margin-right": 3,
+	"spacing": 3,
+	"fixed-center": true,
+	"ipc": true,
+	//"gtk-layer-shell": true,
+	"modules-left": [
+		"clock#vertical",
+		"custom/light_dark",
+	],
+	"modules-center": [
+		"hyprland/workspaces",
+	],
+	"modules-right": [
+		"mpris",
+		"tray",
+		"custom/swaync",
+		"backlight#vertical",
+		"pulseaudio#microphone_vertical",
+		"pulseaudio#vertical",
+		"custom/power_vertical",
+		"custom/menu",
+	],
+	}
+//
+//-------------------------------------------------------------------------------------------
+//
+	// ### DUAL TOP and BOTTOM ### //
+	[{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	//"mode": "dock",
+	"exclusive": true,
+	"passthrough": false,
+	"position": "top",
+	"spacing": 3,
+	"fixed-center": true,
+	"ipc": true,
+	"margin-top": 1,
+	"margin-left": 8,
+	"margin-right": 8,
+	"modules-left": [
+		"cpu", 
+		"temperature", 
+		"memory",
+		"disk", 
+		],
+	"modules-center": [
+		"idle_inhibitor", 
+		"hyprland/workspaces#4", 
+		"custom/light_dark",
+		], 
+	"modules-right": [
+		"custom/weather",	  
+		"battery", 
+		"backlight",
+		"bluetooth",
+		"network",
+		//"custom/updater",
+		"custom/cycle_wall",
+		"custom/lock", 
+		],
+	},
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	//"mode": "dock",
+	"exclusive": true,
+	"passthrough": false,
+	"position": "bottom",
+	"spacing": 5,
+	"fixed-center": true,
+	"ipc": true,
+	"height": 0,
+	"margin-left": 8,
+	"margin-right": 8,
+	//"margin-bottom": 0,
+	"modules-left": [
+		"custom/menu",  
+		"wlr/taskbar",
+		 ],
+	"modules-center": [
+		"clock", 
+		],
+	"modules-right": [
+		"hyprland/window",
+		"tray",
+		"custom/swaync",
+		"mpris",
+		"keyboard-state",
+		"pulseaudio",
+		//"wireplumber", 
+		"pulseaudio#microphone",	  
+		"custom/power",
+		],
+	}]
+//
+//-------------------------------------------------------------------------------------------
+//
+	// ### TOP and LEFT PANEL ## //
+	[{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	//"mode": "dock",
+	"width": 1200,
+	"exclusive": true,
+	"passthrough": false,
+	"position": "top",
+	"spacing": 3,
+	"fixed-center": true,
+	"ipc": true,
+	"margin-top": 2,
+	"margin-left": 8,
+	"margin-right": 8,
+	"modules-left": [
+		"custom/menu",
+		"custom/separator#blank_2",
+		"group/motherboard",
+	    ],
+	"modules-center": [
+	  	//"hyprland/window",
+	 	"hyprland/workspaces#pacman",
+		],
+	"modules-right": [
+	  	"network",
+	  	"bluetooth",
+		"custom/weather",
+		"custom/separator#blank_2",
+		"group/audio",
+		"custom/separator#blank_2",
+	  	"keyboard-state",
+	  	"custom/power",
+	    ],
+	},
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	"position": "left",
+	"height": 650,
+	"margin-top": 8,
+	"margin-bottom": 8,
+	"margin-left": 3,
+	"spacing": 3,
+	"fixed-center": true,
+	"ipc": true,
+	//"gtk-layer-shell": true,
+	"modules-left": [
+	    "custom/lock",
+	    "idle_inhibitor",   
+	    ],
+	"modules-center": [
+	    "clock#vertical",
+	    ],
+	"modules-right": [
+		"mpris",
+		"custom/swaync",
+	    "tray",
+	    "custom/light_dark",
+	    ],
+	}]
+//
+//-------------------------------------------------------------------------------------------
+//
+	// ### TOP and Right PANEL ## //
+	[{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	//"mode": "dock",
+	"width": 1200,
+	"exclusive": true,
+	"passthrough": false,
+	"position": "top",
+	"spacing": 3,
+	"fixed-center": true,
+	"ipc": true,
+	"margin-top": 2,
+	"margin-left": 8,
+	"margin-right": 8,
+	"modules-left": [
+	    "custom/menu",
+		"custom/separator#blank_2",
+		"group/motherboard",
+	    ],
+	"modules-center": [
+	    //"hyprland/window",
+	    "hyprland/workspaces#pacman",
+		],
+	"modules-right": [
+	    "network",
+	    "bluetooth",
+		"custom/weather",
+		"custom/separator#blank_2",
+		"group/audio",
+		"custom/separator#blank_2",
+	    "keyboard-state",
+	    "custom/power",
+	    ],
+	},
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	"position": "right",
+	"height": 650,
+	"margin-top": 8,
+	"margin-bottom": 8,
+	//"margin-left": 3,
+	"margin-right": 3,
+	"spacing": 3,
+	"fixed-center": true,
+	"ipc": true,
+	//"gtk-layer-shell": true,
+	"modules-left": [
+	    "custom/lock",
+	    "idle_inhibitor",   
+	    ],
+	"modules-center": [
+	    "clock#vertical",
+	    ],
+	"modules-right": [
+		"mpris",
+		"custom/swaync",
+	    "tray",
+	    "custom/light_dark",
+	    ],
+	}]
+//
+//-------------------------------------------------------------------------------------------
+//
+	//* .............CAMELLIA.......................*/
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	//"mode": "dock",
+	"exclusive": true,
+	"passthrough": false,
+	"position": "top",
+	"spacing": 3,
+	"fixed-center": true,
+	"ipc": true,
+	//"margin-top": 0,
+	//"margin-bottom": 0,
+	//"margin-left": 0,
+	//"margin-right": 0,
+	"modules-left": [
+		"hyprland/workspaces#cam",
+		"custom/separator#line", 
+		"mpris",
+		"custom/swaync", 
+		"tray#cam", 
+		"wlr/taskbar"
+		],
+	"modules-center": ["hyprland/window#cam"], 
+	"modules-right": [
+		"custom/backlight",
+		"backlight/slider",
+		"custom/speaker",
+		"pulseaudio/slider",
+		"battery#cam",
+		"clock#cam", 
+		"network#cam"
+		],
+	// Additional modules //
+	"hyprland/workspaces#cam": {
+		"active-only":false,
+		"all-outputs": true,
+		"format": "{icon}",
+		"show-special": false,
+		"on-click": "activate",
+		"on-scroll-up": "hyprctl dispatch workspace e+1",
+		"on-scroll-down": "hyprctl dispatch workspace e-1",
+		"persistent-workspaces":{
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": []
+		},
+			"format-icons": {
+			"1": "Uno",
+			"2": "Due",
+			"3": "Tre",
+			"4": "Quattro",
+			"5": "Cinque",
+			"6":"Sei",
+			"7":"Sette",
+			"8":"Otto",
+			"9":"Nove",
+			"10":"Dieci"
+		}	
+	},
+	"hyprland/window#cam": {
+		"format": " {title}",
+		"max-length": 50,
+		"rewrite": {
+			"(.*) — Mozilla Firefox": " $1",
+			"(.*) - zsh": "> [$1]"
+	},
+			"separate-outputs": true
+	},
+	"clock#cam": {
+		"interval": 60,
+		//"format": "{:%A, %I:%M %P}",
+		"format": "{:%A, %H:%M}",
+		"max-length": 25,
+	},
+	"battery#cam": {
+		"interval": 60,
+		"align": 0,
+		"rotate": 0,
+		//"bat": "BAT1",
+		//"adapter": "ACAD",
+		"full-at": 100,
+		"design-capacity": false,
+		"states": {
+		  "critical": 15
+				 },
+		"format": "{capacity}% {icon}",
+		"format-charging": " {capacity}%",
+		"format-plugged": "󱘖 {capacity}%",
+		"format-full": "{icon} Full",
+		"format-alt": "{icon} {time}",
+		"format-icons": ["", "", "", "", ""],
+		"format-time": "{H}h {M}min",
+		"tooltip": true,
+		"tooltip-format": "{timeTo} {power}w"
+	},
+	"pulseaudio/slider": {
+		"min": 0,
+		"max": 100,
+		"orientation": "horizontal",
+	},
+	"custom/speaker": {
+		"exec": "echo '🔊'",  
+		"interval": 1,
+		"format": "{}"
+	},
+	"backlight/slider": {
+		"min": 0,
+		"max": 100,
+		"orientation": "horizontal",
+		//"device": "intel_backlight"
+	},
+	"custom/backlight": {
+		"exec": "echo '✨'",  
+		"interval": 1,
+		"format": "{}"
+	},
+	"tray#cam": {
+		//"icon-size": 16,
+		"spacing": 10
+	},
+	"network#cam": {
+		"format": "{ifname}",
+		"format-wifi": "{icon}",
+		"format-ethernet": "󰌘",
+		"format-disconnected": "󰌙", 
+		"tooltip-format": "{ipaddr}  {bandwidthUpBytes}  {bandwidthDownBytes}",
+		"format-linked": "󰈁 {ifname} (No IP)",
+		"tooltip-format-wifi": "{essid} {icon} {signalStrength}%",
+		"tooltip-format-ethernet": "{ifname} 󰌘",
+		"tooltip-format-disconnected": "󰌙 Disconnected",
+		"max-length": 50,
+		"format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"]
+	},
+	"wlr/taskbar": {
+		"format": "{icon}",
+		//"icon-size": 14,
+		//"icon-theme": "Numix-Circle",
+		"tooltip-format": "{title}",
+		"on-click": "activate",
+		"on-click-middle": "close",
+		"ignore-list": [
+		    "kitty"
+			],
+			"app_ids-mapping": {
+			  "firefoxdeveloperedition": "firefox-developer-edition"
+			},
+			"rewrite": {
+				"Firefox Web Browser": "Firefox",
+				"Foot Server": "Terminal"
+			}
+	}
+	}
+//
+//-------------------------------------------------------------------------------------------
+//
+	//* .............CHRYSANTHEMUM.......................*/
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	//"mode": "dock",
+	"exclusive": true,
+	"passthrough": false,
+	"position": "top",
+	"spacing": 5,
+	"fixed-center": true,
+	"ipc": true,
+	"margin-left": 5,
+	"margin-right": 5,
+	"margin-top": 0,
+	"modules-left": ["clock#gar", "mpris", "tray", "custom/swaync"],
+	"modules-center": ["hyprland/workspaces"], 
+	"modules-right": ["pulseaudio#gar","backlight#gar", "battery#gar"],
+	// M O D U L E S //
+	"clock#gar": {
+	  //"format": "{:%A, %I:%M %P}",
+		"format": "{:%a %d | %H:%M}",
+		"format-alt": "{:%A, %d %B, %Y (%R)}"
+	},
+	"hyprland/window#gar": {
+	  "format": "{}",
+	  "max-length": 60
+	},
+	"tray#gar": {
+	  "icon-size": 15,
+	  "spacing": 10
+	},
+	"pulseaudio#gar": {
+	  "format": "{icon} {volume}%",
+	  "format-bluetooth": "{icon} {volume}%",
+	  "format-bluetooth-muted": " {icon}",
+	  "format-muted": "󰸈",
+	  "format-icons": {
+	    "headphone": "",
+	    "hands-free": "",
+	    "headset": "",
+	    "phone": "",
+	    "portable": "",
+	    "car": "",
+	    "default": ["", "", ""]
+	  },
+	  "on-click": "pamixer --toggle-mute",
+	  "on-click-right": "pavucontrol",
+	  "tooltip": false
+	},
+	"backlight#gar": {
+	  //"device": "intel_backlight",
+	  "format": "{icon} {percent}%",
+	  "format-icons": ["", ""]
+	},
+	"battery#gar": {
+	  "interval": 60,
+	  "align": 0,
+	  "rotate": 0,
+	  //"bat": "BAT1",
+	  //"adapter": "ACAD",
+	  "full-at": 100,
+	  "design-capacity": false,
+	  "states": {
+	    "good": 95,
+	    "warning": 30,
+	    "critical": 15
+	       },
+	  "format": "{icon}  {capacity}%",
+	  "format-charging": " {capacity}%",
+	  "format-plugged": "󱘖 {capacity}%",
+	  "format-full": "{icon} Full",
+	  "format-alt": "{icon} {time}",
+	  "format-icons": ["", "", "", "", ""],
+	  "format-time": "{H}h {M}min",
+	  "tooltip": true,
+	  "tooltip-format": "{timeTo} {power}w",
+	  "on-click-middle": "~/.config/hypr/scripts/ChangeBlur.sh",
+	  "on-click-right": "~/.config/hypr/scripts/Wlogout.sh",
+	},    
+	}
+//
+//-------------------------------------------------------------------------------------------
+//
+	// ### DEFAULT Top -Laptop ### //
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	//"mode": "dock",
+	"exclusive": true,
+	"passthrough": false,
+	"position": "top",
+	"spacing": 3,
+	"fixed-center": true,
+	"ipc": true,
+	"width": 1850,
+	"margin-top": 3,
+	"margin-left": 8,
+	"margin-right": 8,
+	"modules-left": [
+		"hyprland/workspaces#4",
+		"custom/separator#dot-line",
+		"cpu",
+		"custom/separator#dot-line", 
+		"temperature",
+		"custom/separator#dot-line", 
+		"memory",
+		"custom/separator#dot-line",
+		"custom/weather",
+		"custom/separator#blank_3",
+		"custom/cava_mviz",
+		],
+	"modules-center": [
+		"custom/menu",
+		"custom/separator#dot-line",
+		"idle_inhibitor", 
+		"custom/separator#dot-line",
+		"clock",
+		"custom/separator#dot-line",
+		"custom/light_dark",
+		"custom/separator#dot-line",	
+		"custom/lock",
+		], 
+	"modules-right": [
+		"network#speed",
+		"custom/separator#dot-line",
+		"custom/swaync",
+		"tray",
+		"custom/separator#dot-line",
+		"bluetooth",
+		"custom/separator#dot-line", 
+		"battery",
+		"custom/separator#dot-line", 
+		"backlight",
+		"custom/separator#dot-line",
+		"pulseaudio",
+		"custom/separator#dot-line",
+		"pulseaudio#microphone",
+		"custom/separator#dot-line",
+		"keyboard-state",
+		"custom/separator#dot-line",
+		"custom/keyboard",
+		"custom/separator#dot-line",
+		"custom/power",
+		],
+	}
+//
+//-------------------------------------------------------------------------------------------
+//
+	// ### DEFAULT Top -Laptop Complete ### //
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	//"mode": "dock",
+	"exclusive": true,
+	"passthrough": false,
+	"position": "top",
+	"spacing": 3,
+	"fixed-center": true,
+	"ipc": true,
+	"width": 1850,
+	"margin-top": 3,
+	"margin-left": 8,
+	"margin-right": 8,
+	"modules-left": [
+		"hyprland/workspaces#4",
+		"custom/separator#dot-line",
+		"cpu",
+		"custom/separator#dot-line", 
+		"temperature",
+		"custom/separator#dot-line", 
+		"memory",
+		"custom/separator#dot-line",
+		"custom/weather",
+		"custom/separator#blank_3",
+		"custom/cava_mviz",
+		],
+	"modules-center": [
+		"custom/menu",
+		"custom/separator#dot-line",
+		"idle_inhibitor", 
+		"custom/separator#dot-line",
+		"clock",
+		"custom/separator#dot-line",
+		"custom/light_dark",
+		"custom/separator#dot-line",	
+		"custom/lock",
+		], 
+	"modules-right": [
+		"network#speed",
+		"custom/separator#dot-line",
+		"custom/swaync",
+		"tray",
+		"custom/separator#dot-line",
+		"bluetooth",
+		"custom/separator#dot-line", 
+		"battery",
+		"custom/separator#dot-line", 
+		"backlight",
+		"custom/separator#dot-line",
+		"pulseaudio",
+		"custom/separator#dot-line",
+		"pulseaudio#microphone",
+		"custom/separator#dot-line",
+		"keyboard-state",
+		"custom/separator#dot-line",
+		"custom/keyboard",
+		"custom/separator#dot-line",
+		"custom/power",
+		],
+	}
+//
+//-------------------------------------------------------------------------------------------
+//
+	// ### DEFAULT v2 (Laptop)  - Top ### //
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	//"mode": "dock",
+	"exclusive": true,
+	"passthrough": false,
+	"position": "top",
+	"spacing": 3,
+	"fixed-center": true,
+	"ipc": true,
+	"margin-top": 3,
+	"margin-left": 8,
+	"margin-right": 8,
+	"modules-left": [
+		"custom/menu",
+		"custom/light_dark",
+		"custom/separator#dot-line",
+		"power-profiles-daemon",
+		"group/mobo_drawer",
+		"custom/separator#blank",
+		"group/laptop",
+		"custom/separator#line",
+		"custom/weather",
+		],
+	"modules-center": [
+		"custom/swaync",
+		"custom/cava_mviz",
+		"custom/separator#dot-line",
+		"clock",
+		"custom/separator#line",
+		"hyprland/workspaces#roman",
+		"custom/separator#dot-line",
+		"idle_inhibitor",	
+		"custom/hint",	
+		], 
+	"modules-right": [
+		"network#speed",
+		"group/connections",
+		"custom/separator#line",
+		"tray",
+		"mpris", 
+		"group/audio",
+		"custom/separator#line",
+		"keyboard-state",
+		"custom/keyboard",
+		"custom/lock",
+		"custom/power",
+		],
+	}
+//
+//-------------------------------------------------------------------------------------------
+//
+	// ### DEFAULT v³ (Laptop)  - Top ### //
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	//"mode": "dock",
+	"exclusive": true,
+	"passthrough": false,
+	"position": "top",
+	"spacing": 3,
+	"fixed-center": true,
+	"ipc": true,
+	"margin-top": 3,
+	"margin-left": 8,
+	"margin-right": 8,
+	"modules-left": [
+		"custom/menu",
+		"custom/light_dark",
+		"custom/separator#dot-line",
+		"power-profiles-daemon",
+		"group/mobo_drawer",
+		"custom/separator#blank",
+		"group/laptop",
+		"custom/separator#line",
+		"custom/weather",
+		],
+	"modules-center": [
+		"custom/swaync",
+		"custom/cava_mviz",
+		"custom/separator#dot-line",
+		"clock",
+		"custom/separator#line",
+		"hyprland/workspaces#kanji",
+		"custom/separator#dot-line",
+		"idle_inhibitor",	
+		"custom/hint",	
+		], 
+	"modules-right": [
+		"network#speed",
+		"group/connections",
+		"custom/separator#line",
+		"tray",
+		"mpris", 
+		"group/audio",
+		"custom/separator#line",
+		"keyboard-state",
+		"custom/keyboard",
+		"custom/lock",
+		"custom/power",
+		],
+	}
+//
+//-------------------------------------------------------------------------------------------
+//
+	// ### DEFAULT v4 (Laptop)  - Top ### //
+	{
+	"include": [
+	  "$HOME/.config/waybar/Modules",
+	  "$HOME/.config/waybar/ModulesWorkspaces",
+	  "$HOME/.config/waybar/ModulesCustom",
+	  "$HOME/.config/waybar/ModulesGroups",
+	  ],
+	"layer": "top",
+	//"mode": "dock",
+	"exclusive": true,
+	"passthrough": false,
+	"position": "top",
+	"spacing": 3,
+	"fixed-center": true,
+	"ipc": true,
+	"margin-top": 3,
+	"margin-left": 8,
+	"margin-right": 8,
+	"modules-left": [
+		"group/app_drawer",
+		"custom/separator#dot-line",
+		"group/mobo_drawer",
+		"custom/separator#blank",
+		"group/laptop",
+		"custom/separator#line",
+		"custom/weather",
+		],
+	"modules-center": [
+		"custom/swaync",
+		"custom/cava_mviz",
+		"custom/separator#dot-line",
+		"clock",
+		"custom/separator#line",
+		"hyprland/workspaces#kanji",
+		"custom/separator#dot-line",
+		"idle_inhibitor",	
+		"custom/hint",	
+		], 
+	"modules-right": [
+		"network#speed",
+		"group/connections",
+		"custom/separator#line",
+		"tray",
+		"mpris", 
+		"group/audio",
+		"custom/separator#dot-line",
+		"group/status",
+		],
+	}
+//
+//-------------------------------------------------------------------------------------------
+//
+	// ### Everforest ### //
+	{
+	"include": [
+	  "$HOME/.config/waybar/Modules",
+	  "$HOME/.config/waybar/ModulesWorkspaces",
+	  "$HOME/.config/waybar/ModulesCustom",
+	  "$HOME/.config/waybar/ModulesGroups",
+	  ],
+	"layer": "top",
+	//"mode": "dock",
+	"exclusive": true,
+	"passthrough": false,
+	"position": "top",
+	//"spacing": 6,
+	"fixed-center": true,
+	"ipc": true,
+	//"margin-top": 3,
+	//"margin-left": 8,
+	//"margin-right": 8,
+
+	"modules-left": [
+	  "custom/arch",
+		"custom/separator#blank_2", 
+		"hyprland/workspaces#rw",
+		"custom/separator#blank_2",
+	//	"mpris",
+		"custom/swaync",
+		"tray",
+		],
+	"modules-center": [
+		"clock#forest",
+		"idle_inhibitor",
+		],
+	"modules-right": [
+		"cpu#forest",
+		"memory#forest",
+		"temperature#forest",
+		"disk#forest",
+		"custom/separator#blank_2",
+		"backlight",
+	  	"battery#forest",
+		"custom/separator#blank_2",
+		"group/audio",
+		],
+	// Additional / Edited Waybar Modules //
+	"custom/arch": {
+	      "format":" ",
+	      "tooltip": false,
+	      "on-click": "rofi -show drun"
+	},
+	"clock#forest": {
+	      "format": "{:%A %d.%m.%Y - %H:%M}",
+	      "tooltip-format": "<span color='#D3C6AA' size='larger'>{:%Y %B}</span>\n<tt>{calendar}</tt>",
+	      "calendar-weeks-pos": "right",
+	      "today-format": "<span color='#E67E80' weight='ultrabold'>{}</span>",
+	      "format-calendar": "<span color='#D3C6AA' weight='normal'>{}</span>",
+	      "format-calendar-weeks": "<span color='#7FBBB3'><b>W{:%V}</b></span>",
+	      "format-calendar-weekdays": "<span color='#A7C080'><b>{}</b></span>",
+	      "on-scroll": {
+	                  "calendar": 1
+	                   }
+	},
+	"battery#forest": {
+		//"interval": 5,
+		"align": 0,
+		"rotate": 0,
+		//"bat": "BAT1",
+		//"adapter": "ACAD",
+		"full-at": 100,
+		"design-capacity": false,
+		"states": {
+			"good": 95,
+			"warning": 30,
+			"critical": 15
+		},
+		"format": "Battery {icon}  {capacity}%",
+		"format-charging": "Battery  {capacity}%",
+		"format-plugged": "Battery 󱘖 {capacity}%",
+		"format-alt-click": "click",
+		"format-full": "Battery {icon} Full",
+		"format-alt": "Battery {icon} {time}",
+		"format-icons": [
+			"󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"
+		],
+		"format-time": "{H}h {M}min",
+		"tooltip": true,
+		"tooltip-format": "{timeTo} {power}w",
+		"on-click-middle": "~/.config/hypr/scripts/ChangeBlur.sh",
+		"on-click-right": "~/.config/hypr/scripts/Wlogout.sh",
+	},
+	"cpu#forest": {
+		"format": "Cpu  󰍛  {usage}%",
+		"interval": 1,
+		"min-length": 5,
+		"format-alt-click": "click",
+		"format-alt": "{icon0}{icon1}{icon2}{icon3} {usage:>2}% 󰍛",
+		"format-icons": [
+			"▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"
+		],
+		"on-click-right": "gnome-system-monitor",
+	},
+	"disk#forest": {
+		"interval": 30,
+		//"format": "Disk    󰋊",
+		"path": "/",
+		//"format-alt-click": "click",
+		"format": "Disk 󰋊  {used}",
+	  "on-click-right": "baobab",
+	//	"tooltip": true,
+	//	"tooltip-format": "Disk    {used} used out of {total} on {path} ({percentage_used}%)",
+	},
+	"memory#forest": {
+		"interval": 10,
+		"format": "Ram  󰾆  {used:0.1f}G",
+		"format-alt": "Ram    {percentage}%    󰾆",
+		"format-alt-click": "click",
+		"tooltip": true,
+		"tooltip-format": "Ram    {used:0.1f}GB/{total:0.1f}G",
+		"on-click-right": "kitty --title btop sh -c 'btop'"
+	},
+	"temperature#forest": {
+		"interval": 10,
+		"tooltip": true,
+		"hwmon-path": [
+			"/sys/class/hwmon/hwmon1/temp1_input",
+			"/sys/class/thermal/thermal_zone0/temp"
+		],
+		//"thermal-zone": 0,
+		"critical-threshold": 82,
+		"format-critical": "Temp {icon}  {temperatureC}°C",
+		"format": "Temp {icon}  {temperatureC}°C",
+		"format-icons": [
+			" 󰈸"
+		],
+		"on-click-right": "kitty --title nvtop sh -c 'nvtop'"
+	},
+	}
+//
+//-------------------------------------------------------------------------------------------
+//
+	//* .............GARDENIA.......................*/
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	//"mode": "dock",
+	"exclusive": true,
+	"passthrough": false,
+	"position": "top",
+	"spacing": 5,
+	"fixed-center": false,
+	"ipc": true,
+	"margin-top": 5,
+	//"margin-bottom": 5,
+	"width": 768,
+	"modules-left": ["clock#gar", "mpris", "tray", "custom/swaync"],
+	"modules-center": ["hyprland/workspaces#kanji"], 
+	"modules-right": ["pulseaudio#gar","backlight#gar", "battery#gar"],
+	// M O D U L E S //
+	"clock#gar": {
+	  //"format": "{:%A, %I:%M %P}",
+		"format": "{:%a %d | %H:%M}",
+		"format-alt": "{:%A, %d %B, %Y (%R)}"
+	},
+	"hyprland/window#gar": {
+	  "format": "{}",
+	  "max-length": 60
+	},
+	"tray#gar": {
+	  "icon-size": 15,
+	  "spacing": 10
+	},
+	"pulseaudio#gar": {
+	  "format": "{icon} {volume}%",
+	  "format-bluetooth": "{icon} {volume}%",
+	  "format-bluetooth-muted": " {icon}",
+	  "format-muted": "󰸈",
+	  "format-icons": {
+	      "headphone": "",
+	      "hands-free": "",
+	      "headset": "",
+	      "phone": "",
+	      "portable": "",
+	      "car": "",
+	      "default": ["", "", ""]
+	    },
+	  "on-click": "pamixer --toggle-mute",
+	  "on-click-right": "pavucontrol",
+	  "tooltip": false
+	},
+	"backlight#gar": {
+	  "device": "intel_backlight",
+	  "format": "{icon} {percent}%",
+	  "format-icons": ["", ""]
+	},
+	"battery#gar": {
+	  "interval": 60,
+	  "align": 0,
+	  "rotate": 0,
+	  //"bat": "BAT1",
+	  //"adapter": "ACAD",
+	  "full-at": 100,
+	  "design-capacity": false,
+	  "states": {
+	    "good": 95,
+	    "warning": 30,
+	    "critical": 15
+	       },
+	  "format": "{icon}  {capacity}%",
+	  "format-charging": " {capacity}%",
+	  "format-plugged": "󱘖 {capacity}%",
+	  "format-full": "{icon} Full",
+	  "format-alt": "{icon} {time}",
+	  "format-icons": ["", "", "", "", ""],
+	  "format-time": "{H}h {M}min",
+	  "tooltip": true,
+	  "tooltip-format": "{timeTo} {power}w",
+	  "on-click-middle": "~/.config/hypr/scripts/ChangeBlur.sh",
+	  "on-click-right": "~/.config/hypr/scripts/Wlogout.sh",
+	},
+	}
+//
+//-------------------------------------------------------------------------------------------
+//
+	// ### Minimal - Long ### //
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	//"mode": "dock",
+	"exclusive": true,
+	"passthrough": false,
+	"position": "top",
+	"spacing": 6,
+	"fixed-center": true,
+	"ipc": true,
+	"margin-top": 3,
+	"margin-left": 8,
+	"margin-right": 8,
+	"modules-left": [
+		"custom/menu",
+		"custom/separator#blank_2", 
+		"hyprland/workspaces#4",
+		"custom/separator#blank_2",
+		"mpris",
+		"custom/swaync",
+		"tray",
+		],
+	"modules-center": [
+		"clock",
+		],
+	"modules-right": [
+		"group/motherboard",
+		"custom/separator#blank_2",
+		"group/laptop",
+		"custom/separator#blank_2",
+		"group/audio",
+		"custom/separator#blank_2",
+		"custom/power",
+		],
+	}
+//
+//-------------------------------------------------------------------------------------------
+//
+	// ### Minimal -SHORT ### //
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	"position": "top",
+	"width": 1050,
+	"margin-top": 3,
+	"modules-left": [
+		"clock",  
+		"custom/weather", 
+		],
+	"modules-center": [
+		"hyprland/workspaces#roman"
+		],
+	"modules-right": [
+		"custom/menu", 
+		"tray",
+		"custom/swaync",
+		"mpris", 
+		"network", 
+		"bluetooth", 
+		"backlight", 
+		"pulseaudio", 
+		"battery", 
+		"custom/power"],
+	}
+//
+//-------------------------------------------------------------------------------------------
+//
+	//* ................PEONY.......................*/
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	//"mode": "dock",
+	"exclusive": true,
+	"passthrough": false,
+	"position": "top",
+	"spacing": 4,
+	"fixed-center": true,
+	"ipc": true,
+	"margin-top": 5,
+	//"margin-bottom": 5,
+	"width": 1444,
+	"modules-left": ["hyprland/workspaces#roman", "mpris", "custom/swaync", "tray#peony"],
+	"modules-center": ["clock#peony"], 
+	"modules-right": [
+		"battery#peony",
+		"custom/separator#blank",
+		"backlight#peony",
+		"custom/separator#blank",
+		"pulseaudio",
+		"custom/separator#blank",
+		"temperature",
+		"custom/separator#blank",	
+		"network#peony"],
+	//M O D U L E S //
+	"clock#peony": {
+		"interval": 60,
+		"tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
+		//"format": "{:%B | %a %d, %Y | %I:%M %p}",
+		"format": "{:%B | %a %d, %Y | %H:%M}",
+		"format-alt": "{:%a %b %d, %G}",
+	},
+	"wireplumber#peony": {
+		"format": "{icon} {volume}",
+		"format-muted": " Mute",
+		"on-click": "~/.config/hypr/scripts/Volume.sh --toggle",
+		"on-click-right": "pavucontrol -t 3",
+		"on-scroll-up": "~/.config/hypr/scripts/Volume.sh --inc",
+		"on-scroll-down": "~/.config/hypr/scripts/Volume.sh --dec",
+		"format-icons": ["", "", "󰕾", ""], 
+	},
+	"network#peony": {
+		"format": "{ifname}",
+		"format-wifi": "{icon}",
+		"format-ethernet": "󰌘",
+		"format-disconnected": "󰌙", 
+		"tooltip-format": "{ipaddr}  {bandwidthUpBytes}  {bandwidthDownBytes}",
+		"format-linked": "󰈁 {ifname} (No IP)",
+		"tooltip-format-wifi": "{essid} {icon} {signalStrength}%",
+		"tooltip-format-ethernet": "{ifname} 󰌘",
+		"tooltip-format-disconnected": "󰌙 Disconnected",
+		"max-length": 50,
+		"format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"]
+	},
+	"battery#peony": {
+		"interval": 60,
+		"align": 0,
+		"rotate": 0,
+		//"bat": "BAT1",
+		//"adapter": "ACAD",
+		"full-at": 100,
+		"design-capacity": false,
+		"states": {
+	    "good": 95,
+	    "warning": 30,
+	    "critical": 15
+		},
+		"format": "{icon}  {capacity}%",
+		"format-charging": " {capacity}%",
+		"format-plugged": "󱘖 {capacity}%",
+		"format-full": "{icon} Full",
+		"format-alt": "{icon} {time}",
+		"format-icons": ["", "", "", "", ""],
+		"format-time": "{H}h {M}min",
+		"tooltip": true,
+		"tooltip-format": "{timeTo} {power}w",
+		"on-click-middle": "~/.config/hypr/scripts/ChangeBlur.sh",
+		"on-click-right": "~/.config/hypr/scripts/Wlogout.sh",
+	},
+	"tray#peony": {
+		"icon-size": 17,
+		"spacing": 8,
+	}
+	}	
+//
+//-------------------------------------------------------------------------------------------
+//
+	// ### TOP Simple ## //
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top", 
+	"position": "top", 
+	//"mode": "dock",
+	"exclusive": true,
+	"passthrough": false,
+	"gtk-layer-shell": true,
+	"margin-left": 6,
+	"margin-right": 6,
+	"margin-top": 2,
+	"modules-left": [	
+		"idle_inhibitor",
+		"group/mobo_drawer",
+		"hyprland/workspaces#rw",
+		"tray",
+		"mpris", 
+		],
+	"modules-center": [
+		"clock#2",
+		"custom/swaync",
+		],
+	"modules-right": [
+		"hyprland/window",  
+		"battery",
+	 	"group/audio", 
+		"custom/power",
+		],
+	}
+//
+//-------------------------------------------------------------------------------------------
+//
+	// Sleek
+	{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	"position": "top",
+	"height": 14,
+	"margin-left": 10,
+	"margin-right": 10,
+	"margin-top": 2,
+	"modules-left": [
+		"custom/menu",
+		"custom/separator#blank_2",
+		"clock",
+		"custom/separator#blank_2",
+		"hyprland/window"
+	],
+	"modules-center": [		
+		"hyprland/workspaces#4"	
+	],
+	"modules-right": [
+		"custom/swaync",
+		"custom/separator#blank",
+		"tray",
+		"custom/separator#blank",
+		"mpris",
+		"custom/separator#blank", 
+		"pulseaudio",
+		"custom/separator#blank",
+		"custom/power",					
+		],
+	// Additional format / customize modules
+	"custom/power": {
+		"format": " ",
+		"icon-size": 20,
+		"tooltip": false,
+	},
+	"clock": {
+		"format": "{:%I:%M %p - %d/%b}", //for AM/PM
+	    //"format": "{:%H:%M - %d/%b}", // 24H
+		"tooltip": false
+	},
+	}
+/*
+//-------------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------
+//
+//
+//

@@ -1,0 +1,1 @@
+{"secondary_sources":[],"schema_version":"1.1","links":{"share":{},"bin":{"sql-language-server":"node_modules\/.bin\/sql-language-server"},"opt":{}},"metrics":{"start_time":1739367080159,"completion_time":1739367100858},"name":"sqlls","primary_source":{"id":"pkg:npm\/sql-language-server@1.7.1","type":"registry+v1"}}

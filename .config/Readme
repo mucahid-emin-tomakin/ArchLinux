@@ -1,0 +1,40 @@
+1️⃣ Ordner für das ArchISO erstellen
+mkdir ~/archiso
+cp -r /usr/share/archiso/configs/releng/* ~/archiso
+cd ~/archiso
+
+2️⃣ Liste aller installierten Pakete speichern
+pacman -Qqe > ~/archiso/packages.x86_64
+pacman -Qqm > ~/archiso/aur-packages.txt
+
+3️⃣ Wichtige Verzeichnisse kopieren
+mkdir -p ~/archiso/airootfs
+sudo cp -r /bin ~/archiso/airootfs/
+sudo cp -r /boot ~/archiso/airootfs/
+sudo cp -r /etc ~/archiso/airootfs/
+sudo cp -r /home ~/archiso/airootfs/
+sudo cp -r /lib ~/archiso/airootfs/
+sudo cp -r /lib64 ~/archiso/airootfs/
+sudo cp -r /opt ~/archiso/airootfs/
+sudo cp -r /root ~/archiso/airootfs/
+sudo cp -r /sbin ~/archiso/airootfs/
+sudo cp -r /srv ~/archiso/airootfs/
+sudo cp -r /usr ~/archiso/airootfs/
+sudo cp -r /var ~/archiso/airootfs/
+
+❌ NICHT KOPIEREN: /dev, /proc, /sys, /run, /mnt, /tmp, /lost+found
+
+4️⃣ Hostname setzen
+echo "metem" > ~/archiso/airootfs/etc/hostname
+
+5️⃣ Deine .bashrc für Root kopieren
+cp /home/tomaking/.bashrc ~/archiso/airootfs/root/
+
+6️⃣ X11 & Wayland VirtualBox-Treiber hinzufügen
+arch-chroot ~/archiso/airootfs pacman -S --noconfirm virtualbox-guest-utils
+
+7️⃣ ISO mit mkarchiso erstellen
+sudo mkarchiso -v -w /tmp/archiso-tmp -o /mnt/usb ~/archiso
+
+8️⃣ Falls du die ISO auf den USB-Stick bootfähig schreiben willst
+sudo dd if=/mnt/usb/archlinux-x86_64.iso of=/dev/sdX bs=4M status=progress && sync

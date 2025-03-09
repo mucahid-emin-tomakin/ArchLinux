@@ -1,0 +1,1816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/tomaking/.config/hypr/ottoman.jpg" added="2025-02-07T18:04:36.385581Z" modified="2025-02-22T21:58:21.634787Z" visited="2025-02-07T18:04:36.385582Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-22T21:58:21.634785Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/fastfetch/ottoman.jpg" added="2025-02-07T18:21:59.221213Z" modified="2025-02-07T20:05:36.696864Z" visited="2025-02-07T18:21:59.221214Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-07T20:05:36.696862Z" count="18"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/3-hilal.png" added="2025-02-07T20:06:45.939724Z" modified="2025-02-07T20:07:30.933578Z" visited="2025-02-07T20:06:45.939726Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-07T20:07:30.933572Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/ottoman.jpeg" added="2025-02-10T17:23:02.557696Z" modified="2025-02-10T17:39:43.306242Z" visited="2025-02-10T17:23:02.557697Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-10T17:39:43.306239Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/attoma.jpeg" added="2025-02-10T19:49:30.111522Z" modified="2025-02-11T07:17:54.763992Z" visited="2025-02-10T19:49:30.111522Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-11T07:17:54.763990Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/fastfetch/ottoman.gif" added="2025-02-11T07:25:58.913892Z" modified="2025-02-12T21:42:28.798536Z" visited="2025-02-11T07:25:58.913893Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/gif"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-12T21:42:28.798533Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/fastfetch/ottoman-II.gif" added="2025-02-11T07:28:07.753772Z" modified="2025-02-11T07:29:05.801554Z" visited="2025-02-11T07:28:07.753772Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/gif"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-11T07:29:05.801551Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/fastfetch/edep.png" added="2025-02-11T21:07:30.296957Z" modified="2025-02-11T21:07:30.296961Z" visited="2025-02-11T21:07:30.296957Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-11T21:07:30.296958Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/fastfetch/Naruto.mp4" added="2025-02-12T22:11:18.711847Z" modified="2025-02-12T22:17:16.202649Z" visited="2025-02-12T22:11:18.711849Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-12T22:17:16.202647Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/fastfetch/Naruto-II.mp4" added="2025-02-12T22:11:27.390339Z" modified="2025-02-12T22:18:25.705169Z" visited="2025-02-12T22:11:27.390340Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-12T22:18:25.705167Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/NarutoII.mp4" added="2025-02-13T00:50:53.495110Z" modified="2025-02-13T00:50:53.495135Z" visited="2025-02-13T00:50:53.495112Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-13T00:50:53.495129Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/hypr/Hat.png" added="2025-02-16T20:55:08.649375Z" modified="2025-02-16T20:55:08.649379Z" visited="2025-02-16T20:55:08.649375Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-16T20:55:08.649377Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/hypr/HatII.png" added="2025-02-16T20:59:33.134930Z" modified="2025-02-16T20:59:33.134935Z" visited="2025-02-16T20:59:33.134931Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-16T20:59:33.134932Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/fastfetch/configIV.jsonc" added="2025-02-19T17:32:04.448347Z" modified="2025-02-19T17:32:04.448360Z" visited="2025-02-19T17:32:04.448349Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-19T17:32:04.448353Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/fastfetch/config.jsonc" added="2025-02-19T20:36:18.864496Z" modified="2025-03-03T23:23:58.011086Z" visited="2025-02-19T20:36:18.864498Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:23:58.011081Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/fastfetch/configIII.jsonc" added="2025-02-19T20:36:27.304267Z" modified="2025-03-03T23:23:56.482858Z" visited="2025-02-19T20:36:27.304269Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:23:56.482853Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/fastfetch/configII.jsonc" added="2025-02-19T20:36:41.610013Z" modified="2025-03-03T23:23:57.258782Z" visited="2025-02-19T20:36:41.610015Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:23:57.258777Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/fastfetch/animationII.sh" added="2025-02-19T21:21:59.190954Z" modified="2025-03-04T17:58:04.770887Z" visited="2025-02-19T21:21:59.190956Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-04T17:58:04.770883Z" count="19"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/fastfetch/animation.sh" added="2025-02-19T21:26:40.698978Z" modified="2025-03-04T17:57:59.411992Z" visited="2025-02-19T21:26:40.698979Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-04T17:57:59.411988Z" count="14"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/videoplayback.mp4" added="2025-02-19T22:23:00.540113Z" modified="2025-02-19T23:38:42.306912Z" visited="2025-02-19T22:23:00.540114Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-19T23:38:42.306909Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/fastfetch/ottoman.mp4" added="2025-02-19T22:43:30.256665Z" modified="2025-02-20T05:42:04.190990Z" visited="2025-02-19T22:43:30.256666Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-20T05:42:04.190987Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/output_video.mp4" added="2025-02-19T23:27:54.917383Z" modified="2025-02-19T23:27:54.917392Z" visited="2025-02-19T23:27:54.917384Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-19T23:27:54.917387Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/ottomanI.mp4" added="2025-02-19T23:33:26.764918Z" modified="2025-02-19T23:53:42.364456Z" visited="2025-02-19T23:33:26.764919Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-19T23:53:42.364452Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/ottomanII.mp4" added="2025-02-19T23:33:33.137650Z" modified="2025-02-19T23:53:50.388439Z" visited="2025-02-19T23:33:33.137651Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-19T23:53:50.388436Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/output.mp4" added="2025-02-19T23:39:37.258021Z" modified="2025-02-19T23:40:08.958595Z" visited="2025-02-19T23:39:37.258022Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-19T23:40:08.958591Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/autput.mp4" added="2025-02-19T23:42:22.064231Z" modified="2025-02-19T23:42:22.064241Z" visited="2025-02-19T23:42:22.064233Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-19T23:42:22.064236Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/202502200053.mp4" added="2025-02-19T23:57:48.703324Z" modified="2025-02-19T23:57:48.703328Z" visited="2025-02-19T23:57:48.703324Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-19T23:57:48.703326Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/ottoman.mp4" added="2025-02-20T00:00:05.449850Z" modified="2025-02-20T00:00:05.449854Z" visited="2025-02-20T00:00:05.449851Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-20T00:00:05.449852Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/fastfetch/ottoman.txt" added="2025-02-21T10:37:16.560555Z" modified="2025-03-09T00:16:39.850425Z" visited="2025-02-21T10:37:16.560556Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-09T00:16:39.850424Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/hypr/animations.conf" added="2025-02-21T15:38:38.875187Z" modified="2025-02-21T18:06:20.204946Z" visited="2025-02-21T15:38:38.875188Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-21T18:06:20.204945Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/hypr/cursor.conf" added="2025-02-21T15:38:38.875201Z" modified="2025-02-21T18:06:19.101027Z" visited="2025-02-21T15:38:38.875201Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-21T18:06:19.101025Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/hypr/hyprpaper.conf" added="2025-02-21T15:38:38.875207Z" modified="2025-02-21T18:06:12.709519Z" visited="2025-02-21T15:38:38.875207Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-21T18:06:12.709517Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/hypr/keyboard.conf" added="2025-02-21T15:38:38.875211Z" modified="2025-02-21T18:06:27.062793Z" visited="2025-02-21T15:38:38.875212Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-21T18:06:27.062789Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/hypr/layout.conf" added="2025-02-21T15:38:38.875216Z" modified="2025-02-21T18:06:26.324038Z" visited="2025-02-21T15:38:38.875216Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-21T18:06:26.324037Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/hypr/misc.conf" added="2025-02-21T15:38:38.875221Z" modified="2025-02-21T18:06:25.276022Z" visited="2025-02-21T15:38:38.875221Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-21T18:06:25.276020Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/hypr/wallust.conf" added="2025-02-21T15:38:38.875225Z" modified="2025-02-24T19:04:40.197274Z" visited="2025-02-21T15:38:38.875226Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-24T19:04:40.197270Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/hypr/window.conf" added="2025-02-21T15:38:38.875230Z" modified="2025-02-21T18:06:22.692831Z" visited="2025-02-21T15:38:38.875230Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-21T18:06:22.692830Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/hypr/windowrules.conf" added="2025-02-21T15:38:38.875235Z" modified="2025-02-21T18:06:21.460903Z" visited="2025-02-21T15:38:38.875235Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-21T18:06:21.460902Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/hypr/custom.conf" added="2025-02-21T15:38:38.875239Z" modified="2025-02-21T18:06:18.134834Z" visited="2025-02-21T15:38:38.875239Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-21T18:06:18.134829Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/hypr/environments.conf" added="2025-02-21T15:38:38.875244Z" modified="2025-02-21T18:06:32.164762Z" visited="2025-02-21T15:38:38.875244Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-21T18:06:32.164760Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/hypr/hypridle.conf" added="2025-02-21T15:38:38.875250Z" modified="2025-02-21T18:06:31.113149Z" visited="2025-02-21T15:38:38.875250Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-21T18:06:31.113145Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/hypr/decoration.conf" added="2025-02-21T15:38:38.875254Z" modified="2025-02-21T18:06:16.293136Z" visited="2025-02-21T15:38:38.875254Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-21T18:06:16.293131Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/hypr/hyprland.conf" added="2025-02-21T15:38:38.875258Z" modified="2025-03-02T00:49:34.470655Z" visited="2025-02-21T15:38:38.875259Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-02T00:49:34.470651Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/hypr/hyprlock.conf" added="2025-02-21T15:38:38.875263Z" modified="2025-02-24T21:02:13.626689Z" visited="2025-02-21T15:38:38.875263Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-24T21:02:13.626688Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/hypr/keybindings.conf" added="2025-02-21T15:38:38.875267Z" modified="2025-03-03T23:43:35.491354Z" visited="2025-02-21T15:38:38.875267Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:43:35.491352Z" count="10"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/hypr/hyprlockkkk.conf" added="2025-02-21T15:38:38.875271Z" modified="2025-02-21T17:29:27.947899Z" visited="2025-02-21T15:38:38.875271Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-21T17:29:27.947897Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.bash_profile" added="2025-02-21T17:27:46.025477Z" modified="2025-03-03T23:08:55.921313Z" visited="2025-02-21T17:27:46.025479Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:08:55.921308Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.bashrc" added="2025-02-21T17:28:51.196553Z" modified="2025-03-07T10:27:34.638415Z" visited="2025-02-21T17:28:51.196554Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-07T10:27:34.638413Z" count="23"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/hypr/124745.jpg" added="2025-02-21T18:20:04.704055Z" modified="2025-02-21T18:20:04.704059Z" visited="2025-02-21T18:20:04.704056Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-21T18:20:04.704057Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/hypr/background.png" added="2025-02-21T18:41:37.644223Z" modified="2025-02-22T22:04:57.601923Z" visited="2025-02-21T18:41:37.644225Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-22T22:04:57.601920Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/hypr/backgroundII.png" added="2025-02-21T18:46:23.453325Z" modified="2025-02-24T18:13:44.312797Z" visited="2025-02-21T18:46:23.453327Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-24T18:13:44.312790Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/fastfetch/ottoman.sh" added="2025-02-22T20:03:14.960707Z" modified="2025-03-04T20:07:01.124300Z" visited="2025-02-22T20:03:14.960709Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-04T20:07:01.124296Z" count="17"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/fastfetch/png/frame2884.png" added="2025-02-22T20:45:44.396162Z" modified="2025-02-22T20:45:44.396177Z" visited="2025-02-22T20:45:44.396164Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-22T20:45:44.396169Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/fastfetch/ottomanII.txt" added="2025-02-22T20:52:03.635918Z" modified="2025-03-03T23:23:53.472728Z" visited="2025-02-22T20:52:03.635920Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:23:53.472726Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/backgroundII.png" added="2025-02-22T22:09:20.980650Z" modified="2025-02-24T18:13:49.200609Z" visited="2025-02-22T22:09:20.980651Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-24T18:13:49.200602Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/19058031_6041885.jpg" added="2025-02-24T17:52:03.063732Z" modified="2025-02-24T17:52:03.063742Z" visited="2025-02-24T17:52:03.063733Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-24T17:52:03.063736Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/19058031_6041885-removebg-preview.png" added="2025-02-24T17:53:10.806729Z" modified="2025-02-24T17:53:57.073254Z" visited="2025-02-24T17:53:10.806731Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-24T17:53:57.073249Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/image-from-rawpixel-id-6675057-png.png" added="2025-02-24T18:06:25.489579Z" modified="2025-02-24T18:06:25.489583Z" visited="2025-02-24T18:06:25.489580Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-24T18:06:25.489581Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/image-from-rawpixel-id-16490933-png.png" added="2025-02-24T18:06:25.489592Z" modified="2025-02-24T18:06:25.489594Z" visited="2025-02-24T18:06:25.489593Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-24T18:06:25.489593Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/image-from-rawpixel-id-7062087-png.png" added="2025-02-24T18:06:25.489599Z" modified="2025-02-24T18:06:25.489601Z" visited="2025-02-24T18:06:25.489600Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-24T18:06:25.489600Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/image-from-rawpixel-id-15687091-jpeg.jpg" added="2025-02-24T18:06:25.489609Z" modified="2025-02-24T18:06:25.489611Z" visited="2025-02-24T18:06:25.489609Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-24T18:06:25.489610Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/image-from-rawpixel-id-16490933-png%20(1).png" added="2025-02-24T18:06:25.489616Z" modified="2025-02-24T18:06:25.489617Z" visited="2025-02-24T18:06:25.489616Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-24T18:06:25.489616Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/image-from-rawpixel-id-16490933-png%20(2).png" added="2025-02-24T18:06:25.489622Z" modified="2025-02-24T18:06:25.489624Z" visited="2025-02-24T18:06:25.489622Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-24T18:06:25.489623Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/image-from-rawpixel-id-16491853-png.png" added="2025-02-24T18:06:25.489628Z" modified="2025-02-24T18:06:25.489630Z" visited="2025-02-24T18:06:25.489628Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-24T18:06:25.489629Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/ArchHyprSetup.zip" added="2025-02-24T19:10:34.229572Z" modified="2025-02-24T19:10:34.229590Z" visited="2025-02-24T19:10:34.229575Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-02-24T19:10:34.229581Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/config" added="2025-02-24T21:02:12.536758Z" modified="2025-03-05T00:03:35.781909Z" visited="2025-02-24T21:02:12.536759Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-05T00:03:35.781908Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/hypr/wlogout.sh" added="2025-02-26T13:57:44.775671Z" modified="2025-02-26T13:57:44.775681Z" visited="2025-02-26T13:57:44.775672Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T13:57:44.775675Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/wlogout/style.css" added="2025-02-26T14:03:09.023044Z" modified="2025-03-01T22:16:22.399094Z" visited="2025-02-26T14:03:09.023045Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-01T22:16:22.399093Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/wlogout/layout" added="2025-02-26T14:04:14.645052Z" modified="2025-03-01T22:17:47.051374Z" visited="2025-02-26T14:04:14.645053Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-01T22:17:47.051369Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/modules" added="2025-02-26T14:07:56.896632Z" modified="2025-03-06T23:07:53.318261Z" visited="2025-02-26T14:07:56.896633Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-06T23:07:53.318259Z" count="10"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/ranger/rc.conf" added="2025-02-26T14:28:27.323603Z" modified="2025-03-03T23:23:14.307998Z" visited="2025-02-26T14:28:27.323604Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:23:14.307993Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/ranger/rc.conf" added="2025-02-26T14:28:52.593440Z" modified="2025-02-26T15:50:56.433572Z" visited="2025-02-26T14:28:52.593441Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T15:50:56.433559Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/rofi/master-config.rasi" added="2025-02-26T15:57:16.438845Z" modified="2025-02-26T17:58:16.063634Z" visited="2025-02-26T15:57:16.438845Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T17:58:16.063630Z" count="11"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/rofi/wallust/colors-rofi.rasi" added="2025-02-26T15:57:17.979001Z" modified="2025-02-26T15:57:17.979005Z" visited="2025-02-26T15:57:17.979001Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T15:57:17.979003Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/rofi/config.rasi" added="2025-02-26T15:57:19.712038Z" modified="2025-03-03T23:10:00.040204Z" visited="2025-02-26T15:57:19.712039Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:10:00.040199Z" count="12"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/rofi/colors.rasi" added="2025-02-26T15:57:21.279959Z" modified="2025-02-26T16:32:04.556568Z" visited="2025-02-26T15:57:21.279960Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T16:32:04.556566Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/dotfiles-main/.config/kitty/kitty" added="2025-02-26T16:00:06.273162Z" modified="2025-02-26T16:00:06.273173Z" visited="2025-02-26T16:00:06.273164Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T16:00:06.273167Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/kitty/kitty.conf" added="2025-02-26T16:02:35.002499Z" modified="2025-03-03T23:24:25.635066Z" visited="2025-02-26T16:02:35.002501Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:24:25.635062Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/dotfiles-main/.config/kitty/kitty.conf" added="2025-02-26T16:02:36.800279Z" modified="2025-02-26T16:02:36.800282Z" visited="2025-02-26T16:02:36.800280Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T16:02:36.800281Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/kitty/theme.conf" added="2025-02-26T16:04:02.214343Z" modified="2025-03-03T23:24:24.759883Z" visited="2025-02-26T16:04:02.214343Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:24:24.759882Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/dotfiles-main/.config/kitty/kitty-colors.conf" added="2025-02-26T16:04:03.861836Z" modified="2025-02-26T16:04:03.861854Z" visited="2025-02-26T16:04:03.861851Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T16:04:03.861852Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/rofi/config.rasi" added="2025-02-26T16:08:37.428528Z" modified="2025-02-26T16:08:37.428538Z" visited="2025-02-26T16:08:37.428529Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T16:08:37.428532Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/rofi/resolution/1080p/config.rasi" added="2025-02-26T16:10:27.180585Z" modified="2025-02-26T16:19:42.503668Z" visited="2025-02-26T16:10:27.180586Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T16:19:42.503654Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/rofi/resolution/1080p/master-config.rasi" added="2025-02-26T16:15:05.146894Z" modified="2025-02-26T16:16:52.936577Z" visited="2025-02-26T16:15:05.146896Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T16:16:52.936576Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/rofi/resolution/1440p/config.rasi" added="2025-02-26T16:21:48.836611Z" modified="2025-02-26T16:21:48.836614Z" visited="2025-02-26T16:21:48.836612Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T16:21:48.836613Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/rofi/resolution/1440p/master-config.rasi" added="2025-02-26T16:26:27.469465Z" modified="2025-02-26T16:26:27.469481Z" visited="2025-02-26T16:26:27.469465Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T16:26:27.469466Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/rofi/colors.rasi" added="2025-02-26T16:32:03.004573Z" modified="2025-03-03T23:10:01.032077Z" visited="2025-02-26T16:32:03.004574Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:10:01.032072Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/rofi/font.rasi" added="2025-02-26T16:33:01.426929Z" modified="2025-02-26T16:33:01.426932Z" visited="2025-02-26T16:33:01.426930Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T16:33:01.426931Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/rofi/config-zsh-theme.rasi" added="2025-02-26T16:42:42.609586Z" modified="2025-02-26T16:42:42.609597Z" visited="2025-02-26T16:42:42.609588Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T16:42:42.609591Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/rofi/config-waybar-style.rasi" added="2025-02-26T16:44:25.432425Z" modified="2025-02-26T16:44:25.432431Z" visited="2025-02-26T16:44:25.432426Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T16:44:25.432428Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/rofi/config-waybar-layout.rasi" added="2025-02-26T16:45:20.860439Z" modified="2025-02-26T16:45:20.860451Z" visited="2025-02-26T16:45:20.860441Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T16:45:20.860444Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/rofi/config-wallpaper.rasi" added="2025-02-26T16:46:18.700184Z" modified="2025-02-26T16:46:18.700195Z" visited="2025-02-26T16:46:18.700185Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T16:46:18.700188Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/rofi/config-wallpaper-effect.rasi" added="2025-02-26T16:46:56.251855Z" modified="2025-02-26T16:46:56.251866Z" visited="2025-02-26T16:46:56.251857Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T16:46:56.251859Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/rofi/config-rofi-Beats.rasi" added="2025-02-26T16:51:38.148127Z" modified="2025-02-26T16:51:38.148137Z" visited="2025-02-26T16:51:38.148128Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T16:51:38.148131Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/rofi/config-rofi-Beats-menu.rasi" added="2025-02-26T16:52:01.124337Z" modified="2025-02-26T16:52:01.124344Z" visited="2025-02-26T16:52:01.124338Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T16:52:01.124340Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/rofi/config-search.rasi" added="2025-02-26T16:53:07.429883Z" modified="2025-02-26T16:53:07.429889Z" visited="2025-02-26T16:53:07.429884Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T16:53:07.429886Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/rofi/config-calc.rasi" added="2025-02-26T16:56:25.637855Z" modified="2025-02-26T16:56:25.637866Z" visited="2025-02-26T16:56:25.637857Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T16:56:25.637860Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/rofi/config-clipboard.rasi" added="2025-02-26T16:57:15.374832Z" modified="2025-02-26T16:57:15.374842Z" visited="2025-02-26T16:57:15.374833Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T16:57:15.374836Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/rofi/config-keybinds.rasi" added="2025-02-26T16:57:53.637273Z" modified="2025-03-01T23:08:39.633490Z" visited="2025-02-26T16:57:53.637274Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-01T23:08:39.633485Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/rofi/config-emoji.rasi" added="2025-02-26T16:58:15.356593Z" modified="2025-02-26T16:58:15.356603Z" visited="2025-02-26T16:58:15.356594Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T16:58:15.356597Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/style.css" added="2025-02-26T17:06:49.845087Z" modified="2025-03-05T00:03:36.274572Z" visited="2025-02-26T17:06:49.845088Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-05T00:03:36.274570Z" count="17"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/rofi/Readme" added="2025-02-26T17:45:50.427788Z" modified="2025-02-26T17:58:08.487425Z" visited="2025-02-26T17:45:50.427789Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-readme"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T17:58:08.487420Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/kitty/emoji.sh" added="2025-02-26T18:19:23.490706Z" modified="2025-03-03T23:24:26.428355Z" visited="2025-02-26T18:19:23.490707Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:24:26.428351Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/Modules" added="2025-02-26T20:44:26.319611Z" modified="2025-02-26T21:15:30.122366Z" visited="2025-02-26T20:44:26.319613Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T21:15:30.122364Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/ModulesCustom" added="2025-02-26T20:44:39.846068Z" modified="2025-02-26T21:08:29.352401Z" visited="2025-02-26T20:44:39.846070Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T21:08:29.352396Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/ModulesGroups" added="2025-02-26T20:44:39.846100Z" modified="2025-02-26T21:07:06.819064Z" visited="2025-02-26T20:44:39.846100Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T21:07:06.819059Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/ModulesWorkspaces" added="2025-02-26T20:44:39.846117Z" modified="2025-02-26T21:07:08.844981Z" visited="2025-02-26T20:44:39.846117Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-26T21:07:08.844976Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/wlogout/wlogout.sh" added="2025-02-26T21:19:02.070810Z" modified="2025-03-01T22:15:50.531124Z" visited="2025-02-26T21:19:02.070812Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-01T22:15:50.531122Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/WallustSwww.sh" added="2025-02-27T16:30:29.558191Z" modified="2025-02-27T16:30:31.329777Z" visited="2025-02-27T16:30:29.558193Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-27T16:30:31.329776Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/WaybarStyles.sh" added="2025-02-27T16:31:45.051867Z" modified="2025-02-27T16:31:45.051878Z" visited="2025-02-27T16:31:45.051869Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-27T16:31:45.051872Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/KeyHints.sh" added="2025-02-27T16:32:42.795622Z" modified="2025-03-07T10:27:31.402604Z" visited="2025-02-27T16:32:42.795623Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-07T10:27:31.402602Z" count="24"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/Wlogout.sh" added="2025-02-27T16:46:49.808362Z" modified="2025-03-02T00:30:19.524253Z" visited="2025-02-27T16:46:49.808363Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-02T00:30:19.524249Z" count="11"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/UserScripts/Weather." added="2025-02-27T16:52:25.254970Z" modified="2025-02-27T16:52:25.254974Z" visited="2025-02-27T16:52:25.254971Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-27T16:52:25.254972Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/UserScripts/Weather.sh" added="2025-02-27T16:53:04.604713Z" modified="2025-03-01T02:55:11.519929Z" visited="2025-02-27T16:53:04.604713Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-01T02:55:11.519925Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/WaybarCava.sh" added="2025-02-27T17:34:28.216231Z" modified="2025-03-06T23:07:56.258615Z" visited="2025-02-27T17:34:28.216232Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-06T23:07:56.258613Z" count="13"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/SwitchKeyboardLayout.sh" added="2025-02-27T17:42:02.281104Z" modified="2025-02-27T17:42:02.281115Z" visited="2025-02-27T17:42:02.281105Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-02-27T17:42:02.281109Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/Volume.sh" added="2025-02-27T17:50:45.684468Z" modified="2025-03-02T00:30:25.826654Z" visited="2025-02-27T17:50:45.684469Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-02T00:30:25.826650Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/cava/config" added="2025-03-01T01:55:19.356063Z" modified="2025-03-01T01:55:19.356073Z" visited="2025-03-01T01:55:19.356064Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-01T01:55:19.356068Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/cava/shaders/pass_through.vert" added="2025-03-01T01:56:40.007992Z" modified="2025-03-01T01:57:00.967184Z" visited="2025-03-01T01:56:40.007993Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-01T01:57:00.967179Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/cava/shaders/northern_lights.frag" added="2025-03-01T01:56:50.312499Z" modified="2025-03-01T01:56:59.168108Z" visited="2025-03-01T01:56:50.312500Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-01T01:56:59.168103Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/cava/shaders/normalized_bars.frag" added="2025-03-01T01:57:09.617436Z" modified="2025-03-01T01:57:09.617447Z" visited="2025-03-01T01:57:09.617438Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-01T01:57:09.617441Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/cava/shaders/bar_spectrum.frag" added="2025-03-01T01:57:36.954519Z" modified="2025-03-01T01:57:36.954530Z" visited="2025-03-01T01:57:36.954521Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-01T01:57:36.954524Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/xxx" added="2025-03-01T21:13:25.365627Z" modified="2025-03-01T21:13:25.365630Z" visited="2025-03-01T21:13:25.365627Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-01T21:13:25.365629Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/wlogout/LockScreen.sh" added="2025-03-01T22:17:38.494059Z" modified="2025-03-01T22:17:38.494069Z" visited="2025-03-01T22:17:38.494060Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-01T22:17:38.494063Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/Brightness.sh" added="2025-03-01T22:20:55.998272Z" modified="2025-03-02T00:30:32.220323Z" visited="2025-03-01T22:20:55.998272Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-02T00:30:32.220319Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/RainbowBorders.sh" added="2025-03-01T22:20:55.998284Z" modified="2025-03-02T00:30:26.579229Z" visited="2025-03-01T22:20:55.998285Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-02T00:30:26.579224Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/RofiBeats.sh" added="2025-03-01T22:20:55.998290Z" modified="2025-03-01T22:38:37.150089Z" visited="2025-03-01T22:20:55.998290Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-01T22:38:37.150085Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/RofiCalc.sh" added="2025-03-01T22:20:55.998295Z" modified="2025-03-01T22:38:24.706205Z" visited="2025-03-01T22:20:55.998295Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-01T22:38:24.706203Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/WallpaperAutoChange.sh" added="2025-03-01T22:20:55.998304Z" modified="2025-03-01T22:22:13.950923Z" visited="2025-03-01T22:20:55.998304Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-01T22:22:13.950918Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/QuickEdit.sh" added="2025-03-01T22:20:55.998309Z" modified="2025-03-01T22:39:37.029032Z" visited="2025-03-01T22:20:55.998309Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-01T22:39:37.029028Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/WallpaperRandom.sh" added="2025-03-01T22:20:55.998313Z" modified="2025-03-01T22:22:10.374565Z" visited="2025-03-01T22:20:55.998313Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-01T22:22:10.374560Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/WallpaperSelect.sh" added="2025-03-01T22:20:55.998323Z" modified="2025-03-01T22:22:11.976362Z" visited="2025-03-01T22:20:55.998323Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-01T22:22:11.976358Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/Weather.py" added="2025-03-01T22:20:55.998327Z" modified="2025-03-02T00:30:22.771306Z" visited="2025-03-01T22:20:55.998327Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-02T00:30:22.771302Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/Weather.sh" added="2025-03-01T22:20:55.998332Z" modified="2025-03-02T00:30:20.220284Z" visited="2025-03-01T22:20:55.998332Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-02T00:30:20.220279Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/ZshChangeTheme.sh" added="2025-03-01T22:20:55.998343Z" modified="2025-03-01T22:21:08.359672Z" visited="2025-03-01T22:20:55.998343Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-01T22:21:08.359667Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/WallpaperEffects.sh" added="2025-03-01T22:20:55.998347Z" modified="2025-03-02T00:30:24.867847Z" visited="2025-03-01T22:20:55.998347Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-02T00:30:24.867842Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/ChangeBlur.sh" added="2025-03-01T22:20:55.998352Z" modified="2025-03-01T23:26:00.047319Z" visited="2025-03-01T22:20:55.998352Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-01T23:26:00.047315Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/KeyBinds.sh" added="2025-03-01T22:20:55.998357Z" modified="2025-03-04T23:54:31.204662Z" visited="2025-03-01T22:20:55.998357Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-04T23:54:31.204661Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/KillActiveProcess.sh" added="2025-03-01T22:20:55.998365Z" modified="2025-03-01T23:27:02.890862Z" visited="2025-03-01T22:20:55.998365Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-01T23:27:02.890857Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/playerctl_visualizer.sh" added="2025-03-01T22:20:55.998370Z" modified="2025-03-01T22:40:26.578578Z" visited="2025-03-01T22:20:55.998370Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-01T22:40:26.578573Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/LockScreen.sh" added="2025-03-01T22:20:55.998375Z" modified="2025-03-02T00:30:28.506489Z" visited="2025-03-01T22:20:55.998375Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-02T00:30:28.506485Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/PlayerctlVisualizer.sh" added="2025-03-01T22:42:32.404363Z" modified="2025-03-02T00:30:27.267070Z" visited="2025-03-01T22:42:32.404364Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-02T00:30:27.267065Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/rofi/keybinds.rasi" added="2025-03-01T23:09:03.874767Z" modified="2025-03-03T23:13:34.342364Z" visited="2025-03-01T23:09:03.874768Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:13:34.342363Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/colors.css" added="2025-03-02T00:30:55.140279Z" modified="2025-03-02T00:42:48.063444Z" visited="2025-03-02T00:30:55.140280Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-02T00:42:48.063439Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.bash_history" added="2025-03-03T23:08:19.656265Z" modified="2025-03-03T23:08:59.819863Z" visited="2025-03-03T23:08:19.656265Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:08:59.819858Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.bash_logout" added="2025-03-03T23:08:19.656277Z" modified="2025-03-03T23:08:57.314373Z" visited="2025-03-03T23:08:19.656277Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:08:57.314368Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.Xauthority" added="2025-03-03T23:08:19.656283Z" modified="2025-03-03T23:08:29.529937Z" visited="2025-03-03T23:08:19.656283Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-zerosize"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:08:29.529932Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.xinitrc" added="2025-03-03T23:08:19.656294Z" modified="2025-03-03T23:08:28.386709Z" visited="2025-03-03T23:08:19.656294Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:08:28.386705Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/package-lock.json" added="2025-03-03T23:08:19.656299Z" modified="2025-03-03T23:08:25.314961Z" visited="2025-03-03T23:08:19.656299Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:08:25.314956Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/package.json" added="2025-03-03T23:08:19.656304Z" modified="2025-03-03T23:08:27.054291Z" visited="2025-03-03T23:08:19.656304Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/json"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:08:27.054286Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.gitconfig" added="2025-03-03T23:08:19.656308Z" modified="2025-03-08T23:56:06.139689Z" visited="2025-03-03T23:08:19.656309Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-08T23:56:06.139687Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.nvidia-settings-rc" added="2025-03-03T23:08:19.656318Z" modified="2025-03-03T23:08:39.673864Z" visited="2025-03-03T23:08:19.656318Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:08:39.673859Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.histfile" added="2025-03-03T23:08:19.656322Z" modified="2025-03-03T23:08:41.241687Z" visited="2025-03-03T23:08:19.656322Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:08:41.241682Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.vim-bookmarks" added="2025-03-03T23:08:19.656327Z" modified="2025-03-08T22:10:43.147889Z" visited="2025-03-03T23:08:19.656327Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-08T22:10:43.147887Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/rofi/master.rasi" added="2025-03-03T23:09:21.516829Z" modified="2025-03-03T23:09:22.848516Z" visited="2025-03-03T23:09:21.516829Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:09:22.848511Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/ranger/commands.py" added="2025-03-03T23:14:02.588330Z" modified="2025-03-03T23:23:09.939804Z" visited="2025-03-03T23:14:02.588330Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:23:09.939800Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/ranger/rifle.conf" added="2025-03-03T23:14:02.588342Z" modified="2025-03-03T23:23:13.650773Z" visited="2025-03-03T23:14:02.588342Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:23:13.650771Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/ranger/scope.sh" added="2025-03-03T23:14:02.588353Z" modified="2025-03-03T23:23:12.025802Z" visited="2025-03-03T23:14:02.588354Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:23:12.025800Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/fastfetch/Readme.txt" added="2025-03-03T23:23:46.552217Z" modified="2025-03-03T23:23:51.885907Z" visited="2025-03-03T23:23:46.552217Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:23:51.885905Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/kitty/.gitignore" added="2025-03-03T23:24:23.415417Z" modified="2025-03-03T23:24:27.889312Z" visited="2025-03-03T23:24:23.415418Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-03T23:24:27.889307Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/ArchBackup/package-list.txt" added="2025-03-04T00:22:02.548812Z" modified="2025-03-04T00:22:02.548828Z" visited="2025-03-04T00:22:02.548812Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-04T00:22:02.548813Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/ArchBackup/aur-packages.txt" added="2025-03-04T00:22:04.412605Z" modified="2025-03-04T00:22:04.412608Z" visited="2025-03-04T00:22:04.412606Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-04T00:22:04.412606Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/fastfetch/animationIII.sh" added="2025-03-04T00:48:13.452702Z" modified="2025-03-04T20:05:59.125949Z" visited="2025-03-04T00:48:13.452703Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-04T20:05:59.125944Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/fastfetch/png/111.mp4" added="2025-03-04T18:05:49.237268Z" modified="2025-03-04T18:10:58.072817Z" visited="2025-03-04T18:05:49.237270Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-03-04T18:10:58.072815Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/fastfetch/png/222.mp4" added="2025-03-04T18:06:04.391677Z" modified="2025-03-04T18:10:58.072828Z" visited="2025-03-04T18:06:04.391679Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-03-04T18:10:58.072826Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/fastfetch/png/333.mp4" added="2025-03-04T18:06:34.654091Z" modified="2025-03-04T18:10:58.072840Z" visited="2025-03-04T18:06:34.654092Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-03-04T18:10:58.072839Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/fastfetch/png/444.mp4" added="2025-03-04T18:07:28.988359Z" modified="2025-03-04T18:10:58.072834Z" visited="2025-03-04T18:07:28.988360Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="video/mp4"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-03-04T18:10:58.072833Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/gtk-3.0/gtk.css" added="2025-03-04T23:36:47.256508Z" modified="2025-03-04T23:37:32.994830Z" visited="2025-03-04T23:36:47.256508Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/css"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-04T23:37:32.994826Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/waybar/scripts/Clean.sh" added="2025-03-04T23:58:17.078889Z" modified="2025-03-04T23:58:17.078901Z" visited="2025-03-04T23:58:17.078891Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-04T23:58:17.078894Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Readme" added="2025-03-06T23:04:21.834067Z" modified="2025-03-06T23:19:03.481218Z" visited="2025-03-06T23:04:21.834067Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-readme"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-06T23:19:03.481216Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.gitignore" added="2025-03-07T00:21:19.885074Z" modified="2025-03-08T23:56:52.441712Z" visited="2025-03-07T00:21:19.885076Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-08T23:56:52.441711Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/archiso/bootstrap_packages.x86_64" added="2025-03-07T10:33:01.665137Z" modified="2025-03-07T10:33:49.840271Z" visited="2025-03-07T10:33:01.665137Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-07T10:33:49.840269Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/Downloads/IMG_7273.jpeg" added="2025-03-07T17:27:46.799297Z" modified="2025-03-07T17:27:46.799302Z" visited="2025-03-07T17:27:46.799298Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="google-chrome" exec="&apos;google-chrome %u&apos;" modified="2025-03-07T17:27:46.799299Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/archiso/airootfs/etc/hostname" added="2025-03-07T20:46:39.794427Z" modified="2025-03-07T20:46:39.794433Z" visited="2025-03-07T20:46:39.794428Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-07T20:46:39.794430Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.cargo/.package-cache-mutate" added="2025-03-08T21:51:17.329310Z" modified="2025-03-08T21:51:17.329313Z" visited="2025-03-08T21:51:17.329310Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-zerosize"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-08T21:51:17.329311Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.cargo/.package-cache" added="2025-03-08T21:51:18.563852Z" modified="2025-03-08T21:51:18.563865Z" visited="2025-03-08T21:51:18.563852Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-zerosize"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-08T21:51:18.563853Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.cargo/.global-cache" added="2025-03-08T21:51:36.468454Z" modified="2025-03-08T21:51:36.468459Z" visited="2025-03-08T21:51:36.468454Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-08T21:51:36.468456Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.cargo/.g" added="2025-03-08T21:51:39.236679Z" modified="2025-03-08T21:51:39.236684Z" visited="2025-03-08T21:51:39.236680Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-08T21:51:39.236681Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/pavucontrol.ini" added="2025-03-08T23:02:39.805838Z" modified="2025-03-08T23:02:39.805843Z" visited="2025-03-08T23:02:39.805839Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-08T23:02:39.805841Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/.config/.gitignore" added="2025-03-08T23:03:02.769736Z" modified="2025-03-08T23:03:02.769739Z" visited="2025-03-08T23:03:02.769736Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-08T23:03:02.769737Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/tomaking/README" added="2025-03-09T00:17:47.144353Z" modified="2025-03-09T00:17:47.144359Z" visited="2025-03-09T00:17:47.144354Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-readme"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2025-03-09T00:17:47.144356Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

@@ -1,0 +1,904 @@
+//
+//
+//
+//           ____                           ___
+//         ,'  , `.                       ,--.'|_                                                              .--.,   ,--,
+//      ,-+-,.' _ |                       |  | :,'             __  ,-.    ,---,.          ,---.        ,---, ,--.'  \,--.'|
+//   ,-+-. ;   , ||             .--.--.   :  : ' :           ,' ,'/ /|  ,'  .' |         '   ,'\   ,-+-. /  ||  | /\/|  |,     ,----._,.
+//  ,--.'|'   |  || ,--.--.    /  /    '.;__,'  /     ,---.  '  | |' |,---.'   , ,---.  /   /   | ,--.'|'   |:  : :  `--'_    /   /  ' /
+// |   |  ,', |  |,/       \  |  :  /`./|  |   |     /     \ |  |   ,'|   |    |/     \.   ; ,. :|   |  ,"' |:  | |-,,' ,'|  |   :     |
+// |   | /  | |--'.--.  .-. | |  :  ;_  :__,'| :    /    /  |'  :  /  :   :  .'/    / ''   | |: :|   | /  | ||  : :/|'  | |  |   | .\  .
+// |   : |  | ,    \__\/: . .  \  \    `. '  : |__ .    ' / ||  | '   :   |.' .    ' / '   | .; :|   | |  | ||  |  .'|  | :  .   ; ';  |
+// |   : |  |/     ," .--.; |   `----.   \|  | '.'|'   ;   /|;  : |   `---'   '   ; :__|   :    ||   | |  |/ '  : '  '  : |__'   .   . |
+// |   | |`-'     /  /  ,.  |  /  /`--'  /;  :    ;'   |  / ||  , ;           '   | '.'|\   \  / |   | |--'  |  | |  |  | '.'|`---`-'| |
+// |   ;/        ;  :   .'   \'--'.     / |  ,   / |   :    | ---'            |   :    : `----'  |   |/      |  : \  ;  :    ;.'__/\_: |
+// '---'         |  ,     .-./  `--'---'   ---`-'   \   \  /                   \   \  /          '---'       |  |,'  |  ,   / |   :    :
+//                `--`---'                           `----'                     `----'                       `--'     ---`-'   \   \  /
+//                                                                                                                              `--`-'
+//
+    /* ---- Configuration ---- */
+    configuration {
+    	modi:                       "drun,run,filebrowser";
+        show-icons:                 true;
+        display-drun:               "Apps";
+        display-run:                "Run";
+        display-filebrowser:        "Files";
+        display-window:             "Windows";
+    	drun-display-format:        "{name}";
+    	hover-select:               true;
+    	me-select-entry:            "MouseSecondary";
+        me-accept-entry:            "MousePrimary";
+    	window-format:              "{w} · {c} · {t}";
+    	dpi:						1;
+    }
+    /* ---- Load wallust colors ---- */
+    @theme "~/.config/rofi/colors.rasi"
+    /* ---- Global Properties ---- */
+    * {
+        background-alt:              @selected-active-background; // Buttons background
+        selected:                    #9399b2; // Button selected
+        active:                      @selected-normal-background; // Window activated
+        urgent:                      @selected; // When hovering the activated window (maybe more?)
+
+        text-selected:               #181825;
+        text-color:                  #c6e6f3;
+        border-color:                @selected;
+    }
+    /* ---- Window ---- */
+    window {
+        // Default
+        enabled:                    true;
+        fullscreen:                 false;
+        transparency:               "real";
+        cursor:                     "default";
+        spacing:                    0px;
+        border:                     0px;
+        border-radius:              14px;
+        location:                   center;
+        anchor:                     center;
+
+        // Style Values
+        width:                      44%;
+        background-color:           #000000;
+    }
+    /* ----- Main Box ----- */
+    mainbox {
+        padding:			5px;
+        enabled:                     true;
+        orientation:                 vertical;
+        children:                    [ "inputbar", "listbox" ];
+        background-color:            #000000;
+    }
+    /* ---- Inputbar ---- */
+    inputbar {
+        enabled:                     true;
+        padding:                     0px 0px 0px 0px;
+        margin:                      10px;
+        background-color:            transparent;
+        border-radius:               25px;
+        orientation:                 horizontal;
+        children:                    ["entry", "dummy", "mode-switcher" ];
+        
+    }
+    /* ---- Entry input ---- */
+    entry {
+        font: "JetBrains Mono 12";
+        enabled:                     true;
+        expand:                      false;
+        width:                       100%;
+        padding:                     0px;
+        border-radius:               1px;
+        background-color:            #000000;
+        text-color:                  #cdd6f4;
+        cursor:                      text;
+        placeholder:                 " Search "; // << Search symbol
+        placeholder-color:           inherit;
+    }
+    /* ---- Listbox ---- */
+    listbox {
+        spacing:                     10px;
+        padding:                     0px;
+        background-color:            transparent;
+        orientation:                 vertical;
+        children:                    [ "message", "listview" ];
+    }
+    /* ---- Listview ---- */
+    listview {
+        enabled:                     true;
+        columns:                     1;
+        lines:                       8;
+        cycle:                       true;
+        dynamic:                     true;
+        scrollbar:                   true;
+        layout:                      vertical;
+        reverse:                     false;
+        fixed-height:                false;
+        fixed-columns:               true;    
+        spacing:                     8px;
+        background-color:            transparent;
+    //  Adapt rofi theme
+        border:                      0px;
+    }
+    /* ---- Dummy ---- */
+    dummy {
+        expand:                      true;
+        background-color:            transparent;
+    }
+    /* ---- Mode Switcher ---- */
+    mode-switcher{
+        enabled:                     true;
+        spacing:                     10px;
+        background-color:            transparent;
+    }
+    button {
+        width:                       4%;
+        padding:                     0px;
+        border-radius:               7px;
+        background-color:            @text-selected;
+        text-color:                  @text-color;
+        cursor:                      pointer;
+    }
+    button selected {
+        background-color:            @selected;
+        text-color:                  @text-selected;
+    }
+    /* ---- Scrollbar ---- */
+    scrollbar {
+        width:        4px;
+        border:       0;
+        handle-color: @border-color;
+        handle-width: 8px;
+        padding:      0;
+        border-radius:      12px;
+    }
+    /* ---- Elements ---- */
+    element {
+        enabled:                     true;
+        spacing:                     10px;
+        padding:                     5px;
+        border-radius:               5px;
+        background-color:            transparent;
+        cursor:                      pointer;
+    }
+    element normal.normal {
+        background-color:            inherit;
+        text-color:                  inherit;
+    }
+    element normal.urgent {
+        background-color:            @urgent;
+        text-color:                  @foreground;
+    }
+    element normal.active {
+        background-color:            @active;
+        text-color:                  @foreground;
+    }
+
+    element selected.normal {
+        background-color:            @selected;
+        text-color:                  @text-selected;
+    }
+    element selected.urgent {
+        background-color:            @urgent;
+        text-color:                  @text-selected;
+    }
+    element selected.active {
+        background-color:            @urgent;
+        text-color:                  @text-selected;
+    }
+    // Adapt rofi theme
+    element alternate.normal {
+        background-color:            transparent;
+        text-color:                  inherit;
+    }
+    element alternate.urgent {
+        background-color:            transparent;
+        text-color:                  inherit;
+    }
+    element alternate.active {
+        background-color:            transparent;
+        text-color:                  inherit;
+    }
+    element-icon {
+        background-color:            transparent;
+        text-color:                  inherit;
+        size:                        20px;
+        cursor:                      inherit;
+    }
+    element-text {
+        background-color:            transparent;
+        text-color:                  inherit;
+        cursor:                      inherit;
+        vertical-align:              0.5;
+        horizontal-align:            0.0;
+
+    }
+    /* ---- Message ---- */
+    message {
+        background-color:            transparent;
+        border:                      0px;
+    }
+    textbox {
+        padding:                     12px;
+        border-radius:               10px;
+        background-color:            @background-alt;
+        text-color:                  @background;
+        vertical-align:              0.5;
+        horizontal-align:            0.0;
+    }
+    error-message {
+        padding:                     12px;
+        border-radius:               20px;
+        background-color:            @background-alt;
+        text-color:                  @background;
+    }
+// /*
+// //---------------------------------------------------
+// //--------------------- 1080p -----------------------
+// //---------------------------------------------------
+// //
+//     configuration {
+//         font:                       "Fira Code SemiBold 12";
+//         modi:                       "drun,run,filebrowser";
+//         show-icons:                 true;
+//         display-drun:               "Apps";
+//         display-run:                "Run";
+//         display-filebrowser:        "Files";
+//         display-window:             "Windows";
+//         drun-display-format:        "{name}";
+//         hover-select:               true;
+//         me-select-entry:            "MouseSecondary";
+//         me-accept-entry:            "MousePrimary";
+//         window-format:              "{w} · {c} · {t}";
+//         dpi:                        1;
+//     }
+//     @theme "~/.config/rofi/colors.rasi"
+//     * {
+//         background-alt:              @selected-active-background; // Buttons background
+//         selected:                    @selected-urgent-background; // Button selected
+//         active:                      @selected-normal-background; // Window activated
+//         urgent:                      @selected; // When hovering the activated window (maybe more?)
+//         text-selected:               @background;
+//         text-color:                  @foreground;
+//         border-color:                @selected;
+//     }
+//     window {
+//         // Default
+//         enabled:                    true;
+//         fullscreen:                 false;
+//         transparency:               "real";
+//         cursor:                     "default";
+//         spacing:                    0px;
+//         border:                     4px 0px 4px 0px;
+//         border-radius:              30px;
+//         location:                   center;
+//         anchor:                     center;
+//         // Style Values
+//         width:                      50%;
+//         background-color:           @background;
+//     }
+//     mainbox {
+//         padding:                     15px;
+//         enabled:                     true;
+//         orientation:                 vertical;
+//         children:                    [ "inputbar", "listbox" ];
+//         background-color:            transparent;
+//     }
+//     inputbar {
+//         enabled:                     true;
+//         padding:                     10px 10px 100px 10px;
+//         margin:                      10px;
+//         background-color:            transparent;
+//         border-radius:               25px;
+//         orientation:                 horizontal;
+//         children:                    ["entry", "dummy", "mode-switcher" ];
+//         background-image:            url("/home/tomaking/.config/hypr/ottoman.jpg", width);
+//     }
+//     entry {
+//         enabled:                     true;
+//         expand:                      false;
+//         width:                       20%;
+//         padding:                     10px;
+//         border-radius:               12px;
+//         background-color:            @selected;
+//         text-color:                  @text-selected;
+//         cursor:                      text;
+//         placeholder:                 "🖥️ Search "; // << Search symbol
+//         placeholder-color:           inherit;
+//     }
+//     listbox {
+//         spacing:                     10px;
+//         padding:                     10px;
+//         background-color:            transparent;
+//         orientation:                 vertical;
+//         children:                    [ "message", "listview" ];
+//     }
+//     listview {
+//         enabled:                     true;
+//         columns:                     2;
+//         lines:                       6;
+//         cycle:                       true;
+//         dynamic:                     true;
+//         scrollbar:                   true;
+//         layout:                      vertical;
+//         reverse:                     false;
+//         fixed-height:                false;
+//         fixed-columns:               true;    
+//         spacing:                     10px;
+//         background-color:            transparent;
+//     //  Adapt rofi theme
+//         border:                      0px;
+//     }
+//     dummy {
+//         expand:                      true;
+//         background-color:            transparent;
+//     }
+//     mode-switcher{
+//         enabled:                     true;
+//         spacing:                     10px;
+//         background-color:            transparent;
+//     }
+//     button {
+//         width:                       5%;
+//         padding:                     12px;
+//         border-radius:               12px;
+//         background-color:            @text-selected;
+//         text-color:                  @text-color;
+//         cursor:                      pointer;
+//     }
+//     button selected {
+//         background-color:            @selected;
+//         text-color:                  @text-selected;
+//     }
+//     scrollbar {
+//         width:        4px ;
+//         border:       0;
+//         handle-color: @border-color;
+//         handle-width: 8px ;
+//         padding:      0;
+//     }
+//     element {
+//         enabled:                     true;
+//         spacing:                     10px;
+//         padding:                     10px;
+//         border-radius:               12px;
+//         background-color:            transparent;
+//         cursor:                      pointer;
+//     }
+//     element normal.normal {
+//         background-color:            inherit;
+//         text-color:                  inherit;
+//     }
+//     element normal.urgent {
+//         background-color:            @urgent;
+//         text-color:                  @foreground;
+//     }
+//     element normal.active {
+//         background-color:            @active;
+//         text-color:                  @foreground;
+//     }
+//     element selected.normal {
+//         border:                      1px 6px 1px 6px;
+//         border-radius:               16px;
+//         border-color:                @selected;
+//         background-color:            transparent;
+//         text-color:                  @selected;
+//     }
+//     element selected.urgent {
+//         background-color:            @urgent;
+//         text-color:                  @text-selected;
+//     }
+//     element selected.active {
+//         background-color:            @urgent;
+//         text-color:                  @text-selected;
+//     }
+//     // Adapt rofi theme
+//     element alternate.normal {
+//         background-color:            transparent;
+//         text-color:                  inherit;
+//     }
+//     element alternate.urgent {
+//         background-color:            transparent;
+//         text-color:                  inherit;
+//     }
+//     element alternate.active {
+//         background-color:            transparent;
+//         text-color:                  inherit;
+//     }
+//     element-icon {
+//         background-color:            transparent;
+//         text-color:                  inherit;
+//         cursor:                      inherit;
+//     }
+//     element-text {
+//         font:                       "Fira Code SemiBold 12";
+//         background-color:            transparent;
+//         text-color:                  inherit;
+//         cursor:                      inherit;
+//         vertical-align:              0.5;
+//         horizontal-align:            0.0;
+//     }
+//     message {
+//         background-color:            transparent;
+//         border:                      0px;
+//     }
+//     textbox {
+//         padding:                     12px;
+//         border-radius:               10px;
+//         background-color:            @background-alt;
+//         text-color:                  @background;
+//         vertical-align:              0.5;
+//         horizontal-align:            0.0;
+//     }
+//     error-message {
+//         padding:                     12px;
+//         border-radius:               20px;
+//         background-color:            @background-alt;
+//         text-color:                  @background;
+//     }
+// //
+// //---------------------------------------------------
+// //--------------------- 1080p -----------------------
+// //---------------------------------------------------
+// //---------------------------------------------------
+// //--------------------- 1440p -----------------------
+// //---------------------------------------------------
+// //
+//     configuration {
+//         font:                       "Fira Code SemiBold 13";
+//         modi:                       "drun,run,filebrowser";
+//         show-icons:                 true;
+//         display-drun:               "Apps";
+//         display-run:                "Run";
+//         display-filebrowser:        "Files";
+//         display-window:             "Windows";
+//         drun-display-format:        "{name}";
+//         hover-select:               true;
+//         me-select-entry:            "MouseSecondary";
+//         me-accept-entry:            "MousePrimary";
+//         window-format:              "{w} · {c} · {t}";
+//         dpi:                        1;
+//     }
+//     @theme "~/.config/rofi/colors.rasi"
+//     * {
+//         background-alt:              @selected-active-background; // Buttons background
+//         selected:                    @selected-urgent-background; // Button selected
+//         active:                      @selected-normal-background; // Window activated
+//         urgent:                      @selected; // When hovering the activated window (maybe more?)
+//         text-selected:               @background;
+//         text-color:                  @foreground;
+//         border-color:                @selected;
+//     }
+//     window {
+//         // Default
+//         enabled:                    true;
+//         fullscreen:                 false;
+//         transparency:               "real";
+//         cursor:                     "default";
+//         spacing:                    0px;
+//         border:                     4px 0px 4px 0px;
+//         border-radius:              30px;
+//         location:                   center;
+//         anchor:                     center;
+//         // Style Values
+//         width:                      50%;
+//         background-color:           @background;
+//     }
+//     mainbox {
+//         padding:                     15px;
+//         enabled:                     true;
+//         orientation:                 vertical;
+//         children:                    [ "inputbar", "listbox" ];
+//         background-color:            transparent;
+//     }
+//     inputbar {
+//         enabled:                     true;
+//         padding:                     10px 10px 100px 10px;
+//         margin:                      10px;
+//         background-color:            transparent;
+//         border-radius:               25px;
+//         orientation:                 horizontal;
+//         children:                    ["entry", "dummy", "mode-switcher" ];
+//         background-image:            url("~/.config/rofi/.current_wallpaper", width);
+//     }
+//     entry {
+//         enabled:                     true;
+//         expand:                      false;
+//         width:                       20%;
+//         padding:                     10px;
+//         border-radius:               12px;
+//         background-color:            @selected;
+//         text-color:                  @text-selected;
+//         cursor:                      text;
+//         placeholder:                 "🖥️ Search "; // << Search symbol
+//         placeholder-color:           inherit;
+//     }
+//     listbox {
+//         spacing:                     10px;
+//         padding:                     10px;
+//         background-color:            transparent;
+//         orientation:                 vertical;
+//         children:                    [ "message", "listview" ];
+//     }
+//     listview {
+//         enabled:                     true;
+//         columns:                     2;
+//         lines:                       6;
+//         cycle:                       true;
+//         dynamic:                     true;
+//         scrollbar:                   true;
+//         layout:                      vertical;
+//         reverse:                     false;
+//         fixed-height:                false;
+//         fixed-columns:               true;    
+//         spacing:                     10px;
+//         background-color:            transparent;
+//         border:                      0px;
+//     }
+//     dummy {
+//         expand:                      true;
+//         background-color:            transparent;
+//     }
+//     mode-switcher{
+//         enabled:                     true;
+//         spacing:                     10px;
+//         background-color:            transparent;
+//     }
+//     button {
+//         width:                       5%;
+//         padding:                     12px;
+//         border-radius:               12px;
+//         background-color:            @text-selected;
+//         text-color:                  @text-color;
+//         cursor:                      pointer;
+//     }
+//     button selected {
+//         background-color:            @selected;
+//         text-color:                  @text-selected;
+//     }
+//     scrollbar {
+//         width:        4px ;
+//         border:       0;
+//         handle-color: @border-color;
+//         handle-width: 8px ;
+//         padding:      0;
+//     }
+//     element {
+//         enabled:                     true;
+//         spacing:                     10px;
+//         padding:                     10px;
+//         border-radius:               12px;
+//         background-color:            transparent;
+//         cursor:                      pointer;
+//     }
+//     element normal.normal {
+//         background-color:            inherit;
+//         text-color:                  inherit;
+//     }
+//     element normal.urgent {
+//         background-color:            @urgent;
+//         text-color:                  @foreground;
+//     }
+//     element normal.active {
+//         background-color:            @active;
+//         text-color:                  @foreground;
+//     }
+//     element selected.normal {
+//         border:                      1px 6px 1px 6px;
+//         border-radius:               16px;
+//         border-color:                @selected;
+//         background-color:            transparent;
+//         text-color:                  @selected;
+//     }
+//     element selected.urgent {
+//         background-color:            @urgent;
+//         text-color:                  @text-selected;
+//     }
+//     element selected.active {
+//         background-color:            @urgent;
+//         text-color:                  @text-selected;
+//     }
+//     element alternate.normal {
+//         background-color:            transparent;
+//         text-color:                  inherit;
+//     }
+//     element alternate.urgent {
+//         background-color:            transparent;
+//         text-color:                  inherit;
+//     }
+//     element alternate.active {
+//         background-color:            transparent;
+//         text-color:                  inherit;
+//     }
+//     element-icon {
+//         background-color:            transparent;
+//         text-color:                  inherit;
+//         cursor:                      inherit;
+//     }
+//     element-text {
+//         font:                       "Fira Code SemiBold 16";
+//         background-color:            transparent;
+//         text-color:                  inherit;
+//         cursor:                      inherit;
+//         vertical-align:              0.5;
+//         horizontal-align:            0.0;
+//     }
+//     message {
+//         background-color:            transparent;
+//         border:                      0px;
+//     }
+//     textbox {
+//         padding:                     12px;
+//         border-radius:               10px;
+//         background-color:            @background-alt;
+//         text-color:                  @background;
+//         vertical-align:              0.5;
+//         horizontal-align:            0.0;
+//     }
+//     error-message {
+//         padding:                     12px;
+//         border-radius:               20px;
+//         background-color:            @background-alt;
+//         text-color:                  @background;
+//     }
+// //
+// //---------------------------------------------------
+// //--------------------- 1440p -----------------------
+// //---------------------------------------------------
+// //---------------------------------------------------
+// //--------------------- Others ----------------------
+// //---------------------------------------------------
+// //
+// // Main Config (compact)
+// //
+//     @import "~/.config/rofi/config.rasi" 
+//     configuration {
+//       modi: "drun";
+//     }
+//     window {
+//       width: 50%;
+//       border-radius: 15px;
+//     }
+//     imagebox {
+//       orientation: vertical;
+//       children: [ "entry", "listview"];
+//     }
+//     entry {
+//       width: 23%;
+//       placeholder: "👀  View / Edit Hyprland Configs";
+//     }
+//     listview {
+//       columns: 2;
+//       lines: 5;
+//       spacing: 4px;
+//       scrollbar: false;
+//       border-radius: 12px;
+//     }
+//     element {
+//       border-radius: 10px;
+//     }
+// //
+// // Main Config Calculator 
+// //
+//     @import "~/.config/rofi/config.rasi" 
+//     entry {
+//       width: 27%;
+//       placeholder: "🧮 Calculate";
+//     }
+//     window {
+//         width:  30%;
+//     }
+//     textbox {
+//         background-color:            @selected;
+//         text-color:                  @background;
+//     }
+// //
+// // Rofi Config for Google Search 
+// //
+//     @import "~/.config/rofi/config.rasi" 
+//     window {
+//         width: 40%;
+//         y-offset: 6px;
+//         location: north;
+//     }
+//     inputbar {
+//         enabled: true;
+//     }
+//     mainbox {
+//         padding: 0px;
+//         children: [ "entry"];
+//     }
+//     entry {
+//         placeholder: "🔎 Google Search";
+//     }
+// //
+// // Clipboard Config - Clipboard 
+// //
+//   @import "~/.config/rofi/config.rasi" 
+//   entry {
+//     width: 37%;
+//     placeholder: "📋 Search Clipboard **note** 👀 CTRL Del - Cliphist del or Alt Del - cliphist wipe";
+//   }
+//   listview {
+//     columns: 1;
+//     lines: 8;
+//   }
+// //
+// // Main Config - For Keybinds generation 
+// //
+//   @import "~/.config/rofi/master-config.rasi"  
+//   entry {
+//     width: 80%;
+//     placeholder: " 🧮 Search Keybinds      ☣️ NOTE ☣️: Clicking with Mouse or Pressing ENTER will have NO function";
+//   }
+//   listview {
+//     columns: 2;
+//     lines: 12;
+//   }
+//   window {
+//       width: 90%;
+//   }
+// //
+// // Main Config - emoji 
+// //
+//   @import "~/.config/rofi/config.rasi" 
+//   entry {
+//     width: 37%;
+//     placeholder: "💫 Search Emoji's  **note** 👀 Click or Return to choose | Ctrl V to Paste";
+//   }
+//   listview {
+//     columns: 1;
+//     lines: 8;
+//   }
+// //
+// // Rofi Beats Config (compact) 
+// //
+//   @import "~/.config/rofi/config-compact.rasi" 
+//   entry {
+//     placeholder: "📻 Choose Media or Stations to play";
+//   }
+//   listview {
+//     lines: 6;
+//   }
+// //
+// // Rofi Beats Config (compact) 
+// //
+//   @import "~/.config/rofi/config-compact.rasi" 
+//   entry {
+//     width: 20%;
+//     placeholder: "📻 Choose Music Source";
+//   }
+//   window {
+//     width: 24%;
+//   }
+//   listview {
+//     fixed-columns: false;
+//     colums: 1;
+//     lines: 3;
+//   }
+// //
+// // Main Config (waybar) 
+// //
+//   @import "~/.config/rofi/config.rasi" 
+//   configuration {
+//     modi: "drun";
+//   }
+//   mainbox {
+//     children:
+//       [ "inputbar", "listview"];
+//   }
+//   entry {
+//     expand: true;
+//     placeholder: "🖼️  Choose Waybar Style";
+//   }
+//   listview {
+//     columns: 2;
+//     lines: 6;
+//   }
+// //
+// // Layout Config (Waybar) 
+// //
+//     @import "~/.config/rofi/config-waybar-style.rasi" 
+//     entry {
+//       placeholder: "🖼️ Choose Waybar Layout";
+//     }
+// //
+// // Main Config (wallpaper) 
+// //
+//   @import "~/.config/rofi/config.rasi" 
+//   configuration {
+//     modi: "drun";
+//   }
+//   window {
+//     width: 60%;
+//   }
+//   imagebox {
+//     orientation: vertical;
+//     children:
+//       [ "entry", "listbox"];
+//   }
+//   entry {
+//     expand: false;
+//     placeholder: "🎞️ Choose Wallpaper";
+//   }
+//   listview {
+//     columns: 4;
+//     lines: 3;
+//   }
+//   element {
+//     orientation: vertical;
+//     padding: 0px;
+//     spacing: 0px;
+//     border-radius: 15px;
+//   }
+//   element-icon {
+//     size: 20%;
+//   }
+//   element-text {
+//     font: "Fira Code SemiBold 12";
+//     vertical-align: 0.5;
+//     horizontal-align: 0.5;
+//   }
+// //
+// // Wallpaper Effects 
+// //
+//   @import "~/.config/rofi/config.rasi" 
+//   entry {
+//     width: 20%;
+//     placeholder: "🏙️ Choose desired wallpaper effect";
+//   }
+//   window {
+//     width: 24%;
+//   }
+//   listview {
+//     fixed-columns: false;
+//     colums: 2;
+//     lines: 7;
+//   }
+// //
+// // Main Config (zsh) 
+// //
+//   @import "~/.config/rofi/config.rasi" 
+//   configuration {
+//     modi: "drun";
+//   }
+//   window {
+//     width: 40%;
+//     border-radius: 15px;
+//   }
+//   imagebox {
+//     orientation: vertical;
+//     children:
+//       [ "inputbar", "listbox"];
+//   }
+//   listbox {
+//     border-radius: 12px;
+//   }
+//   inputbar {
+//     padding: 14px;
+//     border-radius: 10px;
+//   }
+//   entry {
+//     placeholder: "󰸉  Choose ZSH theme";
+//   }
+//   listview {
+//     columns: 3;
+//     lines: 3;
+//     spacing: 4px;
+//     border-radius: 10px;
+//   }
+//   element {
+//     border-radius: 10px;
+//   }
+//   message {
+//     border-radius: 10px;
+//   }
+//   textbox {
+//     padding: 15px;
+//   }
+// //
+// //---------------------------------------------------
+// //--------------------- Others ----------------------
+// //---------------------------------------------------
+// //
+// //
+// */

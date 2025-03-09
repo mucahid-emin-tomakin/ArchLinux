@@ -1,0 +1,314 @@
+//
+//
+//
+//   _____ _____ _____ _____ _____ _____ _____ _____ _____
+//  |   __|  _  |   __|_   _|   __|   __|_   _|     |  |  |
+//  |   __|     |__   | | | |   __|   __| | | |   --|     |
+//  |__|  |__|__|_____| |_| |__|  |_____| |_| |_____|__|__|
+//
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "/home/tomaking/.config/fastfetch/ottomanII.txt",
+        "padding": {
+            "top": 0,
+            "left": 0
+        },
+        "color": {
+            "1": "red",
+            "2": "green",
+            "3": "blue"
+        }
+    },
+    "display": {
+        "separator": " "
+    },
+    "modules": [
+        "break",
+        "break",
+        {
+            "type": "title",
+            "keyWidth": 10
+        },
+        "separator",
+        {
+            "type": "bios",
+            "key": " ╔═  ═╗",
+            "keyColor": "32"
+        },
+        {
+            "type": "kernel",
+            "key": " ╠═ 󰌽 ═╣",
+            "keyColor": "32"
+        },
+        {
+            "type": "lm",
+            "key": " ╠═ 󰞷 ═╣",
+            "keyColor": "32"
+        },
+        {
+            "type": "os",
+            "key": " ╠═  ═╣",
+            "keyColor": "32"
+        },
+        {
+            "type": "de",
+            "key": " ╠═ 󰉼 ═╣",
+            "keyColor": "32"
+        },
+        {
+            "type": "wm",
+            "key": " ╠═ 󰖽 ═╣",
+            "keyColor": "32"
+        },
+        {
+            "type": "shell",
+            "key": " ╠═  ═╣",
+            "keyColor": "32"
+        },
+        {
+            "type": "terminal",
+            "key": " ╠═  ═╣",
+            //"format": "{pretty-name} {version} {#37}█{#97}█ {#36}█{#96}█ {#35}█{#95}█ {#34}█{#94}█ {#33}█{#93}█ {#32}█{#92}█ {#31}█{#91}█ {#30}█{#90}█",
+            "format": "{pretty-name} {version} {#37}●{#97}● {#36}●{#96}● {#35}●{#95}● {#34}●{#94}● {#33}●{#93}● {#32}●{#92}● {#31}●{#91}● {#30}●{#90}●",
+            "keyColor": "32"
+        },
+        {
+            "type": "version",
+            "key": " ╠═ 🖥 ═╣",
+            "keyColor": "32"
+        },
+        {
+            "type": "packages",
+            "key": " ╠═ 󰏗 ═╣",
+            "keyColor": "32"
+        },
+        {
+            "type": "processes",
+            "key": " ╠═  ═╣",
+            "keyColor": "32"
+        },
+        {
+            "type": "vulkan",
+            "key": " ╠═ 󰾅 ═╣",
+            "keyColor": "32"
+        },
+        {
+            "type": "opengl",
+            "key": " ╠═ 󰾆 ═╣",
+            "keyColor": "32"
+        },
+        {
+            "type": "opencl",
+            "key": " ╠═ 󰾇 ═╣",
+            "keyColor": "32"
+        },
+        {
+            "type": "cursor",
+            "key": " ╠═ 󰊠 ═╣",
+            "keyColor": "32"
+        },
+        {
+            "type": "uptime",
+            "key": " ╚═ 󰌌 ═╝",
+            "keyColor": "32"
+        },
+        "break",
+        {
+            "type": "publicip",
+            "key": " ╔═ 󰩠 ═╗",
+            "keyColor": "34",
+            "compact": true
+        },
+        {
+            "type": "localip",
+            "key": " ╠═ 󰩟 ═╣",
+            "keyColor": "34",
+            "showIpv4": true,
+            "showIpv6": false,
+            "showSpeed": false,
+            "showMtu": false,
+            "showLoop": false,
+            "showFlags": false,
+            "showAllIps": false,
+            "showMac": false,
+            "compact": true
+        },
+        {
+            "type": "localip",
+            "key": " ╠═ 󰩟 ═╣",
+            "keyColor": "34",
+            "showIpv4": false,
+            "showIpv6": true,
+            "showSpeed": false,
+            "showMtu": false,
+            "showLoop": false,
+            "showFlags": false,
+            "showAllIps": false,
+            "showMac": false,
+            "compact": true
+        },
+        {
+            "type": "localip",
+            "key": " ╠═ 󰩟 ═╣",
+            "keyColor": "34",
+            "showIpv4": false,
+            "showIpv6": false,
+            "showSpeed": false,
+            "showMtu": false,
+            "showLoop": false,
+            "showFlags": false,
+            "showAllIps": false,
+            "showMac": true,
+            "compact": true
+        },
+        {
+            "type": "dns",
+            "key": " ╠═ 󰒋 ═╣",
+            "keyColor": "34",
+            "compact": true
+        },
+        {
+            "type": "wifi",
+            "key": " ╠═  ═╣",
+            "keyColor": "34"
+        },
+        {
+            "type": "bluetooth",
+            "key": " ╠═  ═╣",
+            "keyColor": "34"
+        },
+        {
+            "type": "bluetoothradio",
+            "key": " ╠═ 󰂯 ═╣",
+            "keyColor": "34"
+        },
+        {
+            "type": "locale",
+            "key": " ╚═ 󰏆 ═╝",
+            "keyColor": "34"
+        },
+        "break",
+        {
+            "type": "chassis",
+            "key": " ╔═ 󰘳 ═╗",
+            "keyColor": "35"
+        },
+        {
+            "type": "board",
+            "format": "{name}",
+            "key": " ╠═ 󰄜 ═╣",
+            "showPeCoreCount": true,
+            "temp": true,
+            "keyColor": "35"
+        },
+        {
+            "type": "cpu",
+            //"format": "{name} | {1} ({3}) @ {7} GHz | {usage}% | Load: {loadavg}",
+            "format": "{name} @ {7} GHz",
+            "key": " ╠═  ═╣",
+            "showPeCoreCount": true,
+            "temp": true,
+            "keyColor": "35"
+        },
+        {
+            "type": "gpu",
+            //"format": "{name} @ {7} GHz",
+            "key": " ╠═ 󰢮 ═╣",
+            "driverSpecific": true,
+            "temp": true,
+            "keyColor": "35"
+        },
+        {
+            "type": "display",
+            "key": " ╠═ 󰍹 ═╣",
+            "format": "{width}x{height} @ {refresh-rate} Hz - {physical-width}x{physical-height} mm ({inch} inches, {ppi} ppi)",
+            "keyColor": "35"
+        },
+        {
+            "type": "physicaldisk",
+            "key": " ╠═ 󰋊 ═╣",
+            "temp": true,
+            "keyColor": "35"
+        },
+        {
+            "type": "disk",
+            "key": " ╠═  ═╣",
+            "format": "{size-used} / {size-total} [{size-percentage}]",
+            "folders": "/",
+            "percent": {
+                "type": [
+                    "num"
+                ]
+            },
+            "keyColor": "35"
+        },
+        {
+            "type": "memory",
+            "key": " ╠═ 󰍛 ═╣",
+            "format": "{used} / {total} [{percentage}]",
+            "percent": {
+                "type": [
+                    "bar",
+                    "hide-others"
+                ]
+            },
+            "keyColor": "35"
+        },
+        {
+            "type": "swap",
+            "key": " ╠═ 󰓡 ═╣",
+            "keyColor": "35"
+        },
+        {
+            "type": "btrfs",
+            "key": " ╠═ 󰣩 ═╣",
+            "keyColor": "35"
+        },
+        {
+            "type": "zpool",
+            "key": " ╠═ 󰡄 ═╣",
+            "keyColor": "35"
+        },
+        {
+            "type": "poweradapter",
+            "key": " ╠═ 󰂄 ═╣",
+            "keyColor": "35"
+        },
+        {
+            "type": "battery",
+            "key": " ╠═ 󱐋 ═╣",
+            "temp": true,
+            "keyColor": "35"
+        },
+        {
+            "type": "keyboard",
+            "key": " ╠═ ⌨ ═╣",
+            "keyColor": "35"
+        },
+        {
+            "type": "camera",
+            "key": "╚═   ═╣",
+            "keyColor": "35"
+        },
+        {
+            "type": "gamepad",
+            "key": " ╠═ 󰓇 ═╣",
+            "keyColor": "34"
+        },
+        {
+            "type": "sound",
+            "key": " ╚═ 󰋋 ═╝",
+            "keyColor": "35"
+        },
+        "break",
+        {
+            "type": "colors",
+            "paddingLeft": 11
+            //"symbol": "circle"
+        }
+    ]
+}
+//
+//
+//
