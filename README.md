@@ -472,16 +472,16 @@ yay -Sc                           # AUR Cache
 ## ⚠️ WICHTIGE HINWEISE
 
 ### 🔒 Sicherheit
-  Diese Konfiguration ist hochgradig persönlich angepasst
-  Überprüfen Sie Skripte vor der Ausführung
-  Backup erstellen vor großen Änderungen
-  Nicht auf Produktivsystemen ohne Testing verwenden
+- Diese Konfiguration ist hochgradig persönlich angepasst
+- Überprüfen Sie Skripte vor der Ausführung
+- Backup erstellen vor großen Änderungen
+- Nicht auf Produktivsystemen ohne Testing verwenden
 
 ### 💡 Empfehlungen
-  Testing - In VM oder auf Testsystem zuerst ausprobieren
-  Backup - Eigene Konfigurationen sichern
-  Anpassen - Auf eigene Hardware/Präferenzen anpassen
-  Lernen - Verstehen, was jede Konfiguration macht
+- Testing - In VM oder auf Testsystem zuerst ausprobieren
+- Backup - Eigene Konfigurationen sichern
+- Anpassen - Auf eigene Hardware/Präferenzen anpassen
+- Lernen - Verstehen, was jede Konfiguration macht
 
 ---
 
