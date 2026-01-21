@@ -21,8 +21,10 @@
 - [🛠️ Custom Scripts](#️-custom-scripts)
 - [🎨 Themes](#-themes)
 - [📦 Paketmanagement](#-paketmanagement)
+- [📦 Wichtige Hinweise](#-wichtige-hinweise)
 - [📝 Lizenz](#-lizenz)
 - [👤 Autor](#-autor)
+- [📊 Repository Statistik](#-repository-statistik)
 
 ---
 
@@ -104,6 +106,8 @@
 │ └──────────────────────────────────────────────────────────────┘    │
 └─────────────────────────────────────────────────────────────────────┘
 ```
+
+---
 
 ## 📁 STRUKTUR
 
@@ -192,6 +196,8 @@ ArchLinux/
 └── 🎵 wireplumber/             | Audio Session Manager
 ```
 
+---
+
 ## 🚀 INSTALLATION
 
 ### 📥 1. Repository klonen
@@ -246,6 +252,8 @@ pacman -Qqen > packages.x86_64  #💾Aktuelle Paketliste exportieren
 pacman -Qqem > aur-packages.txt
 grep -i "neovim" packages.x86_64  #🔍Nach bestimmten Paketen suchen
 ```
+
+---
 
 ## ⚙️ KONFIGURATION
 
@@ -394,6 +402,8 @@ grep -i "neovim" packages.x86_64  #🔍Nach bestimmten Paketen suchen
   mpv ~/.config/fastfetch/ottoman/ottoman_music.mp3 &
 ```
 
+---
+
 ## 🎨 THEMES
 
 ### 🎌 Anime Edit Theme
@@ -422,6 +432,8 @@ THEME: Rainbow Borders
 ├── ⚡ Performance: Leichtgewichtig
 └── 🎯 Customization: Einfach anpassbar
 ```
+
+---
 
 ## 📦 PAKETMANAGEMENT
 
@@ -455,6 +467,8 @@ sudo pacman -Sc                   # Package Cache
 yay -Sc                           # AUR Cache
 ```
 
+---
+
 ## ⚠️ WICHTIGE HINWEISE
 
 ### 🔒 Sicherheit
@@ -469,11 +483,15 @@ yay -Sc                           # AUR Cache
   Anpassen - Auf eigene Hardware/Präferenzen anpassen
   Lernen - Verstehen, was jede Konfiguration macht
 
-### 📝 LIZENZ
+---
+
+## 📝 LIZENZ
 
   Dieses Projekt ist unter der **MIT License** lizenziert - frei für persönliche und kommerzielle Nutzung.
 
-### 👤 AUTOR
+---
+
+## 👤 AUTOR
 
 **Mücahid Emin Tomakin (TomaKing)**
 
@@ -489,6 +507,8 @@ yay -Sc                           # AUR Cache
 - 🎨 **Inspiration:** Custom Themes und Designs
 - 🔧 **Werkzeuge:** Optimierte Development Environment
 
+---
+
 ## 📊 REPOSITORY STATISTIK
 
 | Metrik | Wert | Trend |
@@ -497,5 +517,7 @@ yay -Sc                           # AUR Cache
 | **Forks** | ![GitHub Forks](https://img.shields.io/github/forks/mucahid-emin-tomakin/ArchLinux) | 🔄 |
 | **Issues** | ![GitHub Issues](https://img.shields.io/github/issues/mucahid-emin-tomakin/ArchLinux) | ✅ |
 | **Letztes Update** | ![GitHub Last Commit](https://img.shields.io/github/last-commit/mucahid-emin-tomakin/ArchLinux) | 🕐 |
+
+---
 
 ### 🔧 Made with ❤️ on Arch Linux
