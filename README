@@ -1,76 +1,101 @@
-🐧 Arch Linux Configuration - TomaKing
+🐧 **Arch Linux Configuration - TomaKing**
 
-https://img.shields.io/badge/Arch_Linux-1793D1?logo=arch-linux&logoColor=white
-https://img.shields.io/badge/Hyprland-FF4088?logo=hyprland&logoColor=white
-https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=white
-https://img.shields.io/badge/Kitty-000000?logo=kitty&logoColor=white
-https://img.shields.io/badge/Waybar-4DC5F4?logo=waybar&logoColor=white
-https://img.shields.io/badge/Bash-4EAA25?logo=gnu-bash&logoColor=white
-https://img.shields.io/badge/Status-Aktiv-brightgreen
-https://img.shields.io/github/last-commit/mucahid-emin-tomakin/ArchLinux
-https://img.shields.io/badge/%F0%9F%93%81-Dotfiles-blueviolet
-https://img.shields.io/badge/License-MIT-blue
+![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?logo=arch-linux&logoColor=white)
+![Hyprland](https://img.shields.io/badge/Hyprland-FF4088?logo=hyprland&logoColor=white)
+![Neovim](https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=white)
+![Kitty](https://img.shields.io/badge/Kitty-000000?logo=kitty&logoColor=white)
+![Waybar](https://img.shields.io/badge/Waybar-4DC5F4?logo=waybar&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnu-bash&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Aktiv-brightgreen)
+![Letztes Update](https://img.shields.io/github/last-commit/mucahid-emin-tomakin/ArchLinux)
+![Dotfiles](https://img.shields.io/badge/📁-Dotfiles-blueviolet)
+![License](https://img.shields.io/badge/License-MIT-blue)
 
-📖 INHALTSVERZEICHNIS
+📖 **INHALTSVERZEICHNIS**
 
-✨ Features
-🖼️ Screenshots
-📁 Struktur
-🚀 Installation
-⚙️ Konfiguration
-🛠️ Custom Scripts
-🎨 Themes
-📦 Paketmanagement
-🤝 Contributing
-📝 Lizenz
+- [✨ Features](#-features)
+- [🖼️ Screenshots](#️-screenshots)
+- [📁 Struktur](#-struktur)
+- [🚀 Installation](#-installation)
+- [⚙️ Konfiguration](#️-konfiguration)
+- [🛠️ Custom Scripts](#️-custom-scripts)
+- [🎨 Themes](#-themes)
+- [📦 Paketmanagement](#-paketmanagement)
+- [🤝 Contributing](#-contributing)
+- [📝 Lizenz](#-lizenz)
 
-✨ FEATURES
+✨ **FEATURES**
 
-🎨 Visuell & Theming
-Feature   Beschreibung                                    Status
-Anime     Fastfetch	Custom ASCII Art mit Animationen	    ✅
-Ottoman   Empire Theme	Historisches osmanisches Design	  ✅
-Rainbow   Borders	Dynamische Fensterrahmenfarben	        ✅
-Hyprland  Animations	Flüssige Window-Animationen	        ✅
-Custom    Wallpapers	Dynamische Hintergrundbilder	      ✅
+🎨 **Visuell & Theming**
+| Feature | Beschreibung | Status |
+|---------|--------------|--------|
+| **Anime Fastfetch** | Custom ASCII Art mit Animationen | ✅ |
+| **Ottoman Empire Theme** | Historisches osmanisches Design | ✅ |
+| **Rainbow Borders** | Dynamische Fensterrahmenfarben | ✅ |
+| **Hyprland Animations** | Flüssige Window-Animationen | ✅ |
+| **Custom Wallpapers** | Dynamische Hintergrundbilder | ✅ |
 
-⚡ Performance
-Feature	      Tool	          Vorteil
-Wayland	      Hyprland	      Bessere Performance & Security
-GPU Terminal	Kitty	          Hardware-beschleunigt
-Audio System  PipeWire	      Low-Latency Audio
-TUI Tools	    Ranger, Neovim	Ressourcenschonend
+⚡ **Performance**
+| Feature | Tool | Vorteil |
+|---------|------|---------|
+| **Wayland** | Hyprland | Bessere Performance & Security |
+| **GPU Terminal** | Kitty | Hardware-beschleunigt |
+| **Audio System** | PipeWire | Low-Latency Audio |
+| **TUI Tools** | Ranger, Neovim | Ressourcenschonend |
 
-🛠️ Produktivität
-Tool	  Zweck	            Icon
-Neovim	Code Editor	      
-Ranger	File Manager	    
-Rofi	  App Launcher	    
-Waybar	Status Bar	      
-Cava	  Audio Visualizer	
+🛠️ **Produktivität**
+| Tool | Zweck | Icon |
+|------|-------|------|
+| **Neovim** | Code Editor | `` |
+| **Ranger** | File Manager | `` |
+| **Rofi** | App Launcher | `` |
+| **Waybar** | Status Bar | `` |
+| **Cava** | Audio Visualizer | `` |
 
-🖼️ SCREENSHOTS
+🖼️ **SCREENSHOTS**
 
-Desktop Layout
+                        .=:-#=
+                       .-#%%#-.
+                       -=-++:::
+                          :-
+                    .             ..
+                  :-:              .-.
+                 +=                  +*
+                **                    @#
+               -@-.::::..      ..:-::.*@:
+              :#%+#####%%%#++#%@@@#*+=**-.
+            -++=*+.   .-#@@@@@#+:.   -#=:::.
+          .=:   =*==   :%@@%*=--:  .+@*-   ...
+          :     .%@@@=-@@*=::=-+-:+%@*-      ..
+                 .*#*+*#+::==##*-+%*-:
+    :               ::-:-=+#@%*+=::               .
+   +@..:.             =+=::::-=+=-            .. -%. .
+:+#@@@#=.             .-==:  +%%==            .-+%%*+=.
+  %@##=                .:-:-*@%*:               ##++:
+ -+.  :     .            :=#%*+:          ..   .-   :.
+              .::::::-=+#%%*==++==-:::---:.
+                .:-==*++=:.  .:-=+*+++=:.
+
+**Desktop Layout**
 ┌─────────────────────────────────────────────────────────────────────┐
-│                [Waybar]                🕐 12:34  📅 15.03  │
+│                [Waybar]                🕐 12:34  📅 15.03   │
 ├─────────────────────────────────────────────────────────────────────┤
-│ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐                    │
-│ │   Neovim    │ │    Kitty    │ │    Files    │                    │
-│ │            │ │            │ │            │                    │
-│ │             │ │             │ │             │                    │
-│ │             │ │             │ │             │                    │
-│ └─────────────┘ └─────────────┘ └─────────────┘                    │
-│                                                                    │
-│ ┌──────────────────────────────────────────────────────────────┐  │
-│ │                     [Cava Audio Visualizer]                  │  │
-│ │                    ▁▂▃▄▅▆▇█▇▆▅▄▃▂▁▂▃▄▅▆▇█▇▆▅▄▃▂▁             │  │
-│ └──────────────────────────────────────────────────────────────┘  │
+│ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐                     │
+│ │   Neovim    │ │    Kitty    │ │    Files    │                     │
+│ │            │ │            │ │            │                     │
+│ │             │ │             │ │             │                     │
+│ │             │ │             │ │             │                     │
+│ └─────────────┘ └─────────────┘ └─────────────┘                     │
+│                                                                     │
+│ ┌──────────────────────────────────────────────────────────────┐    │
+│ │                     [Cava Audio Visualizer]                  │    │
+│ │                    ▁▂▃▄▅▆▇█▇▆▅▄▃▂▁▂▃▄▅▆▇█▇▆▅▄▃▂▁        │    │
+│ └──────────────────────────────────────────────────────────────┘    │
 └─────────────────────────────────────────────────────────────────────┘
 
-📁 STRUKTUR
+📁 **STRUKTUR**
 
-📂 Hauptverzeichnis
+📂 **Hauptverzeichnis**
 ArchLinux/
 ├── 📁 .config/                    # Konfigurationsdateien
 ├── 📁 .local/                    # Lokale Daten & Skripte
@@ -81,7 +106,7 @@ ArchLinux/
 ├── 📄 .xinitrc                  # 🖥️ X11 Startskript
 └── 📄 README                    # 📖 Diese Datei
 
-🎛️ .config/ Ordner Details
+🎛️ **.config/ Ordner Details**
 .config/
 ├── 🎵 cava/                     # Audio Visualizer
 │   ├── config                   # Visualizer Einstellungen
@@ -139,7 +164,7 @@ ArchLinux/
     │   └️ 🔒 LockScreen.sh      | Lock Screen
     └️ 🎨 style.css              | CSS Styling
 
-🗂️ .local/ Ordner
+🗂️ **.local/ Ordner**
 .local/
 ├── 📁 share/                   # Shared Data
 │   ├️ 🖥️ applications/          | Desktop Entries
@@ -149,13 +174,13 @@ ArchLinux/
 │   └️ 🖋️ nvim/                  | Neovim State
 └── 🎵 wireplumber/             | Audio Session Manager
 
-🚀 INSTALLATION
+🚀 **INSTALLATION**
 
-📥 1. Repository klonen
+📥 **1. Repository klonen**
     git clone https://github.com/mucahid-emin-tomakin/ArchLinux.git  #🔄Klonen Sie das Repository
     cd ArchLinux  #📂In das Verzeichnis wechseln
 
-🔗 2. Dotfiles verlinken
+🔗 **2. Dotfiles verlinken**
   #🔗 Symlinks für Konfigurationen erstellen
   ln -sf ~/ArchLinux/.bashrc ~/.bashrc
   ln -sf ~/ArchLinux/.gitconfig ~/.gitconfig
@@ -164,7 +189,7 @@ ArchLinux/
   ln -sf ~/ArchLinux/.config/nvim ~/.config/nvim
   #... Wiederholen für andere Konfigurationen
 
-Alternative mit Installationsskript:
+**Alternative mit Installationsskript:**
   #!/bin/bash 📜install-dotfiles.sh
   echo "🔗 Erstelle Symlinks für Dotfiles..."
   CONFIGS=(
@@ -185,18 +210,18 @@ Alternative mit Installationsskript:
   done
   echo "🎉 Installation abgeschlossen!"
 
-📦 3. Pakete installieren
+📦 **3. Pakete installieren**
   sudo pacman -S --needed - < packages.x86_64  #📦Offizielle Pakete installieren
   yay -S - < aur-packages.txt  #🎁AUR Pakete (yay erforderlich)
 
-Paketlisten verwalten:
+**Paketlisten verwalten:**
   pacman -Qqen > packages.x86_64  #💾Aktuelle Paketliste exportieren
   pacman -Qqem > aur-packages.txt
   grep -i "neovim" packages.x86_64  #🔍Nach bestimmten Paketen suchen
 
-⚙️ KONFIGURATION
+⚙️ **KONFIGURATION**
 
-🪟 Hyprland Window Manager
+🪟 **Hyprland Window Manager**
   # 🎨 Fensterdekoration
   decoration {
       rounding = 10
@@ -215,7 +240,7 @@ Paketlisten verwalten:
       animation = borderangle, 1, 8, default
   }
 
-📊 Waybar Status Bar
+📊 **Waybar Status Bar**
   /* 🎨 CSS Styling für Waybar */
   #waybar {
       background-color: rgba(40, 42, 54, 0.9);
@@ -233,7 +258,7 @@ Paketlisten verwalten:
       background: #6272a4;
   }
 
-🖥️ Kitty Terminal
+🖥️ **Kitty Terminal**
   # ⚡ Performance Einstellungen
   scrollback_lines 10000
   repaint_delay 10
@@ -245,7 +270,7 @@ Paketlisten verwalten:
   selection_foreground #ffffff
   selection_background #44475a
 
-🖋️ Neovim Lua Config
+🖋️ **Neovim Lua Config**
   -- 🚀 Lazy.nvim Plugin Manager
   local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
   if not vim.loop.fs_stat(lazypath) then
@@ -260,7 +285,7 @@ Paketlisten verwalten:
   end
   vim.opt.rtp:prepend(lazypath)
 
-🛠️ Custom Scripts
+🛠️ **Custom Scripts**
   🌤️ Weather.py - Wetter Anzeige
   #!/usr/bin/env python3
   """
@@ -290,7 +315,7 @@ Paketlisten verwalten:
   if __name__ == "__main__":
       print(get_weather())
 
-🌈 RainbowBorders.sh - Farbige Fensterränder
+🌈 **RainbowBorders.sh - Farbige Fensterränder**
   #!/bin/bash  🌈  Wechselt Fensterrahmenfarben im Regenbogen-Effekt
   COLORS=(
       "rgb(ff0000)"  # 🔴 Rot
@@ -308,7 +333,7 @@ Paketlisten verwalten:
       done
   done
 
-🎌 Anime Theme Aktivieren
+🎌 **Anime Theme Aktivieren**
   #!/bin/bash  🎌  Aktiviert das Anime Fastfetch Theme
   echo "🎌 Aktiviere Anime Theme..."
   fastfetch --config ~/.config/fastfetch/AnimeEdit/config.jsonc
@@ -317,7 +342,7 @@ Paketlisten verwalten:
   # 🎨 Passendes Color Scheme
   wal -i ~/.config/hypr/background.png
 
-🏛️ Ottoman Empire Theme
+🏛️ **Ottoman Empire Theme**
   #!/bin/bash  🏛️  Aktiviert Ottoman Empire Theme
   echo "🕌 Aktiviere Ottoman Empire Theme..."
   fastfetch --config ~/.config/fastfetch/ottoman/config.jsonc
@@ -326,32 +351,32 @@ Paketlisten verwalten:
   # 🔊 Ottoman Musik (optional)
   # mpv ~/.config/fastfetch/ottoman/ottoman_music.mp3 &
 
-🎨 THEMES
+🎨 **THEMES**
 
-🎌 Anime Edit Theme
+🎌 **Anime Edit Theme**
   THEME: Anime Edit
   ├── 🎨 Colors: Pastell Blau/Rosa
   ├── 🖼️ Wallpaper: Anime Hintergründe
   ├── 🎵 Audio: J-Pop/J-Rock
   └── 🎮 Icons: Anime-stilisiert
 
-🏛️ Ottoman Empire Theme
+🏛️ **Ottoman Empire Theme**
   THEME: Ottoman Empire
   ├── 🎨 Colors: Gold, Rot, Türkis
   ├── 🖼️ Wallpaper: Osmanische Kunst
   ├── 📜 Font: Arabisch-inspiriert
   └── 🎵 Audio: Traditionelle Musik
 
-🌈 Rainbow Theme
+🌈 **Rainbow Theme**
   THEME: Rainbow Borders
   ├── 🎨 Colors: Regenbogen Spektrum
   ├── 🔄 Effect: Farbwechsel Animation
   ├── ⚡ Performance: Leichtgewichtig
   └── 🎯 Customization: Einfach anpassbar
 
-📦 PAKETMANAGEMENT
+📦 **PAKETMANAGEMENT**
 
-📊 Paketstatistiken
+📊 **Paketstatistiken**
   # 📈 Anzahl der Pakete zählen
   OFFICIAL_COUNT=$(wc -l < packages.x86_64)
   AUR_COUNT=$(wc -l < aur-packages.txt)
@@ -361,58 +386,61 @@ Paketlisten verwalten:
   echo "  🎁 AUR: $AUR_COUNT"
   echo "  📊 Total: $TOTAL"
 
-🔍 Pakete durchsuchen
+🔍 **Pakete durchsuchen**
   # 🔎 Nach bestimmten Kategorien suchen
   grep -i "editor" packages.x86_64    # 📝 Editoren
   grep -i "terminal" packages.x86_64  # 🖥️ Terminal
   grep -i "audio" packages.x86_64     # 🎵 Audio
   grep -i "network" packages.x86_64   # 🌐 Netzwerk
 
-🗑️ Pakete bereinigen
+🗑️ **Pakete bereinigen**
   # 🧹 Nicht benötigte Pakete entfernen
   sudo pacman -Rns $(pacman -Qtdq)  # Orphaned Packages
   # 📦 Cache bereinigen
   sudo pacman -Sc                   # Package Cache
   yay -Sc                           # AUR Cache
 
-⚠️ WICHTIGE HINWEISE
+⚠️ **WICHTIGE HINWEISE**
 
-🔒 Sicherheit
+🔒 **Sicherheit**
   Diese Konfiguration ist hochgradig persönlich angepasst
   Überprüfen Sie Skripte vor der Ausführung
   Backup erstellen vor großen Änderungen
   Nicht auf Produktivsystemen ohne Testing verwenden
 
-💡 Empfehlungen
+💡 **Empfehlungen**
   Testing - In VM oder auf Testsystem zuerst ausprobieren
   Backup - Eigene Konfigurationen sichern
   Anpassen - Auf eigene Hardware/Präferenzen anpassen
   Lernen - Verstehen, was jede Konfiguration macht
 
-📝 LIZENZ
+📝 **LIZENZ**
 
-  Frei für alle
+  Dieses Projekt ist unter der **MIT License** lizenziert - frei für persönliche und kommerzielle Nutzung.
 
-👤 AUTOR
+👤 **AUTOR**
 
-Mücahid Emin Tomakin (TomaKing)
-Platform	  Link	                              Icon
-GitHub	    @mucahid-emin-tomakin	              🐙
-Arch Linux	Enthusiast & Customization Lover	  🐧
-Interessen	Linux, Programming, Anime, History	💻
+**Mücahid Emin Tomakin (TomaKing)**
 
-Über dieses Repository:
-  🎯 Ziel: Persönliche Linux-Konfiguration teilen
-  📚 Lernressource: Für Arch Linux Einsteiger
-  🎨 Inspiration: Custom Themes und Designs
-  🔧 Werkzeuge: Optimierte Development Environment
+| Platform | Link | Icon |
+|----------|------|------|
+| **GitHub** | [@mucahid-emin-tomakin](https://github.com/mucahid-emin-tomakin) | 🐙 |
+| **Arch Linux** | Enthusiast & Customization Lover | 🐧 |
+| **Interessen** | Linux, Programming, Anime, History | 💻 |
 
-📊 REPOSITORY STATISTIK
+**Über dieses Repository:**
+- 🎯 **Ziel:** Persönliche Linux-Konfiguration teilen
+- 📚 **Lernressource:** Für Arch Linux Einsteiger
+- 🎨 **Inspiration:** Custom Themes und Designs
+- 🔧 **Werkzeuge:** Optimierte Development Environment
 
-Metrik	        Wert	                                                                    Trend
-Stars	          https://img.shields.io/github/stars/mucahid-emin-tomakin/ArchLinux	      📈
-Forks	          https://img.shields.io/github/forks/mucahid-emin-tomakin/ArchLinux	      🔄
-Issues	        https://img.shields.io/github/issues/mucahid-emin-tomakin/ArchLinux	      ✅
-Letztes Update	https://img.shields.io/github/last-commit/mucahid-emin-tomakin/ArchLinux	🕐
+📊 **REPOSITORY STATISTIK**
 
-🔧 Made with ❤️ on Arch Linux
+| Metrik | Wert | Trend |
+|--------|------|-------|
+| **Stars** | ![GitHub Stars](https://img.shields.io/github/stars/mucahid-emin-tomakin/ArchLinux) | 📈 |
+| **Forks** | ![GitHub Forks](https://img.shields.io/github/forks/mucahid-emin-tomakin/ArchLinux) | 🔄 |
+| **Issues** | ![GitHub Issues](https://img.shields.io/github/issues/mucahid-emin-tomakin/ArchLinux) | ✅ |
+| **Letztes Update** | ![GitHub Last Commit](https://img.shields.io/github/last-commit/mucahid-emin-tomakin/ArchLinux) | 🕐 |
+
+🔧 **Made with ❤️ on Arch Linux**
