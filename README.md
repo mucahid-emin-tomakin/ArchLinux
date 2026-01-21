@@ -1,4 +1,4 @@
-🐧 **Arch Linux Configuration - TomaKing**
+# 🐧 Arch Linux Configuration – TomaKing
 
 ![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?logo=arch-linux&logoColor=white)
 ![Hyprland](https://img.shields.io/badge/Hyprland-FF4088?logo=hyprland&logoColor=white)
@@ -7,11 +7,11 @@
 ![Waybar](https://img.shields.io/badge/Waybar-4DC5F4?logo=waybar&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnu-bash&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Aktiv-brightgreen)
-![Letztes Update](https://img.shields.io/github/last-commit/mucahid-emin-tomakin/ArchLinux)
-![Dotfiles](https://img.shields.io/badge/📁-Dotfiles-blueviolet)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
-📖 **INHALTSVERZEICHNIS**
+---
+
+## 📖 Inhaltsverzeichnis
 
 - [✨ Features](#-features)
 - [🖼️ Screenshots](#️-screenshots)
@@ -21,39 +21,48 @@
 - [🛠️ Custom Scripts](#️-custom-scripts)
 - [🎨 Themes](#-themes)
 - [📦 Paketmanagement](#-paketmanagement)
-- [🤝 Contributing](#-contributing)
 - [📝 Lizenz](#-lizenz)
+- [👤 Autor](#-autor)
 
-✨ **FEATURES**
+---
 
-🎨 **Visuell & Theming**
+## ✨ Features
+
+### 🎨 Visuell & Theming
+
 | Feature | Beschreibung | Status |
-|---------|--------------|--------|
-| **Anime Fastfetch** | Custom ASCII Art mit Animationen | ✅ |
-| **Ottoman Empire Theme** | Historisches osmanisches Design | ✅ |
-| **Rainbow Borders** | Dynamische Fensterrahmenfarben | ✅ |
-| **Hyprland Animations** | Flüssige Window-Animationen | ✅ |
-| **Custom Wallpapers** | Dynamische Hintergrundbilder | ✅ |
+|-------|-------------|--------|
+| Anime Fastfetch | Custom ASCII Art & Animationen | ✅ |
+| Ottoman Empire Theme | Historisches Design | ✅ |
+| Rainbow Borders | Dynamische Fensterrahmen | ✅ |
+| Hyprland Animations | Flüssige Animationen | ✅ |
+| Custom Wallpapers | Dynamische Hintergründe | ✅ |
 
-⚡ **Performance**
-| Feature | Tool | Vorteil |
-|---------|------|---------|
-| **Wayland** | Hyprland | Bessere Performance & Security |
-| **GPU Terminal** | Kitty | Hardware-beschleunigt |
-| **Audio System** | PipeWire | Low-Latency Audio |
-| **TUI Tools** | Ranger, Neovim | Ressourcenschonend |
+### ⚡ Performance
 
-🛠️ **Produktivität**
-| Tool | Zweck | Icon |
-|------|-------|------|
-| **Neovim** | Code Editor | `` |
-| **Ranger** | File Manager | `` |
-| **Rofi** | App Launcher | `` |
-| **Waybar** | Status Bar | `` |
-| **Cava** | Audio Visualizer | `` |
+| Tool | Vorteil |
+|----|--------|
+| Hyprland (Wayland) | Performance & Security |
+| Kitty | GPU-beschleunigt |
+| PipeWire | Low-Latency Audio |
+| TUI Tools | Ressourcenschonend |
 
-🖼️ **SCREENSHOTS**
+### 🛠️ Produktivität
 
+| Tool | Zweck |
+|----|------|
+| Neovim | Code Editor |
+| Ranger | File Manager |
+| Rofi | App Launcher |
+| Waybar | Status Bar |
+| Cava | Audio Visualizer |
+
+---
+
+## 🖼️ Screenshots
+
+### 🎨 Terminal ASCII-Art
+```text
                         .=:-#=
                        .-#%%#-.
                        -=-++:::
@@ -75,8 +84,10 @@
  -+.  :     .            :=#%*+:          ..   .-   :.
               .::::::-=+#%%*==++==-:::---:.
                 .:-==*++=:.  .:-=+*+++=:.
+```
 
-**Desktop Layout**
+### 🖥️ Desktop Layout
+```text
 ┌─────────────────────────────────────────────────────────────────────┐
 │                [Waybar]                🕐 12:34  📅 15.03   │
 ├─────────────────────────────────────────────────────────────────────┤
@@ -92,21 +103,25 @@
 │ │                    ▁▂▃▄▅▆▇█▇▆▅▄▃▂▁▂▃▄▅▆▇█▇▆▅▄▃▂▁        │    │
 │ └──────────────────────────────────────────────────────────────┘    │
 └─────────────────────────────────────────────────────────────────────┘
+```
 
-📁 **STRUKTUR**
+## 📁 **STRUKTUR**
 
-📂 **Hauptverzeichnis**
+### 📂 Hauptverzeichnis
+```text
 ArchLinux/
-├── 📁 .config/                    # Konfigurationsdateien
-├── 📁 .local/                    # Lokale Daten & Skripte
+├── 📁 .config/                  # Konfigurationsdateien
+├── 📁 .local/                   # Lokale Daten & Skripte
 ├── 📄 aur-packages.txt          # 🎁 AUR Paketliste
 ├── 📄 packages.x86_64           # 📦 Offizielle Paketliste
 ├── 📄 .bashrc                   # 🐚 Bash Konfiguration
 ├── 📄 .gitconfig                # 🔧 Git Einstellungen
 ├── 📄 .xinitrc                  # 🖥️ X11 Startskript
 └── 📄 README                    # 📖 Diese Datei
+```
 
-🎛️ **.config/ Ordner Details**
+## 🎛️ .config/ Ordner Details
+```text
 .config/
 ├── 🎵 cava/                     # Audio Visualizer
 │   ├── config                   # Visualizer Einstellungen
@@ -173,14 +188,18 @@ ArchLinux/
 ├── 📁 state/                   | Application State
 │   └️ 🖋️ nvim/                  | Neovim State
 └── 🎵 wireplumber/             | Audio Session Manager
+```
 
-🚀 **INSTALLATION**
+## 🚀 INSTALLATION
 
-📥 **1. Repository klonen**
-    git clone https://github.com/mucahid-emin-tomakin/ArchLinux.git  #🔄Klonen Sie das Repository
-    cd ArchLinux  #📂In das Verzeichnis wechseln
+### 📥 1. Repository klonen
+```bash
+  git clone https://github.com/mucahid-emin-tomakin/ArchLinux.git  #🔄Klonen Sie das Repository
+  cd ArchLinux  #📂In das Verzeichnis wechseln
+```
 
-🔗 **2. Dotfiles verlinken**
+### 🔗 2. Dotfiles verlinken
+```bash
   #🔗 Symlinks für Konfigurationen erstellen
   ln -sf ~/ArchLinux/.bashrc ~/.bashrc
   ln -sf ~/ArchLinux/.gitconfig ~/.gitconfig
@@ -188,8 +207,10 @@ ArchLinux/
   ln -sf ~/ArchLinux/.config/kitty ~/.config/kitty
   ln -sf ~/ArchLinux/.config/nvim ~/.config/nvim
   #... Wiederholen für andere Konfigurationen
+```
 
-**Alternative mit Installationsskript:**
+### Alternative mit Installationsskript:
+```bash
   #!/bin/bash 📜install-dotfiles.sh
   echo "🔗 Erstelle Symlinks für Dotfiles..."
   CONFIGS=(
@@ -209,19 +230,25 @@ ArchLinux/
       fi
   done
   echo "🎉 Installation abgeschlossen!"
+```
 
-📦 **3. Pakete installieren**
+### 📦 3. Pakete installieren
+```bash
   sudo pacman -S --needed - < packages.x86_64  #📦Offizielle Pakete installieren
   yay -S - < aur-packages.txt  #🎁AUR Pakete (yay erforderlich)
+```
 
-**Paketlisten verwalten:**
+### Paketlisten verwalten:
+```bash
   pacman -Qqen > packages.x86_64  #💾Aktuelle Paketliste exportieren
   pacman -Qqem > aur-packages.txt
   grep -i "neovim" packages.x86_64  #🔍Nach bestimmten Paketen suchen
+```
 
-⚙️ **KONFIGURATION**
+## ⚙️ KONFIGURATION
 
-🪟 **Hyprland Window Manager**
+### 🪟 Hyprland Window Manager
+```conf
   # 🎨 Fensterdekoration
   decoration {
       rounding = 10
@@ -239,8 +266,10 @@ ArchLinux/
       animation = windows, 1, 7, myBezier
       animation = borderangle, 1, 8, default
   }
+```
 
-📊 **Waybar Status Bar**
+### 📊 Waybar Status Bar
+```css
   /* 🎨 CSS Styling für Waybar */
   #waybar {
       background-color: rgba(40, 42, 54, 0.9);
@@ -257,8 +286,10 @@ ArchLinux/
   #workspaces button.active {
       background: #6272a4;
   }
+```
 
-🖥️ **Kitty Terminal**
+### 🖥️ Kitty Terminal
+```conf
   # ⚡ Performance Einstellungen
   scrollback_lines 10000
   repaint_delay 10
@@ -269,8 +300,10 @@ ArchLinux/
   background #282a36
   selection_foreground #ffffff
   selection_background #44475a
+```
 
-🖋️ **Neovim Lua Config**
+### 🖋️ Neovim Lua Config
+```lua
   -- 🚀 Lazy.nvim Plugin Manager
   local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
   if not vim.loop.fs_stat(lazypath) then
@@ -284,8 +317,10 @@ ArchLinux/
     })
   end
   vim.opt.rtp:prepend(lazypath)
+```
 
-🛠️ **Custom Scripts**
+### 🛠️ Custom Scripts
+```python
   🌤️ Weather.py - Wetter Anzeige
   #!/usr/bin/env python3
   """
@@ -314,8 +349,10 @@ ArchLinux/
           return "🌐 Wetter Fehler"
   if __name__ == "__main__":
       print(get_weather())
+```
 
-🌈 **RainbowBorders.sh - Farbige Fensterränder**
+### 🌈 RainbowBorders.sh - Farbige Fensterränder
+```bash
   #!/bin/bash  🌈  Wechselt Fensterrahmenfarben im Regenbogen-Effekt
   COLORS=(
       "rgb(ff0000)"  # 🔴 Rot
@@ -332,8 +369,10 @@ ArchLinux/
           sleep 0.5
       done
   done
+```
 
-🎌 **Anime Theme Aktivieren**
+### 🎌 Anime Theme Aktivieren
+```bash
   #!/bin/bash  🎌  Aktiviert das Anime Fastfetch Theme
   echo "🎌 Aktiviere Anime Theme..."
   fastfetch --config ~/.config/fastfetch/AnimeEdit/config.jsonc
@@ -341,8 +380,10 @@ ArchLinux/
   hyprctl hyprpaper wallpaper "eDP-1,~/.config/hypr/background.png"
   # 🎨 Passendes Color Scheme
   wal -i ~/.config/hypr/background.png
+```
 
-🏛️ **Ottoman Empire Theme**
+### 🏛️ Ottoman Empire Theme
+```bash
   #!/bin/bash  🏛️  Aktiviert Ottoman Empire Theme
   echo "🕌 Aktiviere Ottoman Empire Theme..."
   fastfetch --config ~/.config/fastfetch/ottoman/config.jsonc
@@ -350,33 +391,41 @@ ArchLinux/
   hyprctl hyprpaper wallpaper "eDP-1,~/.config/fastfetch/ottoman/ottoman.jpeg"
   # 🔊 Ottoman Musik (optional)
   # mpv ~/.config/fastfetch/ottoman/ottoman_music.mp3 &
+```
 
-🎨 **THEMES**
+## 🎨 THEMES
 
-🎌 **Anime Edit Theme**
+### 🎌 Anime Edit Theme
+```text
   THEME: Anime Edit
   ├── 🎨 Colors: Pastell Blau/Rosa
   ├── 🖼️ Wallpaper: Anime Hintergründe
   ├── 🎵 Audio: J-Pop/J-Rock
   └── 🎮 Icons: Anime-stilisiert
+```
 
-🏛️ **Ottoman Empire Theme**
+### 🏛️ Ottoman Empire Theme
+```text
   THEME: Ottoman Empire
   ├── 🎨 Colors: Gold, Rot, Türkis
   ├── 🖼️ Wallpaper: Osmanische Kunst
   ├── 📜 Font: Arabisch-inspiriert
   └── 🎵 Audio: Traditionelle Musik
+```
 
-🌈 **Rainbow Theme**
+### 🌈 Rainbow Theme
+```text
   THEME: Rainbow Borders
   ├── 🎨 Colors: Regenbogen Spektrum
   ├── 🔄 Effect: Farbwechsel Animation
   ├── ⚡ Performance: Leichtgewichtig
   └── 🎯 Customization: Einfach anpassbar
+```
 
-📦 **PAKETMANAGEMENT**
+## 📦 PAKETMANAGEMENT
 
-📊 **Paketstatistiken**
+### 📊 Paketstatistiken
+```bash
   # 📈 Anzahl der Pakete zählen
   OFFICIAL_COUNT=$(wc -l < packages.x86_64)
   AUR_COUNT=$(wc -l < aur-packages.txt)
@@ -385,40 +434,45 @@ ArchLinux/
   echo "  🏛️  Offizielle: $OFFICIAL_COUNT"
   echo "  🎁 AUR: $AUR_COUNT"
   echo "  📊 Total: $TOTAL"
+```
 
-🔍 **Pakete durchsuchen**
+### 🔍 Pakete durchsuchen
+```bash
   # 🔎 Nach bestimmten Kategorien suchen
   grep -i "editor" packages.x86_64    # 📝 Editoren
   grep -i "terminal" packages.x86_64  # 🖥️ Terminal
   grep -i "audio" packages.x86_64     # 🎵 Audio
   grep -i "network" packages.x86_64   # 🌐 Netzwerk
+```
 
-🗑️ **Pakete bereinigen**
+### 🗑️ Pakete bereinigen
+```bash
   # 🧹 Nicht benötigte Pakete entfernen
   sudo pacman -Rns $(pacman -Qtdq)  # Orphaned Packages
   # 📦 Cache bereinigen
   sudo pacman -Sc                   # Package Cache
   yay -Sc                           # AUR Cache
+```
 
-⚠️ **WICHTIGE HINWEISE**
+## ⚠️ WICHTIGE HINWEISE
 
-🔒 **Sicherheit**
+### 🔒 Sicherheit
   Diese Konfiguration ist hochgradig persönlich angepasst
   Überprüfen Sie Skripte vor der Ausführung
   Backup erstellen vor großen Änderungen
   Nicht auf Produktivsystemen ohne Testing verwenden
 
-💡 **Empfehlungen**
+### 💡 Empfehlungen
   Testing - In VM oder auf Testsystem zuerst ausprobieren
   Backup - Eigene Konfigurationen sichern
   Anpassen - Auf eigene Hardware/Präferenzen anpassen
   Lernen - Verstehen, was jede Konfiguration macht
 
-📝 **LIZENZ**
+### 📝 LIZENZ
 
   Dieses Projekt ist unter der **MIT License** lizenziert - frei für persönliche und kommerzielle Nutzung.
 
-👤 **AUTOR**
+### 👤 AUTOR
 
 **Mücahid Emin Tomakin (TomaKing)**
 
@@ -434,7 +488,7 @@ ArchLinux/
 - 🎨 **Inspiration:** Custom Themes und Designs
 - 🔧 **Werkzeuge:** Optimierte Development Environment
 
-📊 **REPOSITORY STATISTIK**
+## 📊 REPOSITORY STATISTIK
 
 | Metrik | Wert | Trend |
 |--------|------|-------|
@@ -443,4 +497,4 @@ ArchLinux/
 | **Issues** | ![GitHub Issues](https://img.shields.io/github/issues/mucahid-emin-tomakin/ArchLinux) | ✅ |
 | **Letztes Update** | ![GitHub Last Commit](https://img.shields.io/github/last-commit/mucahid-emin-tomakin/ArchLinux) | 🕐 |
 
-🔧 **Made with ❤️ on Arch Linux**
+## 🔧 Made with ❤️ on Arch Linux
