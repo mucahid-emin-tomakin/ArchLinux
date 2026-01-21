@@ -1,16 +1,17 @@
+ich mache gerade ein Readme für mein custom archlinux auf github. Kannst du mal draufschauen und auf vebesserungspotential:
+
 🐧 **Arch Linux Configuration - TomaKing**
 
-![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
-![Hyprland](https://img.shields.io/badge/Hyprland-FF4088?style=for-the-badge&logo=hyprland&logoColor=white)
-![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
-![Kitty](https://img.shields.io/badge/Kitty-000000?style=for-the-badge&logo=kitty&logoColor=white)
-![Waybar](https://img.shields.io/badge/Waybar-4DC5F4?style=for-the-badge&logo=waybar&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![GitHub Stars](https://img.shields.io/github/stars/mucahid-emin-tomakin/ArchLinux?style=for-the-badge&color=yellow)
-![GitHub Forks](https://img.shields.io/github/forks/mucahid-emin-tomakin/ArchLinux?style=for-the-badge&color=blue)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/mucahid-emin-tomakin/ArchLinux?style=for-the-badge&color=blueviolet)
-![Repo Size](https://img.shields.io/github/repo-size/mucahid-emin-tomakin/ArchLinux?style=for-the-badge)
+![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?logo=arch-linux&logoColor=white)
+![Hyprland](https://img.shields.io/badge/Hyprland-FF4088?logo=hyprland&logoColor=white)
+![Neovim](https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=white)
+![Kitty](https://img.shields.io/badge/Kitty-000000?logo=kitty&logoColor=white)
+![Waybar](https://img.shields.io/badge/Waybar-4DC5F4?logo=waybar&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnu-bash&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Aktiv-brightgreen)
+![Letztes Update](https://img.shields.io/github/last-commit/mucahid-emin-tomakin/ArchLinux)
+![Dotfiles](https://img.shields.io/badge/📁-Dotfiles-blueviolet)
+![License](https://img.shields.io/badge/License-MIT-blue)
 
 📖 **INHALTSVERZEICHNIS**
 
