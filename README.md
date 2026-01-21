@@ -196,19 +196,19 @@ ArchLinux/
 
 ### 📥 1. Repository klonen
 ```bash
-  git clone https://github.com/mucahid-emin-tomakin/ArchLinux.git  #🔄Klonen Sie das Repository
-  cd ArchLinux  #📂In das Verzeichnis wechseln
+git clone https://github.com/mucahid-emin-tomakin/ArchLinux.git  #🔄Klonen Sie das Repository
+cd ArchLinux  #📂In das Verzeichnis wechseln
 ```
 
 ### 🔗 2. Dotfiles verlinken
 ```bash
-  #🔗 Symlinks für Konfigurationen erstellen
-  ln -sf ~/ArchLinux/.bashrc ~/.bashrc
-  ln -sf ~/ArchLinux/.gitconfig ~/.gitconfig
-  ln -sf ~/ArchLinux/.config/hypr ~/.config/hypr
-  ln -sf ~/ArchLinux/.config/kitty ~/.config/kitty
-  ln -sf ~/ArchLinux/.config/nvim ~/.config/nvim
-  #... Wiederholen für andere Konfigurationen
+#🔗 Symlinks für Konfigurationen erstellen
+ln -sf ~/ArchLinux/.bashrc ~/.bashrc
+ln -sf ~/ArchLinux/.gitconfig ~/.gitconfig
+ln -sf ~/ArchLinux/.config/hypr ~/.config/hypr
+ln -sf ~/ArchLinux/.config/kitty ~/.config/kitty
+ln -sf ~/ArchLinux/.config/nvim ~/.config/nvim
+#... Wiederholen für andere Konfigurationen
 ```
 
 ### Alternative mit Installationsskript:
@@ -236,15 +236,15 @@ ArchLinux/
 
 ### 📦 3. Pakete installieren
 ```bash
-  sudo pacman -S --needed - < packages.x86_64  #📦Offizielle Pakete installieren
-  yay -S - < aur-packages.txt  #🎁AUR Pakete (yay erforderlich)
+sudo pacman -S --needed - < packages.x86_64  #📦Offizielle Pakete installieren
+yay -S - < aur-packages.txt  #🎁AUR Pakete (yay erforderlich)
 ```
 
 ### Paketlisten verwalten:
 ```bash
-  pacman -Qqen > packages.x86_64  #💾Aktuelle Paketliste exportieren
-  pacman -Qqem > aur-packages.txt
-  grep -i "neovim" packages.x86_64  #🔍Nach bestimmten Paketen suchen
+pacman -Qqen > packages.x86_64  #💾Aktuelle Paketliste exportieren
+pacman -Qqem > aur-packages.txt
+grep -i "neovim" packages.x86_64  #🔍Nach bestimmten Paketen suchen
 ```
 
 ## ⚙️ KONFIGURATION
@@ -292,12 +292,12 @@ ArchLinux/
 
 ### 🖥️ Kitty Terminal
 ```conf
-  # ⚡ Performance Einstellungen
+# ⚡ Performance Einstellungen
   scrollback_lines 10000
   repaint_delay 10
   input_delay 3
   sync_to_monitor yes
-  # 🎨 Color Scheme
+# 🎨 Color Scheme
   foreground #f8f8f2
   background #282a36
   selection_foreground #ffffff
@@ -392,7 +392,7 @@ ArchLinux/
   # 🖼️ Ottoman Wallpaper
   hyprctl hyprpaper wallpaper "eDP-1,~/.config/fastfetch/ottoman/ottoman.jpeg"
   # 🔊 Ottoman Musik (optional)
-  # mpv ~/.config/fastfetch/ottoman/ottoman_music.mp3 &
+  mpv ~/.config/fastfetch/ottoman/ottoman_music.mp3 &
 ```
 
 ## 🎨 THEMES
@@ -428,32 +428,32 @@ ArchLinux/
 
 ### 📊 Paketstatistiken
 ```bash
-  # 📈 Anzahl der Pakete zählen
-  OFFICIAL_COUNT=$(wc -l < packages.x86_64)
-  AUR_COUNT=$(wc -l < aur-packages.txt)
-  TOTAL=$((OFFICIAL_COUNT + AUR_COUNT))
-  echo "📦 Paketstatistik:"
-  echo "  🏛️  Offizielle: $OFFICIAL_COUNT"
-  echo "  🎁 AUR: $AUR_COUNT"
-  echo "  📊 Total: $TOTAL"
+# 📈 Anzahl der Pakete zählen
+OFFICIAL_COUNT=$(wc -l < packages.x86_64)
+AUR_COUNT=$(wc -l < aur-packages.txt)
+TOTAL=$((OFFICIAL_COUNT + AUR_COUNT))
+echo "📦 Paketstatistik:"
+echo "  🏛️  Offizielle: $OFFICIAL_COUNT"
+echo "  🎁 AUR: $AUR_COUNT"
+echo "  📊 Total: $TOTAL"
 ```
 
 ### 🔍 Pakete durchsuchen
 ```bash
-  # 🔎 Nach bestimmten Kategorien suchen
-  grep -i "editor" packages.x86_64    # 📝 Editoren
-  grep -i "terminal" packages.x86_64  # 🖥️ Terminal
-  grep -i "audio" packages.x86_64     # 🎵 Audio
-  grep -i "network" packages.x86_64   # 🌐 Netzwerk
+# 🔎 Nach bestimmten Kategorien suchen
+grep -i "editor" packages.x86_64    # 📝 Editoren
+grep -i "terminal" packages.x86_64  # 🖥️ Terminal
+grep -i "audio" packages.x86_64     # 🎵 Audio
+grep -i "network" packages.x86_64   # 🌐 Netzwerk
 ```
 
 ### 🗑️ Pakete bereinigen
 ```bash
-  # 🧹 Nicht benötigte Pakete entfernen
-  sudo pacman -Rns $(pacman -Qtdq)  # Orphaned Packages
-  # 📦 Cache bereinigen
-  sudo pacman -Sc                   # Package Cache
-  yay -Sc                           # AUR Cache
+# 🧹 Nicht benötigte Pakete entfernen
+sudo pacman -Rns $(pacman -Qtdq)  # Orphaned Packages
+# 📦 Cache bereinigen
+sudo pacman -Sc                   # Package Cache
+yay -Sc                           # AUR Cache
 ```
 
 ## ⚠️ WICHTIGE HINWEISE
@@ -499,4 +499,4 @@ ArchLinux/
 | **Issues** | ![GitHub Issues](https://img.shields.io/github/issues/mucahid-emin-tomakin/ArchLinux) | ✅ |
 | **Letztes Update** | ![GitHub Last Commit](https://img.shields.io/github/last-commit/mucahid-emin-tomakin/ArchLinux) | 🕐 |
 
-## 🔧 Made with ❤️ on Arch Linux
+### 🔧 Made with ❤️ on Arch Linux
