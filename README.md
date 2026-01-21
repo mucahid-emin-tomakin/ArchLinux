@@ -1,5 +1,3 @@
-ich mache gerade ein Readme für mein custom archlinux auf github. Kannst du mal draufschauen und auf vebesserungspotential:
-
 🐧 **Arch Linux Configuration - TomaKing**
 
 ![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?logo=arch-linux&logoColor=white)
