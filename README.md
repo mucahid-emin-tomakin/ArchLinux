@@ -251,7 +251,7 @@ grep -i "neovim" packages.x86_64  #🔍Nach bestimmten Paketen suchen
 
 ### 💧 Hyprland Window Manager
 ```conf
-  # 🎨 Fensterdekoration
+# 🎨 Fensterdekoration
   decoration {
       rounding = 10
       blur = true
@@ -261,7 +261,7 @@ grep -i "neovim" packages.x86_64  #🔍Nach bestimmten Paketen suchen
       shadow_range = 4
       shadow_render_power = 3
   }
-  # 🎭 Animationen
+# 🎭 Animationen
   animations {
       enabled = true
       bezier = myBezier, 0.05, 0.9, 0.1, 1.05
@@ -272,7 +272,7 @@ grep -i "neovim" packages.x86_64  #🔍Nach bestimmten Paketen suchen
 
 ### 📊 Waybar Status Bar
 ```css
-  /* 🎨 CSS Styling für Waybar */
+/* 🎨 CSS Styling für Waybar */
   #waybar {
       background-color: rgba(40, 42, 54, 0.9);
       border-radius: 10px;
@@ -306,7 +306,7 @@ grep -i "neovim" packages.x86_64  #🔍Nach bestimmten Paketen suchen
 
 ### 🖋️ Neovim Lua Config
 ```lua
-  -- 🚀 Lazy.nvim Plugin Manager
+-- 🚀 Lazy.nvim Plugin Manager
   local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
   if not vim.loop.fs_stat(lazypath) then
     vim.fn.system({
@@ -323,8 +323,7 @@ grep -i "neovim" packages.x86_64  #🔍Nach bestimmten Paketen suchen
 
 ### 🛠️ Custom Scripts
 ```python
-  🌤️ Weather.py - Wetter Anzeige
-  #!/usr/bin/env python3
+#!/usr/bin/env python3 🌤️ Weather.py - Wetter Anzeige
   """
   🌤️ Wetter Anzeige für Waybar
   Zeigt aktuelles Wetter mit Icons an
@@ -355,7 +354,7 @@ grep -i "neovim" packages.x86_64  #🔍Nach bestimmten Paketen suchen
 
 ### 🌈 RainbowBorders.sh - Farbige Fensterränder
 ```bash
-  #!/bin/bash  🌈  Wechselt Fensterrahmenfarben im Regenbogen-Effekt
+#!/bin/bash  🌈  Wechselt Fensterrahmenfarben im Regenbogen-Effekt
   COLORS=(
       "rgb(ff0000)"  # 🔴 Rot
       "rgb(ff7f00)"  # 🟠 Orange
@@ -375,23 +374,23 @@ grep -i "neovim" packages.x86_64  #🔍Nach bestimmten Paketen suchen
 
 ### 🎌 Anime Theme Aktivieren
 ```bash
-  #!/bin/bash  🎌  Aktiviert das Anime Fastfetch Theme
+#!/bin/bash  🎌  Aktiviert das Anime Fastfetch Theme
   echo "🎌 Aktiviere Anime Theme..."
   fastfetch --config ~/.config/fastfetch/AnimeEdit/config.jsonc
-  # 🖼️ Anime Wallpaper setzen
+# 🖼️ Anime Wallpaper setzen
   hyprctl hyprpaper wallpaper "eDP-1,~/.config/hypr/background.png"
-  # 🎨 Passendes Color Scheme
+# 🎨 Passendes Color Scheme
   wal -i ~/.config/hypr/background.png
 ```
 
 ### 🏛️ Ottoman Empire Theme
 ```bash
-  #!/bin/bash  🏛️  Aktiviert Ottoman Empire Theme
+#!/bin/bash  🏛️  Aktiviert Ottoman Empire Theme
   echo "🕌 Aktiviere Ottoman Empire Theme..."
   fastfetch --config ~/.config/fastfetch/ottoman/config.jsonc
-  # 🖼️ Ottoman Wallpaper
+# 🖼️ Ottoman Wallpaper
   hyprctl hyprpaper wallpaper "eDP-1,~/.config/fastfetch/ottoman/ottoman.jpeg"
-  # 🔊 Ottoman Musik (optional)
+# 🔊 Ottoman Musik (optional)
   mpv ~/.config/fastfetch/ottoman/ottoman_music.mp3 &
 ```
 
@@ -399,29 +398,29 @@ grep -i "neovim" packages.x86_64  #🔍Nach bestimmten Paketen suchen
 
 ### 🎌 Anime Edit Theme
 ```text
-  THEME: Anime Edit
-  ├── 🎨 Colors: Pastell Blau/Rosa
-  ├── 🖼️ Wallpaper: Anime Hintergründe
-  ├── 🎵 Audio: J-Pop/J-Rock
-  └── 🎮 Icons: Anime-stilisiert
+THEME: Anime Edit
+├── 🎨 Colors: Pastell Blau/Rosa
+├── 🖼️ Wallpaper: Anime Hintergründe
+├── 🎵 Audio: J-Pop/J-Rock
+└── 🎮 Icons: Anime-stilisiert
 ```
 
 ### 🏛️ Ottoman Empire Theme
 ```text
-  THEME: Ottoman Empire
-  ├── 🎨 Colors: Gold, Rot, Türkis
-  ├── 🖼️ Wallpaper: Osmanische Kunst
-  ├── 📜 Font: Arabisch-inspiriert
-  └── 🎵 Audio: Traditionelle Musik
+THEME: Ottoman Empire
+├── 🎨 Colors: Gold, Rot, Türkis
+├── 🖼️ Wallpaper: Osmanische Kunst
+├── 📜 Font: Arabisch-inspiriert
+└── 🎵 Audio: Traditionelle Musik
 ```
 
 ### 🌈 Rainbow Theme
 ```text
-  THEME: Rainbow Borders
-  ├── 🎨 Colors: Regenbogen Spektrum
-  ├── 🔄 Effect: Farbwechsel Animation
-  ├── ⚡ Performance: Leichtgewichtig
-  └── 🎯 Customization: Einfach anpassbar
+THEME: Rainbow Borders
+├── 🎨 Colors: Regenbogen Spektrum
+├── 🔄 Effect: Farbwechsel Animation
+├── ⚡ Performance: Leichtgewichtig
+└── 🎯 Customization: Einfach anpassbar
 ```
 
 ## 📦 PAKETMANAGEMENT
