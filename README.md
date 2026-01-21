@@ -105,7 +105,7 @@
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
-## 📁 **STRUKTUR**
+## 📁 STRUKTUR
 
 ### 📂 Hauptverzeichnis
 ```text
@@ -123,26 +123,26 @@ ArchLinux/
 ## 🎛️ .config/ Ordner Details
 ```text
 .config/
-├── 🎵 cava/                     # Audio Visualizer
-│   ├── config                   # Visualizer Einstellungen
-│   └── shaders/                 # GPU Shader Effekte
+├── 🎵 cava/                    # Audio Visualizer
+│   ├── config                  # Visualizer Einstellungen
+│   └── shaders/                # GPU Shader Effekte
 │
 ├── 🖥️ fastfetch/               # System Info Tool
 │   ├── 🎌 AnimeEdit/           # Anime ASCII Art
 │   │   ├── *.mp4               # Animierte Beispiele
 │   │   └── animation.sh        # Animationsskripte
-│   ├── 🏛️ ottoman/            # Ottoman Empire Theme
-│   │   ├── ottoman.jpeg       # Hintergrundbild
-│   │   └── config.jsonc       # Theme Konfiguration
-│   └── asciiart/              # ASCII Kunst Designs
+│   ├── 🏛️ ottoman/             # Ottoman Empire Theme
+│   │   ├── ottoman.jpeg        # Hintergrundbild
+│   │   └── config.jsonc        # Theme Konfiguration
+│   └── asciiart/               # ASCII Kunst Designs
 │
 ├── 🪟 hypr/                     # Hyprland WM
-│   ├── ⚙️ hyprland.conf       # Hauptkonfiguration
-│   ├── 🎭 animations.conf     # Fensteranimationen
-│   ├── 🔒 hyprlock.conf       | Lock Screen
-│   ├── 🎨 hyprpaper.conf      | Wallpaper Manager
-│   ├── 🖼️ background*.png     | Wallpaper Sammlung
-│   └── 🎨 wallust.conf        | Farbabstimmung
+│   ├── ⚙️ hyprland.conf        # Hauptkonfiguration
+│   ├── 🎭 animations.conf      # Fensteranimationen
+│   ├── 🔒 hyprlock.conf        | Lock Screen
+│   ├── 🎨 hyprpaper.conf       | Wallpaper Manager
+│   ├── 🖼️ background*.png      | Wallpaper Sammlung
+│   └── 🎨 wallust.conf         | Farbabstimmung
 │
 ├── 🖥️ kitty/                   # Terminal Emulator
 │   ├️ ⚙️ kitty.conf             | Terminal Einstellungen
@@ -152,7 +152,7 @@ ArchLinux/
 ├️ 🖋️ nvim/                     # Neovim IDE
 │   └️ 📜 lua/                  | Lua Konfiguration
 │       ├️ ⚙️ init.lua          | Hauptkonfiguration
-│       └️ 🔒 lazy-lock.json    | Plugin Lockfile
+│       └️ 🔒 lazy-lock.json     | Plugin Lockfile
 │
 ├️ 📁 ranger/                   # TUI File Manager
 │   ├️ 🎨 colorschemes/         | Farbschemata
@@ -178,8 +178,10 @@ ArchLinux/
     │   ├️ 🌈 RainbowBorders.sh  | Farbige Fensterränder
     │   └️ 🔒 LockScreen.sh      | Lock Screen
     └️ 🎨 style.css              | CSS Styling
+```
 
-🗂️ **.local/ Ordner**
+### 🗂️ .local/ Ordner
+```text
 .local/
 ├── 📁 share/                   # Shared Data
 │   ├️ 🖥️ applications/          | Desktop Entries
@@ -247,7 +249,7 @@ ArchLinux/
 
 ## ⚙️ KONFIGURATION
 
-### 🪟 Hyprland Window Manager
+### 💧 Hyprland Window Manager
 ```conf
   # 🎨 Fensterdekoration
   decoration {
