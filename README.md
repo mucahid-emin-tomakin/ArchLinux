@@ -1,13 +1,14 @@
 # 🐧 Arch Linux Configuration – TomaKing
 
+![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
 ![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?logo=arch-linux&logoColor=white)
 ![Hyprland](https://img.shields.io/badge/Hyprland-FF4088?logo=hyprland&logoColor=white)
 ![Neovim](https://img.shields.io/badge/Neovim-57A143?logo=neovim&logoColor=white)
 ![Kitty](https://img.shields.io/badge/Kitty-000000?logo=kitty&logoColor=white)
 ![Waybar](https://img.shields.io/badge/Waybar-4DC5F4?logo=waybar&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnu-bash&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Aktiv-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-blue)
+![Status](https://img.shields.io/badge/Status-Abgeschlossen-brightgreen)
 
 ---
 
