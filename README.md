@@ -12,24 +12,44 @@
 
 ---
 
-## 📖 Inhaltsverzeichnis
+## 📖 INHALTSVERZEICHNIS
 
-- [✨ Features](#-features)
-- [🖼️ Screenshots](#️-screenshots)
-- [📁 Struktur](#-struktur)
-- [🚀 Installation](#-installation)
-- [⚙️ Konfiguration](#️-konfiguration)
-- [🛠️ Custom Scripts](#️-custom-scripts)
-- [🎨 Themes](#-themes)
-- [📦 Paketmanagement](#-paketmanagement)
-- [📦 Wichtige Hinweise](#-wichtige-hinweise)
-- [📝 Lizenz](#-lizenz)
-- [👤 Autor](#-autor)
-- [📊 Repository Statistik](#-repository-statistik)
+- [📝 PROJEKTBESCHREIBUNG](#-projektbeschreibung)
+- [✨ FEATURES](#-features)
+- [🖼️ SCREENSHOTS](#️-screenshots)
+- [📁 STRUKTUR](#-struktur)
+- [🚀 INSTALLATION](#-installation)
+- [⚙️ KONFIGURATION](#️-konfiguration)
+- [🛠️ CUSTOM SCRIPTS](#️-custom-scripts)
+- [🎨 THEMES](#-themes)
+- [📦 PAKETMANAGEMENT](#-paketmanagement)
+- [⚠️ WICHTIGE HINWEISE](#️-wichtige-hinweise)
+- [📝 LIZENZ](#-lizenz)
+- [👤 AUTOR](#-autor)
+- [📊 REPOSITORY STATISTIK](#-repository-statistik)
 
 ---
 
-## ✨ Features
+## 📝 PROJEKTBESCHREIBUNG
+
+Willkommen in meiner persönlichen Arch-Linux-Konfiguration – einer sorgfältig kuratierten Sammlung von **Dotfiles**, **Custom Scripts** und **Themes**, die meinen täglichen Workflow auf Hyprland definieren.  
+Dieses Repository ist kein generisches Template, sondern der exakte Stand meines Systems: von der Tastaturbelegung über Fensteranimationen bis hin zu den Farben der Statusleiste.
+
+**Warum diese Konfiguration?**  
+- Sie zeigt, wie ein modernes, Wayland-basiertes Linux-Desktop-Setup aussehen kann.  
+- Sie dient als Dokumentation meiner eigenen Optimierungen und als Inspiration für andere Enthusiasten.  
+- Alle Einstellungen sind bewusst kommentiert und in einzelne Module zerlegt, sodass sie leicht verstanden und angepasst werden können.
+
+**Für wen ist das?**  
+- Für mich selbst – als Backup und Referenz.  
+- Für Arch-Linux-Einsteiger, die ein vollständiges, funktionierendes Beispiel suchen.  
+- Für erfahrene Nutzer, die Anregungen für Themes (Anime, Ottoman Empire), Waybar-Styling oder Hyprland-Animationen mitnehmen möchten.
+
+Die Konfiguration wird kontinuierlich weiterentwickelt und an neue Tools sowie meine eigenen Vorlieben angepasst. Wenn du etwas Brauchbares findest, freue ich mich – wenn du Fragen hast, schreib mir einfach.
+
+---
+
+## ✨ FEATURES
 
 ### 🎨 Visuell & Theming
 
@@ -62,7 +82,7 @@
 
 ---
 
-## 🖼️ Screenshots
+## 🖼️ SCREENSHOTS
 
 ### 🎨 Terminal ASCII-Art
 ```text
