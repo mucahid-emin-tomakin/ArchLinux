@@ -16,13 +16,13 @@
 
 - [📝 PROJEKTBESCHREIBUNG](#-projektbeschreibung)
 - [✨ FEATURES](#-features)
-- [🖼️ SCREENSHOTS](#️-screenshots)
+- [🚀 TOOL](#-tool)
 - [📁 STRUKTUR](#-struktur)
 - [🚀 INSTALLATION](#-installation)
-- [⚙️ KONFIGURATION](#️-konfiguration)
-- [🛠️ CUSTOM SCRIPTS](#️-custom-scripts)
-- [🎨 THEMES](#-themes)
 - [📦 PAKETMANAGEMENT](#-paketmanagement)
+- [⚙️ KONFIGURATION](#️-konfiguration)
+- [🎨 THEMES](#-themes)
+- [🖼️ SCREENSHOTS](#️-screenshots)
 - [⚠️ WICHTIGE HINWEISE](#️-wichtige-hinweise)
 - [📝 LIZENZ](#-lizenz)
 - [👤 AUTOR](#-autor)
@@ -82,51 +82,22 @@ Die Konfiguration wird kontinuierlich weiterentwickelt und an neue Tools sowie m
 
 ---
 
-## 🖼️ SCREENSHOTS
+## 🚀 TOOL
 
-### 🎨 Terminal ASCII-Art
-```text
-                        .=:-#=
-                       .-#%%#-.
-                       -=-++:::
-                          :-
-                    .             ..
-                  :-:              .-.
-                 +=                  +*
-                **                    @#
-               -@-.::::..      ..:-::.*@:
-              :#%+#####%%%#++#%@@@#*+=**-.
-            -++=*+.   .-#@@@@@#+:.   -#=:::.
-          .=:   =*==   :%@@%*=--:  .+@*-   ...
-          :     .%@@@=-@@*=::=-+-:+%@*-      ..
-                 .*#*+*#+::==##*-+%*-:
-    :               ::-:-=+#@%*+=::               .
-   +@..:.             =+=::::-=+=-            .. -%. .
-:+#@@@#=.             .-==:  +%%==            .-+%%*+=.
-  %@##=                .:-:-*@%*:               ##++:
- -+.  :     .            :=#%*+:          ..   .-   :.
-              .::::::-=+#%%*==++==-:::---:.
-                .:-==*++=:.  .:-=+*+++=:.
-```
+| Kategorie | Eingesetzte Werkzeuge |
+|-----------|-----------------------|
+| 🖥️ Window Manager | Hyprland (Wayland) |
+| 🖥️ Terminal | Kitty (GPU-beschleunigt) |
+| 📝 Editor | Neovim (LazyVim), Sublime Text |
+| 🚀 Launcher | Rofi |
+| 📊 Status Bar | Waybar |
+| 🎵 Audio | PipeWire, WirePlumber, Cava |
+| 🗂️ File Manager | Ranger (TUI) |
+| 🎨 Theming | Fastfetch, Wallust, Hyprpaper |
+| 🛠️ Scripting | Python, Bash |
+| 📦 Paketmanagement | pacman, yay (AUR) |
 
-### 🖥️ Desktop Layout
-```text
-┌─────────────────────────────────────────────────────────────────────┐
-│                [Waybar]                🕐 12:34  📅 15.03   │
-├─────────────────────────────────────────────────────────────────────┤
-│ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐                     │
-│ │   Neovim    │ │    Kitty    │ │    Files    │                     │
-│ │            │ │            │ │            │                     │
-│ │             │ │             │ │             │                     │
-│ │             │ │             │ │             │                     │
-│ └─────────────┘ └─────────────┘ └─────────────┘                     │
-│                                                                     │
-│ ┌──────────────────────────────────────────────────────────────┐    │
-│ │                     [Cava Audio Visualizer]                  │    │
-│ │                    ▁▂▃▄▅▆▇█▇▆▅▄▃▂▁▂▃▄▅▆▇█▇▆▅▄▃▂▁         │    │
-│ └──────────────────────────────────────────────────────────────┘    │
-└─────────────────────────────────────────────────────────────────────┘
-```
+*Alle Konfigurationen sind in den Dotfiles hinterlegt und werden durch Symlinks aktiviert.*
 
 ---
 
@@ -272,6 +243,40 @@ yay -S - < aur-packages.txt  #🎁AUR Pakete (yay erforderlich)
 pacman -Qqen > packages.x86_64  #💾Aktuelle Paketliste exportieren
 pacman -Qqem > aur-packages.txt
 grep -i "neovim" packages.x86_64  #🔍Nach bestimmten Paketen suchen
+```
+
+---
+
+## 📦 PAKETMANAGEMENT
+
+### 📊 Paketstatistiken
+```bash
+# 📈 Anzahl der Pakete zählen
+OFFICIAL_COUNT=$(wc -l < packages.x86_64)
+AUR_COUNT=$(wc -l < aur-packages.txt)
+TOTAL=$((OFFICIAL_COUNT + AUR_COUNT))
+echo "📦 Paketstatistik:"
+echo "  🏛️  Offizielle: $OFFICIAL_COUNT"
+echo "  🎁 AUR: $AUR_COUNT"
+echo "  📊 Total: $TOTAL"
+```
+
+### 🔍 Pakete durchsuchen
+```bash
+# 🔎 Nach bestimmten Kategorien suchen
+grep -i "editor" packages.x86_64    # 📝 Editoren
+grep -i "terminal" packages.x86_64  # 🖥️ Terminal
+grep -i "audio" packages.x86_64     # 🎵 Audio
+grep -i "network" packages.x86_64   # 🌐 Netzwerk
+```
+
+### 🗑️ Pakete bereinigen
+```bash
+# 🧹 Nicht benötigte Pakete entfernen
+sudo pacman -Rns $(pacman -Qtdq)  # Orphaned Packages
+# 📦 Cache bereinigen
+sudo pacman -Sc                   # Package Cache
+yay -Sc                           # AUR Cache
 ```
 
 ---
@@ -456,36 +461,50 @@ THEME: Rainbow Borders
 
 ---
 
-## 📦 PAKETMANAGEMENT
+## 🖼️ SCREENSHOTS
 
-### 📊 Paketstatistiken
-```bash
-# 📈 Anzahl der Pakete zählen
-OFFICIAL_COUNT=$(wc -l < packages.x86_64)
-AUR_COUNT=$(wc -l < aur-packages.txt)
-TOTAL=$((OFFICIAL_COUNT + AUR_COUNT))
-echo "📦 Paketstatistik:"
-echo "  🏛️  Offizielle: $OFFICIAL_COUNT"
-echo "  🎁 AUR: $AUR_COUNT"
-echo "  📊 Total: $TOTAL"
+### 🎨 Terminal ASCII-Art
+```text
+                        .=:-#=
+                       .-#%%#-.
+                       -=-++:::
+                          :-
+                    .             ..
+                  :-:              .-.
+                 +=                  +*
+                **                    @#
+               -@-.::::..      ..:-::.*@:
+              :#%+#####%%%#++#%@@@#*+=**-.
+            -++=*+.   .-#@@@@@#+:.   -#=:::.
+          .=:   =*==   :%@@%*=--:  .+@*-   ...
+          :     .%@@@=-@@*=::=-+-:+%@*-      ..
+                 .*#*+*#+::==##*-+%*-:
+    :               ::-:-=+#@%*+=::               .
+   +@..:.             =+=::::-=+=-            .. -%. .
+:+#@@@#=.             .-==:  +%%==            .-+%%*+=.
+  %@##=                .:-:-*@%*:               ##++:
+ -+.  :     .            :=#%*+:          ..   .-   :.
+              .::::::-=+#%%*==++==-:::---:.
+                .:-==*++=:.  .:-=+*+++=:.
 ```
 
-### 🔍 Pakete durchsuchen
-```bash
-# 🔎 Nach bestimmten Kategorien suchen
-grep -i "editor" packages.x86_64    # 📝 Editoren
-grep -i "terminal" packages.x86_64  # 🖥️ Terminal
-grep -i "audio" packages.x86_64     # 🎵 Audio
-grep -i "network" packages.x86_64   # 🌐 Netzwerk
-```
-
-### 🗑️ Pakete bereinigen
-```bash
-# 🧹 Nicht benötigte Pakete entfernen
-sudo pacman -Rns $(pacman -Qtdq)  # Orphaned Packages
-# 📦 Cache bereinigen
-sudo pacman -Sc                   # Package Cache
-yay -Sc                           # AUR Cache
+### 🖥️ Desktop Layout
+```text
+┌─────────────────────────────────────────────────────────────────────┐
+│                [Waybar]                🕐 12:34  📅 15.03   │
+├─────────────────────────────────────────────────────────────────────┤
+│ ┌─────────────┐ ┌─────────────┐ ┌─────────────┐                     │
+│ │   Neovim    │ │    Kitty    │ │    Files    │                     │
+│ │            │ │            │ │            │                     │
+│ │             │ │             │ │             │                     │
+│ │             │ │             │ │             │                     │
+│ └─────────────┘ └─────────────┘ └─────────────┘                     │
+│                                                                     │
+│ ┌──────────────────────────────────────────────────────────────┐    │
+│ │                     [Cava Audio Visualizer]                  │    │
+│ │                    ▁▂▃▄▅▆▇█▇▆▅▄▃▂▁▂▃▄▅▆▇█▇▆▅▄▃▂▁         │    │
+│ └──────────────────────────────────────────────────────────────┘    │
+└─────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
