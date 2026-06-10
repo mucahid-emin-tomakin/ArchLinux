@@ -148,6 +148,16 @@
     # Hyprland
     alias hyprland='Hyprland --quiet'
 #
+# ~~~~~~~~~~~~~~~~~~~~~~~~ Kitty Tab-Titel mit Emoji ~~~~~~~~~~~~~~~~~~~~~~~~
+# Setzt für jeden neuen Tab in Kitty einen zufälligen Emoji-Titel (nur in Kitty)
+#
+    if [[ "$TERM" == "kitty" ]] && command -v kitty >/dev/null; then
+        EMOJI_SCRIPT="$HOME/.config/kitty/emoji.sh"
+        if [[ -x "$EMOJI_SCRIPT" ]]; then
+            "$EMOJI_SCRIPT"   # führt das Skript aus, das selbst den Titel setzt
+        fi
+    fi
+#
 # ~~~~~~~~~~~~~~~~~~~~~~~~ Bash-Autovervollständigung ~~~~~~~~~~~~~~~~~~~~~~~~
 # Schlägt mögliche Optionen und Parameter vor, während man den Befehl tippst
 #
