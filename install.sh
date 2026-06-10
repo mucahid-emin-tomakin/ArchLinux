@@ -148,7 +148,7 @@
         pipewire-alsa alsa-utils
         xdg-desktop-portal-hyprland qt6-wayland
         gnome-themes-extra gtk3
-        mpv mpvpaper ranger nvim bat tmux
+        mpv mpvpaper ranger nvim bat
         curl wget unzip 7zip usbutils lolcat
         wl-clipboard eza fzf ffmpeg
         ffmpegthumbnailer trash-cli 
