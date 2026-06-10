@@ -1,0 +1,148 @@
+#
+#
+#
+# ██████╗  █████╗ ████████╗
+# ██╔══██╗██╔══██╗╚══██╔══╝
+# ██████╔╝███████║   ██║   
+# ██╔══██╗██╔══██║   ██║   
+# ██████╔╝██║  ██║   ██║   
+# ╚═════╝ ╚═╝  ╚═╝   ╚═╝   
+#
+	--theme="base16"							 # Dezentes Farbschema
+	--italic-text=always						 # Kursive Schrift
+	--style="numbers,changes,grid"				 # Zeilennummern, Git-Änderungsmarkierungen und Trennungsgitter
+	--map-syntax "*.ino:C++"                     # Arduino Sketche
+	--map-syntax ".ignore:Git Ignore"            # .ignore-Dateien (ripgrep, fd, etc.)
+	--map-syntax "*.ejs:HTML"                    # Embedded JavaScript Templates
+	--map-syntax "*.vue:HTML"                    # Vue.js Single-File Components
+	--map-syntax "*.svelte:HTML"                 # Svelte Components
+	--map-syntax "*.tsx:TypeScript"              # React mit TypeScript
+	--map-syntax "*.jsx:JavaScript"              # React mit JavaScript
+	--map-syntax "*.cjs:JavaScript"              # CommonJS Module
+	--map-syntax "*.mjs:JavaScript"              # ES-Module
+	--map-syntax "*.fish:Fish"                   # Fish Shell Skripte
+	--map-syntax "*.tf:Terraform"                # Terraform Dateien
+	--map-syntax "*.tfvars:Terraform"            # Terraform Variablen
+	--map-syntax "*.hcl:HCL"                     # HashiCorp Configuration Language
+	--map-syntax "*.nomad:HCL"                   # Nomad Jobs
+	--map-syntax "*.sass:Sass"                   # Sass (nicht SCSS)
+	--map-syntax "*.scss:SCSS"                   # SCSS
+	--map-syntax "*.styl:CSS"                    # Stylus
+	--map-syntax "Dockerfile*:Dockerfile"        # Dockerfile (auch Dockerfile.custom)
+	--map-syntax "*.dockerfile:Dockerfile"       # Alternativ benannte Dockerfiles
+	--map-syntax "*.rasi:CSS"                    # Rofi Theme Dateien (wie CSS)
+	--map-syntax "*.rasi:CSS"                    # Rofi Konfiguration
+	--map-syntax "Makefile*:Makefile"            # Makefile, Makefile.custom
+	--map-syntax "*.mk:Makefile"                 # .mk Dateien (Makefile includes)
+	--map-syntax "Jenkinsfile:Groovy"            # Jenkins Pipeline
+	--map-syntax "*.groovy:Groovy"               # Groovy Skripte
+	--map-syntax "*.gradle:Groovy"               # Gradle Build Files
+	--map-syntax "*.lua:Lua"                     # Lua Skripte
+	--map-syntax "*.r:R"                         # R Skripte (Statistik)
+	--map-syntax "*.rmd:R Markdown"              # R Markdown
+	--map-syntax "*.qmd:Markdown"                # Quarto Markdown
+	--map-syntax "*.tex:LaTeX"                   # LaTeX Dokumente
+	--map-syntax "*.bib:BibTeX"                  # BibTeX Literaturdatenbanken
+	--map-syntax "*.sty:LaTeX"                   # LaTeX Style Dateien
+	--map-syntax "*.cls:LaTeX"                   # LaTeX Class Dateien
+	--map-syntax "*.asy:C++"                     # Asymptote Vector Graphics
+	--map-syntax "*.gnuplot:Gnuplot"             # Gnuplot Skripte
+	--map-syntax "*.gp:Gnuplot"                  # Gnuplot alternative Endung
+	--map-syntax "*.dot:Graphviz"                # Graphviz DOT
+	--map-syntax "*.gv:Graphviz"                 # Graphviz alternative Endung
+	--map-syntax "*.plantuml:PlantUML"           # PlantUML Diagramme
+	--map-syntax "*.puml:PlantUML"               # PlantUML alternative Endung
+	--map-syntax ".bashrc:Bash"                  # .bashrc
+	--map-syntax ".bash_profile:Bash"            # .bash_profile
+	--map-syntax ".zshrc:Zsh"                    # .zshrc
+	--map-syntax ".zshenv:Zsh"                   # .zshenv
+	--map-syntax ".zprofile:Zsh"                 # .zprofile
+	--map-syntax ".vimrc:VimL"                   # Vim Konfiguration
+	--map-syntax ".nvimrc:VimL"                  # Neovim Konfiguration
+	--map-syntax ".tmux.conf:tmux"               # tmux Konfiguration
+	--map-syntax ".Xresources:Xresources"        # Xresources
+	--map-syntax ".xinitrc:Bash"                 # xinitrc
+	--map-syntax ".gitconfig:Git Config"         # Git Konfiguration
+	--map-syntax ".gitignore:Git Ignore"         # .gitignore
+	--map-syntax ".gitattributes:Git Attributes" # Git Attribute
+	--map-syntax ".pre-commit-config.yaml:YAML"  # Pre-Commit Config
+	--map-syntax "Cargo.toml:TOML"               # Rust Cargo Manifest
+	--map-syntax "Cargo.lock:TOML"               # Rust Cargo Lockfile
+	--map-syntax "go.mod:Go Mod"                 # Go Mod Datei
+	--map-syntax "go.sum:Go Mod"                 # Go Sum Datei
+	--map-syntax "composer.json:JSON"            # PHP Composer
+	--map-syntax "package.json:JSON"             # Node.js package
+	--map-syntax "package-lock.json:JSON"        # Node.js lockfile
+	--map-syntax "yarn.lock:YAML"                # Yarn lockfile
+	--map-syntax "pnpm-lock.yaml:YAML"           # pnpm lockfile
+	--map-syntax "flake.nix:Nix"                 # Nix flake
+	--map-syntax "flake.lock:Nix"                # Nix flake lock
+	--map-syntax "shell.nix:Nix"                 # Nix shell
+	--map-syntax "default.nix:Nix"               # Nix default
+	--map-syntax ".env:Env"                      # .env Dateien
+	--map-syntax ".env.*:Env"                    # .env.production, .env.local
+	--map-syntax "*.env:Env"                     # production.env etc.
+	--map-syntax "*.log:Log"                     # Logdateien
+	--map-syntax "*.dump:Hex"                    # Hex-Dumps
+	--map-syntax "*.bin:Hex"                     # Binärdateien als Hex
+	--map-syntax "*.ipynb:JSON"                  # Jupyter Notebooks (sind JSON)
+	--map-syntax "*.avsc:JSON"                   # Avro Schema
+	--map-syntax "*.avdl:Avro IDL"               # Avro IDL
+	--map-syntax "*.mjml:HTML"                   # MJML E-Mail Templates
+	--map-syntax "*.haml:Haml"                   # Haml Templates
+	--map-syntax "*.slim:Slim"                   # Slim Templates
+	--map-syntax "*.pug:Pug"                     # Pug Templates (früher Jade)
+	--map-syntax "*.jade:Pug"                    # Jade Templates
+	--map-syntax "*.slang:Slang"                 # Slang Templates
+	--map-syntax "*.mdx:Markdown"                # MDX (Markdown + JSX)
+	--map-syntax "*.tex:LaTeX"                   # LaTeX
+	--map-syntax "*.ltx:LaTeX"                   # LaTeX alternative Endung
+	--map-syntax "*.sql:SQL"                     # SQL Dateien
+	--map-syntax "*.psql:SQL"                    # PostgreSQL
+	--map-syntax "*.mysql:SQL"                   # MySQL
+	--map-syntax "*.pgsql:SQL"                   # PostgreSQL
+	--map-syntax "*.sqlite:SQL"                  # SQLite
+	--map-syntax "*.prisma:Prisma"               # Prisma Schema
+	--map-syntax "*.graphql:GraphQL"             # GraphQL Schemas
+	--map-syntax "*.gql:GraphQL"                 # GraphQL alternative Endung
+	--map-syntax "*.service:Desktop"             # Systemd Service (als Desktop)
+	--map-syntax "*.timer:Desktop"               # Systemd Timer
+	--map-syntax "*.socket:Desktop"              # Systemd Socket
+	--map-syntax "*.target:Desktop"              # Systemd Target
+	--map-syntax "*.mount:Desktop"               # Systemd Mount
+	--map-syntax "*.path:Desktop"                # Systemd Path
+	--map-syntax "*.slice:Desktop"               # Systemd Slice
+	--map-syntax "*.swap:Desktop"                # Systemd Swap
+	--map-syntax "*.automount:Desktop"           # Systemd Automount
+	--map-syntax "*.ansible:YAML"                # Ansible Playbooks (YAML)
+	--map-syntax "*.j2:Jinja"                    # Jinja2 Templates
+	--map-syntax "*.yml.j2:YAML"                 # Jinja2 mit YAML
+	--map-syntax "*.conf:Apache"                 # Apache Config (falls keine bessere Zuordnung)
+	--map-syntax "nginx.conf:Nginx"              # Nginx Config
+	--map-syntax "*.nginx:Nginx"                 # Nginx Config alternative Endung
+	--map-syntax "*.tfstate:JSON"                # Terraform State
+	--map-syntax "*.tfstate.backup:JSON"         # Terraform State Backup
+	--map-syntax "Pulumi.yaml:YAML"              # Pulumi Stack
+	--map-syntax "Pulumi.*.yaml:YAML"            # Pulumi Stack mit Namen
+	--map-syntax "*.pkl:Pkl"                     # Pkl Configuration
+	--map-syntax "*.cue:CUE"                     # CUE Configuration
+	--map-syntax "CMakeLists.txt:CMake"          # CMake
+	--map-syntax "*.cmake:CMake"                 # CMake Module
+	--map-syntax "meson.build:Meson"             # Meson Build
+	--map-syntax "meson_options.txt:Meson"       # Meson Optionen
+	--map-syntax "*.st:Standard ML"              # Standard ML
+	--map-syntax "*.fsx:F#"                      # F# Skripte
+	--map-syntax "*.fs:F#"                       # F# Quellcode
+	--map-syntax "*.fsi:F#"                      # F# Signatur
+	--map-syntax "*.erb:ERB"                     # ERB Templates (Ruby)
+	--map-syntax "*.rhtml:ERB"                   # ERB mit HTML
+	--map-syntax "*.liquid:Liquid"               # Liquid Templates (Shopify, Jekyll)
+	--map-syntax "*.handlebars:Handlebars"       # Handlebars Templates
+	--map-syntax "*.hbs:Handlebars"              # Handlebars alternative Endung
+	--map-syntax "*.mustache:Mustache"           # Mustache Templates
+	--map-syntax "*.eta:Eta"                     # Eta Templates
+	--map-syntax "*.tpl:Smarty"                  # Smarty Templates
+	--map-syntax "*.latte:Latte"                 # Latte Templates (PHP)
+#
+#
+#

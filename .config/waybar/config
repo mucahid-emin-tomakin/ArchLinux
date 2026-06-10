@@ -1,0 +1,99 @@
+/*
+//
+//
+// ██╗    ██╗ █████╗ ██╗   ██╗██████╗  █████╗ ██████╗ 
+// ██║    ██║██╔══██╗╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+// ██║ █╗ ██║███████║ ╚████╔╝ ██████╔╝███████║██████╔╝
+// ██║███╗██║██╔══██║  ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+// ╚███╔███╔╝██║  ██║   ██║   ██████╔╝██║  ██║██║  ██║
+//  ╚══╝╚══╝ ╚═╝  ╚═╝   ╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+*/
+	[
+		{
+			"include": "~/.config/waybar/modules",
+			"layer": "top",
+			"exclusive": true,
+			"passthrough": false,
+			"position": "top",
+			"spacing": 3,
+			"fixed-center": true,
+			"ipc": true,
+			"margin-top": 1,
+			"margin-left": 6,
+			"margin-right": 6,
+			"modules-left": [
+				"custom/separator#blank",
+				"custom/menu",
+				"custom/separator#line",
+				"wlr/taskbar",
+				"custom/separator#blank",
+				 ],
+			"modules-center": [
+				"custom/separator#blank",
+				"clock",
+				"custom/weather",
+				"custom/separator#blank",
+				],
+			"modules-right": [
+				"custom/separator#blank",
+				"hyprland/window",
+				"custom/separator#line",
+				"custom/power",
+				"custom/separator#blank",
+				]
+		},
+		{
+			"include": "~/.config/waybar/modules",
+			"layer": "top",
+			"exclusive": true,
+			"passthrough": false,
+			"position": "bottom",
+			"spacing": 5,
+			"fixed-center": true,
+			"ipc": true,
+			"height": 0,
+			"margin-left": 8,
+			"margin-right": 8,
+			"modules-left": [
+					"custom/separator#blank",
+					"custom/lock",
+					"custom/separator#line",
+					"custom/updater",
+					"custom/separator#line",
+					"custom/hint",
+					"custom/separator#line",
+					"backlight",
+					"battery",
+					"bluetooth",
+					"custom/separator#line",
+					"temperature", 
+					"cpu", 
+					"memory",
+					"disk",
+					"network",
+					"custom/separator#blank",
+				],
+			"modules-center": [
+					"custom/separator#blank",
+					"hyprland/workspaces",
+					"custom/separator#blank",
+				], 
+			"modules-right": [
+					"custom/separator#blank",
+					//"custom/player_visualizer",
+					"custom/separator#blank",
+					"custom/cava_mviz",
+					"mpris",
+					"custom/playerctl",
+					"custom/separator#line",
+					"pulseaudio/slider",
+					"wireplumber", 
+					"pulseaudio",
+					"pulseaudio#microphone",
+					"custom/separator#blank",
+				]
+		}
+	]
+/*
+//
+//

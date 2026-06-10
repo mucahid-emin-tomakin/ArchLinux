@@ -1,0 +1,57 @@
+#
+#
+#
+# ██████╗ ████████╗ ██████╗ ██████╗ 
+# ██╔══██╗╚══██╔══╝██╔═══██╗██╔══██╗
+# ██████╔╝   ██║   ██║   ██║██████╔╝
+# ██╔══██╗   ██║   ██║   ██║██╔═══╝ 
+# ██████╔╝   ██║   ╚██████╔╝██║     
+# ╚═════╝    ╚═╝    ╚═════╝ ╚═╝     
+#
+	# ═══════════════════════════════════════
+	# Btop Neon‑Blue Theme
+	# ═══════════════════════════════════════
+	# Hintergrund
+	theme[main_bg]       = "#000000"   # Schwarz (Hintergrund)
+	theme[title_bg]      = "#000000"   # Titelleiste
+	# Text
+	theme[main_fg]       = "#00FF00"   # Neon‑Grün (Haupttext)
+	theme[title_fg]      = "#00FF00"   # Titeltext
+	theme[hi_fg]         = "#FF0000"   # Neon‑Rot (Hervorhebung / Warnungen)
+	# Ausgewählte Zeile
+	theme[selected_bg]   = "#2323FF"   # Blau (Hintergrund Auswahl)
+	theme[selected_fg]   = "#2CFF05"   # Grün  (Text Auswahl)
+	# Inaktive Elemente
+	theme[inactive_fg]   = "#00FEFC"   # Cyan (inaktiver Text, dezent)
+	# Graphen‑Beschriftung
+	theme[graph_text]    = "#00FEFC"   # Cyan (Text über Graphen)
+	# Fortschrittsbalken‑Hintergrund
+	theme[meter_bg]      = "#1a1a1a"   # Dunkelgrau
+	# Box‑Überschriften (CPU, RAM, Netzwerk, Prozesse)
+	theme[cpu_box]       = "#FF0000"   # Rot   (CPU‑Box)
+	theme[mem_box]       = "#FFFF00"   # Gelb  (RAM‑Box)
+	theme[net_box]       = "#00FF00"   # Grün  (Netzwerk‑Box)
+	theme[proc_box]      = "#00FEFC"   # Cyan  (Prozess‑Box)
+	# Trennlinien
+	theme[div_line]      = "#FF0000"   # Rot   (Trennlinien)
+	# Temperatur‑Verlauf (von kühl nach heiß)
+	theme[temp_start]    = "#0000FF"   # Blau
+	theme[temp_mid]      = "#00FF00"   # Grün
+	theme[temp_end]      = "#FF0000"   # Rot
+	# CPU‑Auslastungs‑Verlauf
+	theme[cpu_start]     = "#0000FF"   # Blau
+	theme[cpu_mid]       = "#FFFF00"   # Gelb
+	theme[cpu_end]       = "#FF0000"   # Rot
+	# Freier Speicher‑Verlauf
+	theme[free_start]    = "#00FEFC"   # Cyan
+	theme[free_mid]      = "#00FF00"   # Grün
+	theme[free_end]      = "#0000FF"   # Blau
+	# Cache‑Verlauf
+	theme[cached_start]  = "#FF0000"   # Rot
+	theme[cached_mid]    = "#FFFF00"   # Gelb
+	theme[cached_end]    = "#00FF00"   # Grün
+	# Zusätzlicher Prozess‑Text
+	theme[proc_misc]     = "#00FEFC"   # Cyan
+#
+#
+#

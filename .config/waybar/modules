@@ -1,0 +1,351 @@
+/*
+//
+//
+// ██╗    ██╗ █████╗ ██╗   ██╗██████╗  █████╗ ██████╗ 
+// ██║    ██║██╔══██╗╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+// ██║ █╗ ██║███████║ ╚████╔╝ ██████╔╝███████║██████╔╝
+// ██║███╗██║██╔══██║  ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+// ╚███╔███╔╝██║  ██║   ██║   ██████╔╝██║  ██║██║  ██║
+//  ╚══╝╚══╝ ╚═╝  ╚═╝   ╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+*/
+    {
+        "hyprland/language": {
+            "format": "Sprache: {}",
+            "format-de": "🇩🇪 Deutsch",
+            "format-at": "🇦🇹 Wienerisch",
+            "keyboard-name": "at",
+            "on-click": "hyprctl switchxkblayout at next"
+            },
+        "hyprland/workspaces": {
+            "format": "{name}",
+            "format": " {icon} ",
+            "show-special": false,
+            "on-click": "activate",
+            "on-scroll-up": "hyprctl dispatch workspace e+1",
+            "on-scroll-down": "hyprctl dispatch workspace e-1",
+            "all-outputs": true,
+            "sort-by-number": true,
+            "format-icons": {
+                "1": "~I~",
+                "2": "~II~",
+                "3": "~III~",
+                "4": "~IV~",
+                "5": "~V~",
+                "6": "~VI~",
+                "7": "~VII~",
+                "8": "~VIII~",
+                "9": "~IX~",
+                "10": "~X~",
+                "focused": "",
+                "default": "",
+                },
+            },
+        "hyprland/window": {
+            "format": "{}",
+            "max-length": 66,
+            "separate-outputs": true,
+            "offscreen-css" : true,
+            "offscreen-css-text": "(inactive)",
+            "rewrite": {
+                "(.*) — Google Chrome": " $1",
+                "(.*) - Bash": "> [$1]",
+                "(.*) - kitty": "> [$1]",
+                },
+            },
+        "custom/weather": {
+            "format": "{}",
+            "format-alt": " {alt}: {}",
+            "format-alt-click": "click",
+            "interval": 3600,
+            "return-type": "json",
+            "exec": "~/.config/waybar/scripts/Weather.sh",
+            "exec-if": "ping wttr.in -c1",
+            "tooltip" : true,
+            },
+        "custom/playerctl": {
+            "format": "<span>{}</span>",
+            "return-type": "json",
+            "max-length": 33,
+            "exec": "playerctl -a metadata --format '{\"text\": \"{{artist}} ~ {{markup_escape(title)}}\", \"tooltip\": \"{{playerName}} : {{markup_escape(title)}}\", \"alt\": \"{{status}}\", \"class\": \"{{status}}\"}' -F",
+            "on-click-middle": "playerctl play-pause",
+            "on-click": "playerctl previous",
+            "on-click-right": "playerctl next",
+            "scroll-step": 5.0,
+            "on-scroll-up": "~/.config/waybar/scripts/Volume.sh --inc",
+            "on-scroll-down": "~/.config/waybar/scripts/Volume.sh --dec",
+            "smooth-scrolling-threshold": 1,
+            },
+        "custom/cava_mviz": {
+            "exec": "~/.config/waybar/scripts/WaybarCava.sh",
+            "format": "{}"
+            },
+        "custom/updater":{
+            "format": " {}",
+            "exec": "checkupdates | wc -l",
+            "exec-if": "[[ $(checkupdates | wc -l) ]]",
+            "interval": 15,
+            "on-click": "kitty -e bash -c 'sudo pacman -Syu && notify-send \"Updates\" \"Fertig!\" || yay -Syu && notify-send \"Updates\" \"Fertig!\"'",
+            },
+        "custom/hint": {
+            "format": "󰺁 ",
+            "on-click": "$HOME/.config/waybar/scripts/KeyHints.sh",
+            "on-click-right": "$HOME/.config/waybar/scripts/KeyBinds.sh",
+            "tooltip": true,
+            "tooltip-format": "Left Click: Quick Tips\nRight Click: Keybinds",
+        },
+        "custom/menu": {
+            "format": " {}",
+            "exec": "echo ; echo 󱓟 app launcher",
+            "interval" : 86400, // once every day
+            "tooltip": true,
+            "on-click": "pkill rofi || rofi -show drun -modi run,drun,filebrowser,window",
+            },
+        "custom/power": {
+            "format": "⏻ ",
+            "exec": "echo ; echo 󰟡 power // blur",
+            "on-click": "~/.config/waybar/scripts/Wlogout.sh",
+            "interval" : 86400, // once every day
+            "tooltip": true,
+            },
+        "custom/lock": {
+            "format": "󰌾{}",
+            "exec": "echo ; echo 󰷛  screen lock",
+            "interval" : 86400, // once every day
+            "tooltip": true,
+            "on-click": "~/.config/waybar/scripts/LockScreen.sh",
+            },
+        "custom/separator#slash": {
+            "format": "/",
+            "interval": "once",
+            "tooltip": false
+            },
+        "custom/separator#line": {
+            "format": "|",
+            "interval": "once",
+            "tooltip": false
+            },
+        "custom/separator#blank": {
+            "format": "",
+            "interval": "once",
+            "tooltip": false
+            },
+        "wlr/taskbar": {
+            "format": "{icon} {name} ",
+            "icon-size": 15,
+            "all-outputs": false,
+            "tooltip-format": "{title}",
+            "on-click": "activate",
+            "on-click-middle": "close",
+            "ignore-list": [
+                "wofi",
+                "rofi",  
+                ]
+            },
+        "mpris": {
+            "interval": 10,
+            "format": " {player_icon} ",
+            "format-paused": "{status_icon} <i>{dynamic}</i>",
+            "on-click-middle": "playerctl play-pause",
+            "on-click": "playerctl previous",
+            "on-click-right": "playerctl next",
+            "scroll-step": 5.0,
+            "on-scroll-up": "~/.config/waybar/scripts/Volume.sh --inc",
+            "on-scroll-down": "~/.config/waybar/scripts/Volume.sh --dec",
+            "smooth-scrolling-threshold": 1,
+            "player-icons": {
+                "chromium": "",
+                "Google Chrome": "",
+                "default": "",
+                "firefox": "",
+                "kdeconnect": "",
+                "mopidy": "",
+                "mpv": "󰐹",
+                "spotify": "",
+                "vlc": "󰕼",
+                },
+            "status-icons": {
+                "paused": "󰐎",
+                "playing": "",
+                "stopped": "",
+                },
+            // "ignored-players": ["firefox"]
+            "max-length": 30,
+            },
+        "clock": {
+            "interval": 1,
+            "format": " {:%H:%M:%S / %A / %d.%m.%Y }  /",
+            "format-alt": " {:%H:%M:%S / %A / %d. %B %Y }  /",
+            "tooltip-format": "<tt><big>{calendar}</big></tt>",
+            "calendar": {
+                "mode"          : "year",
+                "mode-mon-col"  : 3,
+                "weeks-pos"     : "right",
+                "on-scroll"     : 1,
+                "format": {
+                    "months":     "<span color='#74ee15'><b>{}</b></span>",
+                    "days":       "<span color='#ecc6d9'><b>{}</b></span>",
+                    "weeks":      "<span color='#4deeea'><b>{}</b></span>",
+                    "weekdays":   "<span color='#ffe700'><b>{}</b></span>",
+                    "today":      "<span color='#fe0000'><b><u>{}</u></b></span>"
+                    }  
+                }
+            },
+        "temperature": {
+            "exec": "nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader | awk '{print $1\"°C\"}'",
+            "interval": 10,
+            "tooltip": true,
+            "critical-threshold": 82,
+            "format-critical": "{icon} {temperatureC}°C",
+            "format": "{icon} {temperatureC}°C",
+            "format-icons": ["󰈸"],
+            "on-click-right": "kitty -e nvtop",
+            },
+        "cpu": {
+            "format": "󰍛 {usage}%",  
+            "interval": 1,
+            "format-alt-click": "click",
+            "format-alt": "󰍛 {icon0}{icon1}{icon2}{icon3} {usage:>2}%",
+            "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
+            "on-click-right": "kitty -e btop",
+            },
+        "memory": {
+            "interval": 10,
+            "format": "󰾆 {percentage}%",
+            "format-alt": "󰾆 {used:0.1f}GB",
+            "format-alt-click": "click",
+            "tooltip": true,
+            "tooltip-format": "󰾆 {used:0.1f}GB / {total:0.1f}GB / {percentage}%",
+            "on-click-right": "kitty -e btop",
+            },
+        "disk": {
+            "interval": 30,
+            "path": "/",
+            "format-alt-click": "click",
+            "format-alt": "󰋊 {used}{path}{total}",
+            "format": "󰋊 {percentage_used}%",
+            "tooltip": true,
+            "tooltip-format": "󰋊 {used} {path} {total} {path} ({percentage_used}%)",
+            "on-click-right": "kitty -e btop",
+            },
+        "network": {
+            "interval": 1,
+            "format": "{ifname}",
+            "format-wifi": "{icon}  {bandwidthUpBytes}  {bandwidthDownBytes}",
+            "format-ethernet": "󰌘   {bandwidthUpBytes}  {bandwidthDownBytes}",
+            "format-disconnected": "󰌙", 
+            "tooltip-format": "󰌙 {ipaddr}  {bandwidthUpBytes}  {bandwidthDownBytes}",
+            "format-linked": "󰈁 {ifname} (No IP)",
+            "tooltip-format-wifi": "{icon} {essid} / {signalStrength}%",
+            "tooltip-format-ethernet": "󰌘 {ifname}",
+            "tooltip-format-disconnected": "󰌙 Disconnected",
+            "max-length": 50,
+            "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"],
+            "on-click-right": "kitty -e btop",
+            },
+        "wireplumber": {
+            "format": "{icon} {volume}%",
+            "format-muted": " ",
+            "on-click": "~/.config/waybar/scripts/Volume.sh --toggle",
+            "on-click-right": "kitty --class pulsemixer -o window_padding_width=20 -o window_padding_height=10 -e pulsemixer",
+            "on-scroll-up": "~/.config/waybar/scripts/Volume.sh --inc",
+            "on-scroll-down": "~/.config/waybar/scripts/Volume.sh --dec",
+            "format-icons": ["", "", "󰕾", ""], 
+            },
+        "pulseaudio": {
+            "format": "{icon} {volume}%",
+            "format-bluetooth": "{icon} 󰂰 {volume}%",
+            "format-muted": "󰖁",
+            "format-icons": {
+                "headphone": "",
+                "hands-free": "",
+                "headset": "",
+                "phone": "",
+                "portable": "",
+                "car": "",
+                "default": ["", "", "󰕾", ""], 
+                "ignored-sinks": ["Easy Effects Sink"],
+                },
+            "scroll-step": 5.0,
+            "on-click": "~/.config/waybar/scripts/Volume.sh --toggle",
+            "on-click-right": "kitty --class pulsemixer -o window_padding_width=20 -o window_padding_height=10 -e pulsemixer",
+            "on-scroll-up": "~/.config/waybar/scripts/Volume.sh --inc",
+            "on-scroll-down": "~/.config/waybar/scripts/Volume.sh --dec",
+            "tooltip-format": "{icon} {desc} | {volume}%",
+            "smooth-scrolling-threshold": 1,
+            },
+        "pulseaudio#microphone": {
+            "format": "{format_source}",
+            "format-source": "{volume}%",
+            "format-source-muted": "",
+            "on-click": "~/.config/waybar/scripts/Volume.sh --toggle-mic",
+            "on-click-right": "kitty --class pulsemixer -o window_padding_width=20 -o window_padding_height=10 -e pulsemixer",
+            "on-scroll-up": "~/.config/waybar/scripts/Volume.sh --mic-inc",
+            "on-scroll-down": "~/.config/waybar/scripts/Volume.sh --mic-dec",
+            "tooltip-format": "{source_desc} | {source_volume}%",
+            "scroll-step": 5,
+            },
+        "pulseaudio/slider": {
+            "min": 0,
+            "max": 100,
+            "orientation": "horizontal",
+            },
+        "bluetooth": {
+            "format": "",
+            "format-disabled": "󰂳",
+            "format-connected": "󰂱 {num_connections}",
+            "tooltip-format": " {device_alias}",
+            "tooltip-format-connected": "{device_enumerate}",
+            "tooltip-format-enumerate-connected": " {device_alias} 󰂄{device_battery_percentage}%",
+            "tooltip": true,
+            "on-click": "blueman-manager",
+            },
+        "battery": {
+            "align": 0,
+            "rotate": 0,
+            "full-at": 100,
+            "design-capacity": false,
+            "states": {
+                "good": 95,
+                "warning": 30,
+                "critical": 15
+                },
+            "format": "{icon} {capacity}%",
+            "format-charging": " {capacity}%",
+            "format-plugged": "󱘖 {capacity}%",
+            "format-alt-click": "click",
+            "format-full": "{icon} Full",
+            "format-alt": "{icon} {time}",
+            "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+            "format-time": "{H}h {M}min",
+            "tooltip": true,
+            "tooltip-format": "{timeTo} {power}w",
+            },
+        "backlight": {
+            "interval": 2,
+            "align": 0,
+            "rotate": 0,
+            //"format": "{icon} {percent}%",
+            "format-icons": [" ", " ", " ", "󰃝 ", "󰃞 ", "󰃟 ", "󰃠 "],
+            "format": "{icon}",
+            //"format-icons": ["","","","","","","","","","","","","","",""],
+            "tooltip-format": "backlight {percent}%",
+            "icon-size": 10,
+            "on-click": "",
+            "on-click-middle": "",
+            "on-click-right": "",
+            "on-update": "",
+            "on-scroll-up": "~/.config/waybar/scripts/Brightness.sh --inc",
+            "on-scroll-down": "~/.config/waybar/scripts/Brightness.sh --dec",
+            "smooth-scrolling-threshold": 1,
+            },
+        "actions":  {
+            "on-click-right": "mode",
+            "on-click-forward": "tz_up",
+            "on-click-backward": "tz_down",
+            "on-scroll-up": "shift_up",
+            "on-scroll-down": "shift_down"
+            },
+    }
+//
+//
+*/

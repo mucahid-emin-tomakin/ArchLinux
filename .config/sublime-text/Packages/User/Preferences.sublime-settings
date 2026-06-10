@@ -1,0 +1,60 @@
+/*
+//
+//
+// ███████╗██╗   ██╗██████╗ ██╗     ██╗███╗   ███╗███████╗    ████████╗███████╗██╗  ██╗████████╗
+// ██╔════╝██║   ██║██╔══██╗██║     ██║████╗ ████║██╔════╝    ╚══██╔══╝██╔════╝╚██╗██╔╝╚══██╔══╝
+// ███████╗██║   ██║██████╔╝██║     ██║██╔████╔██║█████╗         ██║   █████╗   ╚███╔╝    ██║   
+// ╚════██║██║   ██║██╔══██╗██║     ██║██║╚██╔╝██║██╔══╝         ██║   ██╔══╝   ██╔██╗    ██║   
+// ███████║╚██████╔╝██████╔╝███████╗██║██║ ╚═╝ ██║███████╗       ██║   ███████╗██╔╝ ██╗   ██║   
+// ╚══════╝ ╚═════╝ ╚═════╝ ╚══════╝╚═╝╚═╝     ╚═╝╚══════╝       ╚═╝   ╚══════╝╚═╝  ╚═╝   ╚═╝   
+*/
+	{
+		"ignored_packages":
+		[
+			"Vintage",
+	],
+		"color_scheme": "Packages/Guna/themes/Guna.sublime-color-scheme",
+		"theme": "Guna.sublime-theme",
+		/*"gn_hide_tab_dropdown": true,*/
+		/*"gnc_h13": true,*/
+		/*"gnc_m00": true,*/
+		/*"gnc_w2m11": true,*/
+		/*"gn_overlay_scroll_bars": true,*/
+		/*"gn_sidebar_box": true,*/
+		/*"gn_title_bar": true,*/
+		/*"gnc_001": false,*/
+		/*"gnc_002": true,*/
+		/*"gnwidg1": true,*/
+		"gnwidgo": true,
+		/*"gnc_h13": true,*/
+		/*"gnc_m01": true,*/
+		/*"gnc_w2m11": true,*/
+		/*"gnc_001": false,*/
+		/*"gnc_002": true,*/
+		/*"gnc_h13": true,*/
+		/*"gnc_m01": true,*/
+		/*"gnc_w2m11": true,*/
+		"index_files": true,
+		/*"gnc_001": false,*/
+		/*"gnc_002": false,*/
+		/*"gnc_h13": true,*/
+		/*"gnc_m03": true,*/
+		/*"gnc_w2m11": true,*/
+		/*"gnc_m04": true,*/
+		/*"gni_003": false,*/
+		/*"gnwidgx": true,*/
+		/*"gnc_m06": true,*/
+		"gn_hide_tab_dropdown": true,
+		"gn_overlay_scroll_bars": true,
+		"gn_sidebar_box": true,
+		"gn_title_bar": true,
+		/*"gnc_001": false,*/
+		/*"gnc_002": true,*/
+		/*"gnc_h13": true,*/
+		/*"gnc_w2m11": true,*/
+		"gnwidg1": true,
+	"font_size": 10,
+}
+/*
+//
+*/

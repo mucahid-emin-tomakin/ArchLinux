@@ -1,0 +1,88 @@
+#
+#
+#
+# ██████╗ ██╗   ██╗███╗   ██╗███████╗████████╗
+# ██╔══██╗██║   ██║████╗  ██║██╔════╝╚══██╔══╝
+# ██║  ██║██║   ██║██╔██╗ ██║███████╗   ██║   
+# ██║  ██║██║   ██║██║╚██╗██║╚════██║   ██║   
+# ██████╔╝╚██████╔╝██║ ╚████║███████║   ██║   
+# ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝╚══════╝   ╚═╝   
+#
+    [global]
+        # --- Position ---
+        origin = top-right
+        offset = 20x50
+        gap = 10
+
+        # --- Dynamische Größe ---
+        width = (0, 400)
+        height = (0, 300)
+        notification_limit = 5
+
+        # --- Design ---
+        frame_color = "#FF0000"
+        background = "#000000"
+        foreground = "#00FF00"
+        frame_width = 3
+        corner_radius = 12
+
+        # --- RGB Sidebar ---
+        highlight = "#FF0000"
+
+        # --- Text ---
+        font = JetBrainsMono Nerd Font 11
+        markup = full
+        plain_text = no
+
+        # --- Verhalten ---
+        timeout = 3
+        follow = mouse
+        sort = yes
+        indicate_hidden = yes
+        sticky_history = yes
+        show_indicators = yes
+        separator_color = auto
+
+        # --- Zeilenumbruch ---
+        word_wrap = yes
+        separator_height = 2
+
+        # --- Icon ---
+        icon_position = left
+        max_icon_size = 48
+
+        # --- Transparenz ---
+        transparency = 5
+
+        # --- Historie ---
+        history_length = 20
+
+    [urgency_low]
+        background  = "#000000"
+        foreground  = "#00FEFC"
+        highlight   = "#00FEFC"
+        timeout     = 3
+        frame_color = "#00FEFC"
+
+    [urgency_normal]
+        background  = "#000000"
+        foreground  = "#00FF00"
+        highlight   = "#00FF00"
+        timeout     = 3
+        frame_color = "#00FF00"
+
+    [urgency_critical]
+        background  = "#000000"
+        foreground  = "#FF0000"
+        highlight   = "#FF0000"
+        timeout     = 0
+        frame_color = "#FF0000"
+
+    #[shortcuts]
+        #close = ctrl+space
+        #close_all = ctrl+shift+space
+        #history = ctrl+grave
+        #context = ctrl+shift+period#
+#
+#
+#

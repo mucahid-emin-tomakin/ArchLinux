@@ -1,0 +1,431 @@
+/*
+//
+//
+// ██╗    ██╗ █████╗ ██╗   ██╗██████╗  █████╗ ██████╗ 
+// ██║    ██║██╔══██╗╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+// ██║ █╗ ██║███████║ ╚████╔╝ ██████╔╝███████║██████╔╝
+// ██║███╗██║██╔══██║  ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+// ╚███╔███╔╝██║  ██║   ██║   ██████╔╝██║  ██║██║  ██║
+//  ╚══╝╚══╝ ╚═╝  ╚═╝   ╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+*/
+    /* --- Neon ---
+    @define-color NeonBlack #000000;
+    @define-color NeonBlau #0000FF;
+    @define-color NeonTurkis #00FEFC;
+    @define-color NeonGrun #00FF00;
+    @define-color NeonGelb #FFFF00;
+    @define-color NeonRot #FF0000;
+    @define-color NeonLila #9400D3;
+    @define-color NeonWeiss #FFFFFF;
+    @define-color NeonMagenta #ff00a9;
+    @define-color NeonOrange #FF3403;
+    @define-color NeonBrightOrange #FF581B;
+    @define-color NeonBrightestOrange #FFAA00;
+    @define-color NeonDarkestPurple #591137;
+    @define-color NeonDarkPurple #771646;
+    @define-color NeonPurple #99406C;
+    @define-color NeonBrightPurple #AB5E86;
+    @define-color NeonBrightestPurple #C27BA0; */
+    /* --- Wallust (Dynamisch) --- */
+    @define-color WallBlack #000000;
+    @define-color WallBlau #0000FF;
+    @define-color WallTurkis #00FEFC;
+    @define-color WallGrun #00FF00;
+    @define-color WallGelb #FFFF00;
+    @define-color WallRot #FF0000;
+    @define-color WallLila #9400D3;
+    @define-color WallWeiss #FFFFFF;
+    @define-color WallMagenta #ff00a9;
+    @define-color WallOrange #FF3403;
+    @define-color WallBrightOrange #FF581B;
+    @define-color WallBrightestOrange #FFAA00;
+    @define-color WallDarkestPurple #591137;
+    @define-color WallDarkPurple #771646;
+    @define-color WallPurple #99406C;
+    @define-color WallBrightPurple #AB5E86;
+    @define-color WallBrightestPurple #C27BA0;
+    /* --- Taskbar Regenbogen --- */
+    @define-color RB0 #ff2400;
+    @define-color RB1 #e81d1d;
+    @define-color RB2 #e8b71d;
+    @define-color RB3 #e3e81d;
+    @define-color RB4 #1de840;
+    @define-color RB5 #1ddde8;
+    @define-color RB6 #2b1de8;
+    @define-color RB7 #dd00f3;
+    @keyframes blink {
+        to {
+            background-color: @WallWeiss; 
+            color: #333333; 
+            text-shadow: 0 0 3px #333333;
+        }
+    }
+    @keyframes rainbow-gradient {
+        0% { border-image: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet) 1; }
+        50% { border-image: linear-gradient(270deg, violet, indigo, blue, green, yellow, orange, red) 1 1 1 1; }
+        100% { border-image: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet) 1; }
+    }
+    @keyframes rainbowGlow {
+        0% { color: #ff0000; text-shadow: 0 0 3px #ff0000; } /* Rot */
+        16% { color: #ff7f00; text-shadow: 0 0 3px #ff7f00; } /* Orange */
+        33% { color: #ffff00; text-shadow: 0 0 3px #ffff00; } /* Gelb */
+        50% { color: #00ff00; text-shadow: 0 0 3px #00ff00; } /* Grün */
+        66% { color: #0000ff; text-shadow: 0 0 3px #0000ff; } /* Blau */
+        83% { color: #4b0082; text-shadow: 0 0 3px #4b0082; } /* Indigo */
+        100% { color: #9400d3; text-shadow: 0 0 3px #9400d3; } /* Violett */
+    }
+    @keyframes neon-border {
+        0% { box-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red; border-color: red; }
+        25% { box-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow; border-color: yellow; }
+        50% { box-shadow: 0 0 10px lime, 0 0 20px lime, 0 0 30px lime; border-color: lime; }
+        75% { box-shadow: 0 0 10px cyan, 0 0 20px cyan, 0 0 30px cyan; border-color: cyan; }
+        100% { box-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red; border-color: red; }
+    }
+    @keyframes borderAnimation {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+    @keyframes glitch {
+        0% { text-shadow: 2px 2px #00fffc, -2px -2px #fc00ff; }
+        25% { text-shadow: -2px -2px #00fffc, 2px 2px #fc00ff; }
+        50% { text-shadow: 2px -2px #fffc00, -2px 2px #fc00ff; }
+        75% { text-shadow: -2px 2px #00fffc, 2px -2px #fffc00; }
+        100% { text-shadow: 2px 2px #fc00ff, -2px -2px #00fffc; }
+    }
+    @keyframes glitchII {
+        0% { text-shadow: 0.05em 0 0 #00fffc, -0.05em -0.025em 0 #fc00ff, -0.025em 0.05em 0 #fffc00; }
+        14% { text-shadow: 0.05em 0 0 #00fffc, -0.05em -0.025em 0 #fc00ff, -0.025em 0.05em 0 #fffc00; }
+        15% { text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.025em 0 #fc00ff, -0.05em -0.05em 0 #fffc00; }
+        49% { text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.025em 0 #fc00ff, -0.05em -0.05em 0 #fffc00; }
+        50% { text-shadow: 0.025em 0.05em 0 #00fffc, 0.05em 0 0 #fc00ff, 0 -0.05em 0 #fffc00; }
+        99% { text-shadow: 0.025em 0.05em 0 #00fffc, 0.05em 0 0 #fc00ff, 0 -0.05em 0 #fffc00; }
+        100% { text-shadow: -0.025em 0 0 #00fffc, -0.025em -0.025em 0 #fc00ff, -0.025em -0.05em 0 #fffc00; }
+    }
+    /* --- Waybar --- */
+    * {
+        font-family: "JetBrainsMono Nerd Font";
+        font-weight: bold;
+        min-height: 0;
+        font-size: 100%;
+        font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
+        padding: 0px;
+    }
+    .modules-left > widget:first-child > #workspaces {
+    }
+    .modules-right > widget:last-child > #workspaces {
+    }
+    /* --- All --- */
+    /*tooltip, #workspaces, #taskbar, window,*/ #custom-weather, 
+    #custom-weather.clearNight, #custom-weather.cloudyFoggyDay, #custom-weather.cloudyFoggyNight,
+    #custom-weather.default, #custom-weather.rainyDay, #custom-weather.rainyNight, 
+    #custom-weather.severe, #custom-weather.showyIcyDay, #custom-weather.snowyIcyNight,
+    #custom-weather.sunnyDay #custom-menu, #custom-power, #custom-lock, #custom-updater, 
+    #custom-hint, #custom-playerctl, #custom-player_visualizer.playing, 
+    #custom-player_visualizer.paused, #custom-player_visualizer.stopped, #custom-cava_mviz, 
+    /*#custom-separator,*/ #mpris, /*#clock, #mode,*/ #temperature, #cpu, #memory, #disk, #network, 
+    #wireplumber, #pulseaudio, #pulseaudio-slider, #bluetooth, #battery, #backlight, 
+    #backlight-slider {
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-right: 6px;
+        padding-left: 6px;
+        /*animation: rainbowGlow 5s infinite linear;*/
+    }
+    /* --- ToolTip --- */
+    tooltip {
+        background: @WallBlack;
+        opacity: 1.0;
+        border-radius: 11px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: @WallRot;
+    }
+    tooltip label{
+        color: @WallGrun;
+        /*text-shadow: 0 0 3px @WallTurkis;*/
+    }
+    /* --- Workspace --- */
+    #workspaces {
+        padding-right: 44px;
+        padding-left: 44px;
+    }
+    #workspaces button {
+        color: @WallWeiss;
+        text-shadow: 0 0 3px @WallWeiss;
+        background-color: transparent;
+        box-shadow: none;
+        text-shadow: none;
+        padding: 0px;
+        border-radius: 9px;
+        padding-left: 4px;
+        padding-right: 4px;
+        transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+    }
+    #workspaces button.active {
+        color:  @WallRot;
+        text-shadow: 0 0 3px @WallRot;
+        background-color: transparent;
+        padding-left: 8px;
+        padding-right: 8px;
+        transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+        animation: rainbowGlow 1.5s infinite linear;
+    }
+    #workspaces button:hover {
+        color: @WallRot;
+        text-shadow: 0 0 3px @WallRot;
+        background: rgba(0, 0, 0, 0.2);
+        padding-left: 2px;
+        padding-right: 2px;
+        transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+        border: 1px solid @WallGrun;
+        border-radius: 11px;
+        animation: neon-border 1.5s linear infinite;
+    }
+    #workspaces button.focused {
+        color: @WallRot;
+        text-shadow: 0 0 3px @WallRot;
+        background-color: transparent;
+        /* box-shadow: inset 0 -3px #ffffff; */
+    }
+    #workspaces button.urgent {
+        background-color: transparent;
+    }
+    /* --- Taskbar --- */
+    #taskbar button.active {
+        color: @WallWeiss;
+        text-shadow: 0 0 3px @WallWeiss;
+        animation: rainbowGlow 5s infinite linear;
+        padding-left: 3px;
+        padding-right: 3px;
+        /*background: linear-gradient(45deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);*/
+        background: linear-gradient(45deg, @RB0, @RB1, @RB2, @RB3, @RB4, @RB5, @RB6, @RB7, @RB7);
+        background-size: 666%;
+        animation: rainbowGlow 1s infinite linear, neon-border 1.5s linear infinite, borderAnimation 5s linear infinite;
+        transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+    }
+    #taskbar button:hover {
+        color: @WallBlack;
+        text-shadow: 0 0 3px @WallBlack;
+        padding-left: 3px;
+        padding-right: 3px;
+        transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+        background: @WallGrun;
+        box-shadow: 0 0 5px @WallGrun,
+                    0 0 25px @WallGrun,
+                    0 0 50px @WallGrun,
+                    0 0 200px @WallGrun;
+    }
+    /* --- ActiveWindow --- */
+    window#waybar {
+        color: @WallOrange;
+        text-shadow: 0 0 3px @WallOrange;
+        border-radius: 6px;
+        animation: glitchII 1.5s infinite;
+        background: transparent;
+        /*background: repeating-linear-gradient(0deg, rgba(255,255,255,0.05) 0px, rgba(255,255,255,0.05) 1px, transparent 1px, transparent 2px);*/
+    }
+    window#waybar.hidden {
+        opacity: 0.1;
+    }
+    window#waybar.empty {
+        background-color: transparent;
+    }
+    window#waybar.empty #window {
+        padding: 0px;
+        border: 0px;
+        background-color: transparent;
+    }
+    /* --- Custom --- */
+    #custom-weather {
+        color: @WallGrun;
+        text-shadow: 0 0 3px @WallGrun;
+    }
+    #custom-menu{
+        color: @WallBlau;
+        text-shadow: 0 0 3px @WallBlau;
+        padding-right: 11px;
+        padding-left: 1px;
+    }
+    #custom-power {
+        color: @WallRot;
+        text-shadow: 0 0 3px @WallRot;
+    }
+    #custom-lock {
+        color: @WallGelb;
+        text-shadow: 0 0 3px @WallGelb;
+    }
+    #custom-updater {
+        color: @WallBrightestOrange;
+        text-shadow: 0 0 3px @WallBrightestOrange;
+    }
+    #custom-hint {
+        color: @WallBrightOrange;
+        text-shadow: 0 0 3px @WallBrightOrange;
+    }
+    #custom-playerctl {
+        color: @WallPurple;
+        text-shadow: 0 0 3px @WallPurple;
+        font-weight: bold;
+        animation: glitch 0.5s infinite alternate;
+    }
+    #custom-player_visualizer.playing {
+        color: @WallOrange;
+        text-shadow: 0 0 3px @WallOrange;
+    }
+    #custom-player_visualizer.paused {
+        color: @WallBrightestOrange;
+        text-shadow: 0 0 3px @WallBrightestOrange;
+    }
+    #custom-player_visualizer.stopped {
+        color: @WallRot;
+        text-shadow: 0 0 3px @WallRot;
+    }
+    #custom-cava_mviz {
+        font-weight: bold;
+        animation: glitch 0.5s infinite alternate;
+    }
+    #custom-separator {
+        color: @WallWeiss;
+        text-shadow: 0 0 3px @WallWeiss;
+        animation: rainbowGlow 5s infinite linear;
+    }
+    /* --- Others --- */
+    #mpris {
+        color: @WallPurple;
+        text-shadow: 0 0 3px @WallPurple;
+        font-weight: bold;
+        animation: glitch 0.5s infinite alternate;
+    }
+    #clock {
+        color: @WallGrun;
+        text-shadow: 0 0 3px @WallGrun;
+    }
+    #mode {
+        background-color: @WallDarkPurple;
+        border-bottom: 6px solid @WallWeiss;
+    }
+    #temperature {
+        color: @WallDarkestPurple;
+        text-shadow: 0 0 3px @WallDarkestPurple;
+    }
+    #temperature.critical {
+        background-color: @WallRot;
+    }
+    #cpu {
+        color: @WallDarkPurple;
+        text-shadow: 0 0 3px @WallDarkPurple;
+    }
+    #memory {
+        color: @WallPurple;
+        text-shadow: 0 0 3px @WallPurple;
+    }
+    #disk {
+        color: @WallBrightPurple;
+        text-shadow: 0 0 3px @WallBrightPurple;
+    }
+    #network {
+        color: @WallBrightestPurple;
+        text-shadow: 0 0 3px @WallBrightestPurple;
+    }
+    #network.disconnected {
+        color: @WallRot;
+        text-shadow: 0 0 3px @WallRot;
+    }
+    #wireplumber {
+        color: @WallMagenta;
+        text-shadow: 0 0 3px @WallMagenta;
+    }
+    #wireplumber-muted {
+        color: @WallRot;
+        text-shadow: 0 0 3px @WallRot;
+    }
+    #pulseaudio {
+        color: @WallMagenta;
+        text-shadow: 0 0 3px @WallMagenta;
+    }
+    #pulseaudio-muted {
+        color: @WallRot;
+        text-shadow: 0 0 3px @WallRot;
+    }
+    #pluseaudio-source-muted{
+        color: @WallRot;
+        text-shadow: 0 0 3px @WallRot;
+    }
+    #pulseaudio-slider slider {
+        color: @WallMagenta;
+        text-shadow: 0 0 3px @WallMagenta;
+        min-width: 0px;
+        min-height: 0px;
+        opacity: 0;
+        background-image: none;
+        border: none;
+        box-shadow: none;
+    }
+    #pulseaudio-slider trough {
+        color: @WallMagenta;
+        text-shadow: 0 0 3px @WallMagenta;
+        min-width: 80px;
+        min-height: 5px;
+        border-radius: 6px;
+    }
+    #pulseaudio-slider highlight {
+        color: @WallMagenta;
+        text-shadow: 0 0 3px @WallMagenta;
+        min-height: 10px;
+        border-radius: 6px;
+        /*background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3, #ff0000);*/
+        background: linear-gradient(90deg, @WallRot, @WallOrange, @WallGelb, @WallGrun, @WallBlau, @WallPurple, @WallLila, @WallRot);
+        background-size: 300% 300%;
+        animation: borderAnimation 5s linear infinite;
+        text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    }
+    #bluetooth {
+        color: @WallBlau;
+        text-shadow: 0 0 3px @WallBlau;
+    }
+    #battery {
+        color: @WallGrun;
+        text-shadow: 0 0 3px @WallGrun;
+    }
+    #battery.charging {
+        background-color: @WallGelb;
+        color: @WallWeiss;
+        text-shadow: 0 0 3px @WallWeiss;
+    }
+    #battery.critical:not(.charging) {
+        color: @WallRot;
+        text-shadow: 0 0 3px @WallRot;
+        animation-name: blink;
+        animation-duration: 0.5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    label:focus {
+        background-color: @WallBlack;
+    }
+    #backlight {
+        color: @WallOrange;
+        text-shadow: 0 0 3px @WallOrange;
+    }
+    #backlight-slider slider {
+        min-width: 0px;
+        min-height: 0px;
+        opacity: 0;
+        background-image: none;
+        border: none;
+        box-shadow: none;
+    }
+    #backlight-slider trough {
+        min-width: 80px;
+        min-height: 10px;
+        border-radius: 5px;
+    }
+    #backlight-slider highlight {
+        min-width: 10px;
+        border-radius: 5px;
+    }
+/*
+//
+*/

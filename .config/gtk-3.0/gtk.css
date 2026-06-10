@@ -1,0 +1,85 @@
+/*
+//
+//
+//  ██████╗████████╗██╗  ██╗
+// ██╔════╝╚══██╔══╝██║ ██╔╝
+// ██║  ███╗  ██║   █████╔╝ 
+// ██║   ██║  ██║   ██╔═██╗ 
+// ╚██████╔╝  ██║   ██║  ██╗
+//  ╚═════╝   ╚═╝   ╚═╝  ╚═╝
+/*
+    /* ═══════════════════════════════════════════════════════════════════
+       Neon‑Überschreibungen für Adwaita‑dark (auskommentiert)
+       Aktivieren durch Entfernen von /* und */
+       ═══════════════════════════════════════════════════════════════════ */
+    /*window, .background {
+        background-color: #000000 !important;
+        color: #00FF00 !important;
+        text-shadow: 0 0 3px #00FF00 !important;
+    }
+
+    headerbar, .headerbar {
+        background-color: #000000 !important;
+        color: #0000FF !important;
+        border-bottom: 1px solid #FF0000 !important;
+        box-shadow: 0 0 6px #FF0000 !important;
+    }
+    headerbar label, .headerbar label {
+        color: #0000FF !important;
+        text-shadow: 0 0 3px #0000FF !important;
+    }
+
+    button {
+        background-color: #FF0000 !important;
+        color: #00FF00 !important;
+        border: 1px solid #FF0000 !important;
+        border-radius: 6px;
+        box-shadow: 0 0 5px #FF0000 !important;
+        transition: all 0.2s ease;
+        text-shadow: 0 0 2px #00FF00 !important;
+    }
+    button:hover {
+        background-color: #0000FF !important;
+        color: #000000 !important;
+        box-shadow: 0 0 12px #0000FF !important;
+    }
+
+    scale trough {
+        background-color: #1a1a1a !important;
+        border-radius: 3px;
+        border: 1px solid #FF0000 !important;
+        box-shadow: 0 0 4px #FF0000 !important;
+    }
+    scale highlight {
+        background: linear-gradient(90deg, #FF0000, #FF3403, #FFAA00, #FFFF00, #00FF00, #00FEFC, #0000FF, #FF00FF) !important;
+        border-radius: 3px;
+    }
+
+    entry, .entry {
+        background-color: #1a1a1a !important;
+        color: #00FF00 !important;
+        border: 1px solid #FF0000 !important;
+        border-radius: 4px;
+        box-shadow: 0 0 4px #FF0000 !important;
+    }
+    entry:focus, .entry:focus {
+        box-shadow: 0 0 10px #FF0000 !important;
+    }
+
+    menu, .menu, menubar, .menubar {
+        background-color: #000000 !important;
+        color: #00FF00 !important;
+        border: 1px solid #FF0000 !important;
+    }
+    menuitem:hover, .menuitem:hover {
+        background-color: #FF0000 !important;
+        color: #000000 !important;
+    }
+
+    label, .label {
+        color: #00FF00 !important;
+        text-shadow: 0 0 2px #00FF00;
+    }*/
+/*
+//
+/*

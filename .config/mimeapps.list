@@ -1,0 +1,37 @@
+# ███╗   ███╗██╗███╗   ███╗███████╗ █████╗ ██████╗ ██████╗ ███████╗
+# ████╗ ████║██║████╗ ████║██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔════╝
+# ██╔████╔██║██║██╔████╔██║█████╗  ███████║██████╔╝██████╔╝███████╗
+# ██║╚██╔╝██║██║██║╚██╔╝██║██╔══╝  ██╔══██║██╔═══╝ ██╔═══╝ ╚════██║
+# ██║ ╚═╝ ██║██║██║ ╚═╝ ██║███████╗██║  ██║██║     ██║     ███████║
+# ╚═╝     ╚═╝╚═╝╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝     ╚══════╝
+#
+	[Default Applications]
+	# Browser
+	text/html=google-chrome.desktop
+	x-scheme-handler/http=google-chrome.desktop
+	x-scheme-handler/https=google-chrome.desktop
+
+	# Text/Code → Sublime
+	text/plain=sublime_text.desktop
+	text/x-python=sublime_text.desktop
+	text/x-shellscript=sublime_text.desktop
+	text/markdown=sublime_text.desktop
+	application/json=sublime_text.desktop
+
+	# PDF/Dokumente → Chrome
+	application/pdf=google-chrome.desktop
+
+	# Bilder → mpv
+	image/png=mpv.desktop
+	image/jpeg=mpv.desktop
+	image/gif=mpv.desktop
+
+	# Videos → mpv
+	video/mp4=mpv.desktop
+	video/x-matroska=mpv.desktop
+
+	# Audio → mpv
+	audio/mpeg=mpv.desktop
+#
+#
+#
