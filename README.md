@@ -487,15 +487,23 @@ chmod +x ~/.config/waybar/scripts/WallpaperEffects.sh
 
 ## 🖼️ SCREENSHOTS
 
-### 💧 Window Manager (Hyprland)
-### 🐱 Kitty Terminal
-### 🎬 MPV Player
-### 🖥️ Multitasking
-### 📁 Ranger Dateimanager
-### 🚀 Rofi Launcher
+### 💧 Hyprland
+
+### 🌐 Wayland
+
+### 🚀 Rofi
+
+### 📁 Ranger
+
+### 🐱 Kitty
+
+### </> Fastfetch
+
+### 🖋️ Neovim
+
 ### 📝 Sublime Text
-### 🖋️ Neovim (LazyVim)
-### 🌐 Wayland Übersicht
+
+### 🎬 MPV
 
 ---
 
