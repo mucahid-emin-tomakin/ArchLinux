@@ -254,6 +254,7 @@ flowchart TD
 | Waybar zeigt keine Icons | Nerd Fonts installiert? Stelle sicher, dass `ttf-jetbrains-mono-nerd` installiert ist. |
 | Wallust generiert keine Farben | Stelle sicher, dass `wallust` installiert ist und ein Bild in `~/.config/hypr/` liegt. |
 | NVIDIA Wayland Probleme | Überprüfe den Kernel Parameter `nvidia_drm.modeset=1` und die `egl-wayland` Pakete. |
+| Skriptabbruch (Netzwerkfehler, manueller Abbruch) | Starte `./install.sh` einfach erneut. Das Skript ist idempotent und setzt an der unterbrochenen Stelle fort. |
 
 ---
 
