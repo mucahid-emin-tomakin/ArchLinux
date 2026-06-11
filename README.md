@@ -21,7 +21,7 @@
 - [🚀 INSTALLATION](#-installation)
 - [📦 PAKETMANAGEMENT](#-paketmanagement)
 - [⚙️ KONFIGURATION](#️-konfiguration)
-- [🎨 WALLPAPER EFFECTS](#-wallpaper-ffects)
+- [🎨 WALLPAPER EFFECTS](#-wallpaper-effects)
 - [🖼️ SCREENSHOTS](#️-screenshots)
 - [⚠️ WICHTIGE HINWEISE](#️-wichtige-hinweise)
 - [📝 LIZENZ](#-lizenz)
@@ -485,15 +485,15 @@ chmod +x ~/.config/waybar/scripts/WallpaperEffects.sh
 
 ## 🖼️ SCREENSHOTS
 
-### 🎨 Window Manager
-### 🖥️ Kitty
-### 🖥️ MPV
-### 🖥️ Multitaskin
-### 🖥️ Ranger
-### 🖥️ Rofi
-### 🖥️ Sublime Text
-### 🖥️ Nvim
-### 🖥️ Wayland
+### 💧 Window Manager (Hyprland)
+### 🐱 Kitty Terminal
+### 🎬 MPV Player
+### 🖥️ Multitasking
+### 📁 Ranger Dateimanager
+### 🚀 Rofi Launcher
+### 📝 Sublime Text
+### 🖋️ Neovim (LazyVim)
+### 🌐 Wayland Übersicht
 
 ---
 
