@@ -21,7 +21,7 @@
 - [🚀 INSTALLATION](#-installation)
 - [📦 PAKETMANAGEMENT](#-paketmanagement)
 - [⚙️ KONFIGURATION](#️-konfiguration)
-- [🎨 WALLPAPER EFFECTS](#-wallpaper-effects)
+- [🎨 WALLPAPER EFFECTS](#wallpaper-effects)
 - [🖼️ SCREENSHOTS](#️-screenshots)
 - [⚠️ WICHTIGE HINWEISE](#️-wichtige-hinweise)
 - [📝 LIZENZ](#-lizenz)
@@ -436,6 +436,7 @@ icons = {"Sunny": "☀️", "Clear": "🌙", "Cloudy": "☁️", "Rain": "🌧�
 
 ---
 
+<a id="wallpaper-effects"></a>
 ## 🎨 Wallpaper Effects (WallpaperEffects.sh)
 
 Dein interaktives Skript zur dynamischen Wallpaper‑Bearbeitung mit ImageMagick, awww-Animationen und wallust-Farbanpassung.
