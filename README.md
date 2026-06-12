@@ -488,22 +488,27 @@ chmod +x ~/.config/waybar/scripts/WallpaperEffects.sh
 ## 🖼️ SCREENSHOTS
 
 ### 💧 Hyprland
-
-### 🌐 Wayland
-
-### 🚀 Rofi
-
+![Hyprland](https://github.com/mucahid-emin-tomakin/ArchLinux/blob/main/demo/Hyprland.gif)
+### 📊 Waybar
+![Waybar](https://github.com/mucahid-emin-tomakin/ArchLinux/blob/main/demo/Waybar.gif)
+### 🎨 Wallust
+![Wallust](https://github.com/mucahid-emin-tomakin/ArchLinux/blob/main/demo/Wallust.gif)
+### 🔍 Rofi
+![Rofi](https://github.com/mucahid-emin-tomakin/ArchLinux/blob/main/demo/Rofi.gif)
 ### 📁 Ranger
-
+![Ranger](https://github.com/mucahid-emin-tomakin/ArchLinux/blob/main/demo/Ranger.gif)
 ### 🐱 Kitty
-
-### </> Fastfetch
-
+![Kitty](https://github.com/mucahid-emin-tomakin/ArchLinux/blob/main/demo/Kitty.gif)
+### 🔖 Kitty TabManager
+![KittyTabManager](https://github.com/mucahid-emin-tomakin/ArchLinux/blob/main/demo/KittyTabManager.gif)
+### ⚡ Fastfetch
+![Fastfetch](https://github.com/mucahid-emin-tomakin/ArchLinux/blob/main/demo/Fastfetch.gif)
 ### 🖋️ Neovim
-
+![Neovim](https://github.com/mucahid-emin-tomakin/ArchLinux/blob/main/demo/Neovim.gif)
 ### 📝 Sublime Text
-
+![SublimeText](https://github.com/mucahid-emin-tomakin/ArchLinux/blob/main/demo/SublimeText.gif)
 ### 🎬 MPV
+![MPV](https://github.com/mucahid-emin-tomakin/ArchLinux/blob/main/demo/MPV.gif)
 
 ---
 
